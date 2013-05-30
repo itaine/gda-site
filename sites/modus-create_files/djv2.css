@@ -1,0 +1,211 @@
+span#emailFriend1 span.first-child {  }
+#detailDescription{margin:0;padding:1em 0 0 0;line-height:1.5;border-top:4px solid #777;}
+#detailDescription i,#detailDescription em{font-style:italic;}
+#detailDescription ul{line-height:1.3;margin:0 0 1em 1em;padding:0 0 0 1em;}
+#detailDescription ol{line-height:1.3;margin:0 0 1em 1.5em;padding:0 0 0 1em;}
+#detailDescription ul li{list-style:outside disc;padding-bottom:.25em;}
+#detailDescription ol li{list-style:outside decimal;padding-bottom:.25em;}
+
+.basicjvmenu {background:transparent none;height:30px;line-height:30px;vertical-align:middle;font-size:12px;margin:0 20px;padding:2px 0;}
+.basicjvmenu a.basicjvbutton, .basicjvmenu a.basicjvbutton:link, .basicjvmenu a.basicjvbutton:visited {cursor:pointer;display:block;background: transparent none;cursor:pointer;margin:0;padding: 0 5px;border:1px solid #F1F1F1;text-decoration:none;line-height:28px;vertical-align:middle;text-decoration:none;font-weight:bold; color:#069;-moz-border-radius:2px;-webkit-border-radius:2px;-khtml-border-radius:2px;border-radius:2px;}
+.basicjvmenu a.basicjvbutton:hover {background-color:#FFF !important;border:1px solid #DDD;color:#036;}
+
+a.applyNow,a.applyNow:link,a.applyNow:visited{cursor:pointer;display:block;width:12em;white-space:nowrap;background:#8B5 url(/assets/stylesheets/images/spriteX.png) repeat-x 0 -2150px;cursor:pointer;margin:0;padding:4px 0;text-decoration:none;text-decoration:none;border:1px solid #8B5;color:#FFF;font-weight:bold;-moz-border-radius:3px;-webkit-border-radius:3px;-khtml-border-radius:3px;border-radius:3px;}
+a.applyNow:hover,a.applyNow:active{background:#C4DDAA url(/assets/stylesheets/images/spriteX.png) repeat-x 0 -2200px;color:#444;border:1px solid #8B5;}
+a.applyNow span{display:block;width:5.5em;height:20px;line-height:20px;vertical-align:middle;margin:0 auto;padding:0 18px 0 0;background: transparent url(../../pages/modus-create_files/images/ICO16px_arrowRight.gif) no-repeat 95% 50%;}
+
+#overviewCol a.applyNow{clear:both;margin:0;}
+#descriptionCol #applyNowButton{height:2.5em;}
+#descriptionCol a.applyNow{margin:0;float:right;}
+
+#overviewCol .yuimenubar{background:transparent none;border-style:none;border-width:0;font-size:12px;line-height:1.3;padding:0;margin:0 20px;}
+#overviewCol .yuimenubarnav .yuimenubaritem{border-right:0 none;float:none;}
+#overviewCol .yuimenubarnav .yuimenubaritem-selected{background-image:none;}
+#overviewCol .yuimenuitemlabel{padding:2px 10px 2px 24px;}
+#overviewCol .yuimenubaritemlabel{border-color:#FFF;border-width:1px;border-style:solid;margin:0;padding:4px 20px 4px 24px;font-size:12px;line-height:1.3;min-height:1em;font-weight:bold;color:#069 !important;text-decoration:none;background-color:#FFF;background-repeat:no-repeat;-moz-border-radius:2px;-webkit-border-radius:2px;-khtml-border-radius:2px;border-radius:2px;text-shadow:0 0 0 #F1F1F1;}
+#overviewCol .yuimenubaritemlabel-selected,#overviewCol .yuimenubarnav .yuimenubaritemlabel-selected,#overviewCol a.yuimenubaritemlabel-selected:hover,#overviewCol a.yuimenubaritemlabel-selected:active,#overviewCol a.yuimenubaritemlabel-selected:visited,#overviewCol a.yuimenubaritemlabel-selected:link,#overviewCol a.yuimenubaritemlabel-selected{background-color:#FFF;border:1px solid #FFF;color:#6CF !important;-moz-border-radius:2px;-webkit-border-radius:2px;-khtml-border-radius:2px;border-radius:2px;}
+#overviewCol .yuimenubaritem.first-of-type{background:transparent none;}
+
+.yui-skin-sam #jobPanel .yui-button,.yui-skin-sam #jobPanel .yui-button-hover,.yui-skin-sam #jobPanel .yui-button .first-child,.yui-skin-sam #jobPanel .yui-button-hover .first-child{display:block;background:transparent none;border-style:none;border-width:0;margin:0;}
+.yui-skin-sam #descriptionCol .djvBtnContainer .yui-button,.yui-skin-sam #descriptionCol .djvBtnContainer .yui-button-hover,.yui-skin-sam #descriptionCol .djvBtnContainer .yui-button .first-child,.yui-skin-sam #descriptionCol .djvBtnContainer .yui-button-hover .first-child{display:block;background:transparent none;border-style:none;border-width:0;margin:0;}
+.overviewInfo{display:block;margin:0;padding:0;}
+#descriptionCol .overviewInfo .info, #descriptionCol .overviewInfo .error{display:block;margin:0;background-color:#FFF}
+.overviewInfo .info{background-image:url(../../pages/modus-create_files/images/ICO16px_info2.gif);background-position:5px 50%;}
+#descriptionCol .overviewInfo .info h1,.overviewInfo .error h1{font-size:17px;color:#555;}
+ul.overviewButtons{display:block;line-height:30px;vertical-align:middle;margin:0;padding:0;list-style:none;}
+ul.overviewButtons li{display:block;list-style:none;margin:0;padding:0;line-height:30px;vertical-align:middle;}
+ul.overviewButtons li a,ul.overviewButtons li a:visited,.yui-skin-sam ul.overviewButtons li .yui-button a,.yui-skin-sam ul.overviewButtons li .yui-button a:visited{display:block;font-size:12px;line-height:1.3;min-height:1em;font-weight:bold;color:#069;text-decoration:none;margin:0;padding:4px 5px 4px 24px;background-color:#FFF;background-position:2px 50%;background-repeat:no-repeat;border:1px solid #FFF;}
+.djvBtnContainer ul.overviewButtons li a, .jobBtns ul.overviewButtons li a, .djvBtnContainer ul.overviewButtons li a:visited, .jobBtns ul.overviewButtons li a:visited, .yui-skin-sam .djvBtnContainer ul.overviewButtons li .yui-button a, .yui-skin-sam .jobBtns ul.overviewButtons li .yui-button a, .yui-skin-sam .djvBtnContainer ul.overviewButtons li .yui-button a:visited,  .yui-skin-sam .jobBtns ul.overviewButtons li .yui-button a:visited{border:0 none;}
+ul.overviewButtons li a:hover,ul.overviewButtons li a:active,.yui-skin-sam ul.overviewButtons li .yui-button a:hover,.yui-skin-sam ul.overviewButtons li .yui-button a:active,.yui-skin-sam ul.overviewButtons li .yui-button-hover a:hover,.yui-skin-sam ul.overviewButtons li .yui-button-hover a:active{background-color:#FFF;border:1px solid #FFF;color:#6CF;}
+.djvBtnContainer ul.overviewButtons li a:hover, .jobBtns ul.overviewButtons li a:hover, .djvBtnContainer ul.overviewButtons li a:active, .jobBtns ul.overviewButtons li a:active, .yui-skin-sam .djvBtnContainer ul.overviewButtons li .yui-button a:hover, .yui-skin-sam .jobBtns ul.overviewButtons li .yui-button a:hover, .yui-skin-sam .djvBtnContainer ul.overviewButtons li .yui-button a:active, .yui-skin-sam .jobBtns ul.overviewButtons li .yui-button a:active, .yui-skin-sam .djvBtnContainer ul.overviewButtons li .yui-button-hover a:hover, .yui-skin-sam .jobBtns ul.overviewButtons li .yui-button-hover a:hover, .yui-skin-sam .djvBtnContainer ul.overviewButtons li .yui-button-hover a:active, .yui-skin-sam .jobBtns ul.overviewButtons li .yui-button-hover a:active{border:0 none;color:#6CF;}
+#jobPanel ul.overviewButtons li a{margin:0 10px 0 0;}
+#jobPanel ul.overviewButtons li{/*float:left;*/}
+ul.overviewButtons li.dropDown a{position:relative;}
+ul.overviewButtons li.dropDown a ul,ul.overviewButtons li.dropDown a ul li,ul.overviewButtons li.dropDown a ul li a{display:none;}
+
+ul.overviewButtons li a.previousButton{background:url(/assets/stylesheets/images/ICO16px_backV2.gif) no-repeat 2px 50%;}
+ul.overviewButtons li a.saveButton,.yui-skin-sam ul.overviewButtons li .yui-button a#saveJob-button{background:url(/assets/stylesheets/images/grayIconSprite.gif) no-repeat 2px -995px;}
+ul.overviewButtons li a.shareButton{background:url(/assets/stylesheets/images/grayIconSprite.gif) no-repeat 2px -1044px;}
+ul.overviewButtons li a.rateButton,.yui-skin-sam ul.overviewButtons li .yui-button a#rateJobJS-button{background:url(/assets/stylesheets/images/grayIconSprite.gif) no-repeat 3px -1095px;}
+ul.overviewButtons li a.reportButton,.yui-skin-sam ul.overviewButtons li .yui-button a#reportJobJS-button{background:url(/assets/stylesheets/images/grayIconSprite.gif) no-repeat 3px -1147px;}
+
+ul.overviewButtons li a.matchJobAlertButton,.yui-skin-sam ul.overviewButtons li .yui-button a#matchJobAlert-button{}
+
+
+ul.overviewButtons li a.hideJobButton{background-image:url(/assets/stylesheets/images/ICO16px_hidden.gif);}
+ul.overviewButtons li a.profileButton,#overviewCol .yuimenubarnav .yuimenubaritemlabel-hassubmenu.profileButton{background-image:url(/assets/stylesheets/images/ICO16px_profileV2.gif);background-position:2px 50%;}
+ul.overviewButtons li a.findMoreButton{background:url(/assets/stylesheets/images/ICO16px_searchV3.gif) no-repeat 4px 50%;}
+
+ul.overviewButtons li a.yesFollowingButton,#overviewCol .yuimenubarnav .yuimenubaritemlabel-hassubmenu.yesFollowingButton,#overviewCol .yuimenuitemlabel.yesFollowingButton{background-image:url(/assets/stylesheets/images/DTN_IconSprite_V2.gif);background-position:2px 5px;background-repeat:no-repeat;}
+#overviewCol .yuimenuitemlabel.yesFollowingButton{background-position:3px 4px;}
+ul.overviewButtons li a.yesFollowingButton:hover,ul.overviewButtons li a.yesFollowingButton:active,#overviewCol .yuimenubarnav .yuimenubaritemlabel-hassubmenu-selected.yesFollowingButton,#overviewCol .yuimenuitemlabel-selected.yesFollowingButton{background-position:2px -95px;background-repeat:no-repeat;}
+#overviewCol .yuimenuitemlabel-selected.yesFollowingButton{background-position:3px -96px;}
+ul.overviewButtons li a.notFollowingButton,#overviewCol .yuimenubarnav .yuimenubaritemlabel-hassubmenu.notFollowingButton,#overviewCol .yuimenuitemlabel.notFollowingButton{background-image:url(/assets/stylesheets/images/DTN_IconSprite_V2.gif);background-position:2px -395px;background-repeat:no-repeat;}
+#overviewCol .yuimenuitemlabel.notFollowingButton{background-position:3px -396px;}
+ul.overviewButtons li a.notFollowingButton:hover,ul.overviewButtons li a.notFollowingButton:active,#overviewCol .yuimenubarnav .yuimenubaritemlabel-hassubmenu-selected.notFollowingButton,#overviewCol .yuimenuitemlabel-selected.notFollowingButton{background-image:url(/assets/stylesheets/images/DTN_IconSprite_V2.gif);background-position:2px -495px;background-repeat:no-repeat;}
+#overviewCol .yuimenuitemlabel-selected.notFollowingButton{background-position:3px -496px;}
+
+
+ul.overviewButtons li a.yesConnectedButton,#overviewCol .yuimenubarnav .yuimenubaritemlabel-hassubmenu.yesConnectedButton,#overviewCol .yuimenuitemlabel.yesConnectedButton{background-image:url(/assets/stylesheets/images/DTN_IconSprite_V2.gif);background-position:2px -195px;background-repeat:no-repeat;}
+#overviewCol .yuimenuitemlabel.yesConnectedButton{background-position:4px -196px;}
+ul.overviewButtons li a.yesConnectedButton:hover,ul.overviewButtons li a.yesConnectedButton:active,#overviewCol .yuimenubarnav .yuimenubaritemlabel-hassubmenu-selected.yesConnectedButton,#overviewCol .yuimenuitemlabel-selected.yesConnectedButton{background-position:2px -295px;background-repeat:no-repeat;}
+#overviewCol .yuimenuitemlabel-selected.yesConnectedButton{background-position:4px -296px;}
+ul.overviewButtons li a.notConnectedButton,#overviewCol .yuimenubarnav .yuimenubaritemlabel-hassubmenu.notConnectedButton,#overviewCol .yuimenuitemlabel.notConnectedButton{background-image:url(/assets/stylesheets/images/DTN_IconSprite_V2.gif);background-position:2px -595px;background-repeat:no-repeat;}
+#overviewCol .yuimenuitemlabel.notConnectedButton{background-position:4px -596px;}
+ul.overviewButtons li a.notConnectedButton:hover,ul.overviewButtons li a.notConnectedButton:active,#overviewCol .yuimenubarnav .yuimenubaritemlabel-hassubmenu-selected.notConnectedButton,#overviewCol .yuimenuitemlabel-selected.notConnectedButton{background-position:2px -695px;background-repeat:no-repeat;}
+#overviewCol .yuimenuitemlabel-selected.notConnectedButton{background-position:4px -696px;}
+
+#overviewCol li a.company,#overviewCol li a.yuimenuitemlabel.company,#overviewCol li a.yuimenuitemlabel.company:link,#overviewCol li a.yuimenuitemlabel.company:visited{background-image:url(/assets/stylesheets/images/ICO16px_coProfile_V2.gif);background-repeat:no-repeat;background-position:2px 3px;padding:4px 15px 4px 25px;}
+#overviewCol li a.recruiter,#overviewCol li a.yuimenuitemlabel.recruiter,#overviewCol li a.yuimenuitemlabel.recruiter:link,#overviewCol li a.yuimenuitemlabel.recruiter:visited{background-image:url(/assets/stylesheets/images/ICO16px_profileV2.gif);background-repeat:no-repeat;background-position:2px 50%;padding:4px 15px 4px 25px;}
+
+.dropArrow{background:transparent url(/assets/stylesheets/images/sprite.png) no-repeat -14px -875px;padding:0 8px 0 0;}
+ul.overviewButtons li a:hover .dropArrow{background-position:-14px -850px;}
+
+#viewCoProfButton button, #viewCoProfButton a {background: transparent url(/assets/stylesheets/images/ICO16px_coProfile_V2.gif) no-repeat 5px 50%;padding-left:2.15em;}
+
+#rateWidgetArea {padding: 5px 0; background:#666 none;}
+.widgetContent {background:#FFF none;margin: 0 5px; padding:10px 0;}
+
+.yui-skin-sam .widgetContent .yui-button{vertical-align:middle;}
+.yui-skin-sam .widgetContent .yui-button-hover{}
+.yui-skin-sam .widgetContent .yui-button .first-child{}
+.yui-skin-sam .widgetContent .yui-button-hover .first-child{}
+.yui-skin-sam .widgetContent .yui-button-hover button, .yui-skin-sam .widgetContent .yui-button-hover a{}
+
+.widgetHD{margin:0 1.5em;}
+.widgetContent h1{float:left;padding:0 0 .25em 0;font-size:19px;}
+.widgetContent a.widgetH1logo{display:block;float:right;background:transparent url(/assets/stylesheets/images/Dice_homePageSprite.gif) no-repeat 0 -800px;width:45px;height:22px;margin:0;padding:0;text-decoration:none;text-indent:-9999px;overflow:hidden;}
+#rateWidgetArea .widgetContent #rateJobChoices {margin: 0 1.5em;clear:both;}
+#rateWidgetArea .widgetContent #rateJobChoices ul, #reportWidgetArea .widgetContent #reportJobChoices ul {display:block;margin:0;}
+#rateWidgetArea .widgetContent #rateJobChoices ul li, #reportWidgetArea .widgetContent #reportJobChoices ul li {display:block;margin:0;padding:.25em 0;float:none;font-size:1em;line-height:2em;border-bottom:1px dotted #999;}
+#rateWidgetArea .widgetContent #rateJobSubmit {display:block;text-align:right;margin: 0 1.5em 0 0;padding:.5em 0;}
+
+#matchJobAlertWidgetArea{width:260px;padding:5px 0;background:#666 none;}
+#matchJobAlertWidgetArea .padRow{padding:1em 1.5em;margin:0;width:auto;}
+#matchJobAlertWidgetArea .padRow .padRow{padding:.25em 0;margin:0;}
+#matchJobAlertWidgetArea .noteRow{font-size:11px;padding:.5em 0 0 0;color:#777;}
+#matchJobAlertWidgetArea label{display:block;padding:0 0 .25em 0;font-weight:bold;}
+#matchJobAlertWidgetArea input#matchJobAlertName{display:block;border:1px solid #666;width:100%;}
+#matchJobAlertWidgetArea #matchJobAlertSecurity{margin:0 1em;padding:1em 0 0 0;}
+#matchJobAlertWidgetArea input#captcha2{border:1px solid #666;display:block;width:100%;margin:.25em 0 .5em 0;}
+#matchJobAlertWidgetArea #matchJobAlertCaptchaNote{padding:0 0 .5em 0;}
+#matchJobAlertWidgetArea .captchaArea{padding:.5em 0 0 0;}
+#matchJobAlertWidgetArea .buttonright{margin:0;padding:1em 1.5em .5em 1.5em;border-top:0 none;}
+
+#reportWidgetArea, #reportWidgetAreaReported {padding: 5px 0; background: #666 none;}
+#reportWidgetAreaReported .info { border-color: #AAA; border-width: 2px; margin: 0 .5em;}
+#reportWidgetArea .widgetContent #reportJobChoices { margin:0 1.5em; }
+#reportWidgetArea .widgetContent #reportJobExplanation {margin:0 1.5em;padding: 0 0 .5em 0;}
+#reportWidgetArea .widgetContent #reportJobExplanation label {display:block;margin:0;padding: .75em 0 .25em 0;line-height:1;}
+#reportWidgetArea .widgetContent #reportJobExplanation textarea {display:block;width:100%;border:1px solid #888;background: #FFF;padding: 0; font-size: 1em;line-height:1.2em;height:9em;}
+#reportWidgetArea .widgetContent #reportJobSecurity{padding:.5em 0;margin:0 1.5em;}
+#reportWidgetArea .widgetContent fieldset.topLine {border-width: 1px 0 0 0;border-style:solid none none none; border-color:#CCC;background:transparent none;margin: 0 .5em;}
+#reportWidgetArea .widgetContent fieldset.topLine div#reportCaptcha {display:block;float:left;width:170px;height:60px;background:#666 none;border:1px solid #555;overflow:hidden;}
+#reportWidgetArea .widgetContent fieldset.topLine div#reportCaptcha img {border:0 none;outline:none;width:170px;height:60px;}
+#reportWidgetArea .widgetContent fieldset.topLine div#reportCaptchaRefresh { margin:0 0 0 45px;}
+#reportWidgetArea .widgetContent fieldset.topLine div#reportCaptchaNote { margin:0 0 0 180px; font-size: 10px; line-height: 12px; color: #555; }
+#reportWidgetArea .widgetContent fieldset.topLine div#reportCaptchaInput {clear:both;padding: .5em 0 0 0;}
+#reportWidgetArea .widgetContent fieldset.topLine div#reportCaptchaInput input.captchaText { width:120px; border: 1px solid #888; background: #FFF none; padding: 2px 0; margin: 0 .25em 0 0; }
+#reportWidgetArea .widgetContent fieldset.topLine div#reportCaptchaInput span#captchaSubmit { margin-bottom: -4px !important;}
+#reportJobSecurity #reportCaptcha{padding:.25em 0;}
+#reportJobSecurity .captchaArea{border-top:1px solid #DDD;padding:.25em 0;}
+#reportJobSecurity #reportCaptchaNote{padding:.5em 0;color:#444;}
+#reportJobSecurity #reportCaptchaNote b{color:#222;font-weight:bold;}
+#reportJobSecurity #reportCaptchaInput{clear:both;vertical-align:middle;}
+#reportCaptchaInput input#captcha.captchaText,#reportJobSecurity #reportCaptchaInput input#captcha.captchaText{width:150px !important;margin:0 .5em 0 0;padding:.25em 0;vertical-align:middle;border:1px solid #666;}
+.widgetContent .error {margin: 0 .5em .5em .5em;font-weight:bold;border-width:2px;}
+#descriptionCol #similarJobsViewed h1,#descriptionCol #similarJobsApplied h1{float:left;margin:0 .75em 0 0;padding:.5em 0 1em 0;color:#444;font-size:23px;}
+a.h1logo{display:block;float:left;width:80px;height:40px;background:url(/assets/stylesheets/images/DiceLogo_h1logo.gif) no-repeat 0 0;text-decoration:none;text-indent:-9999px;overflow:hidden;}
+/* @group LAYOUT */
+.colContainer{margin:0 auto;padding:2em 0;width:69.076em;*width:67.25em;}
+#overviewCol{width:300px;float:left;}
+#descriptionCol{margin:0 0 0 320px;}
+/* @end */
+/* @group OVERVIEW */
+#overviewCol .pane{margin:0;padding:1em 0;}
+#overviewCol #jobPanel .pane{padding:0 0 1em 0;}
+#overviewCol #jobOverview{margin:-1px 0 0 0;}
+#descriptionCol #jobOverview .pane{display:block;min-height:15px;margin:0;padding:.5em 0;border-top:1px dotted #CCC}
+#descriptionCol dl{display:inline;margin:0 10px 0 0;padding:0;font-size:12px;line-height:15px;vertical-align:top;/*border-bottom:1px solid #DDD;*/}
+#descriptionCol dt{display:inline;text-align:left;font-weight:bold;color:#666;margin:0;padding:0;font-size:12px;line-height:15px;vertical-align:top;}
+#descriptionCol dd{display:inline;margin:0;padding:0;min-height:15px;font-size:12px;line-height:15px;vertical-align:top;}
+#descriptionCol #jobOverview .pane .skills dt{display:block;width:35px;float:left;margin:0;padding:0;}
+#descriptionCol #jobOverview .pane .skills dd{margin:0 0 0 5px;padding:0;}
+.companyLogo{display:block;width:300px;max-height:300px;margin:.75em 0 0 0;padding:.5em 0 0 0;overflow:hidden;text-align:center;border-top:4px solid #777}
+.companyLogo a{display:block;width:300px;text-align:center;text-decoration:none;margin:0;padding:0 0 10px 0;}
+.companyLogo a img{border:0 none;outline:none;margin:0;padding:0;}
+#overviewCol .jobBtns{display:block;margin:1em 0 0 0;padding:.5em 0 0 0;border-top:4px solid #777;}
+#overviewCol dl{display:block;width:260px;margin:0 10px;padding:5px 0;line-height:15px;vertical-align:top;font-size:12px;}
+#overviewCol dt{display:block;float:left;width:100px;margin:0;padding:0;font-size:12px;font-weight:bold;line-height:15px;min-height:15px;vertical-align:top;text-align;left;color:#666;}
+#overviewCol dd{display:block;width:157px;margin:0 0 0 103px;padding:0;line-height:15px;min-height:15px;font-size:12px;vertical-align:top;}
+
+/* @end */
+/* @group DESCRIPTION */
+#descriptionCol h1{display:block;font-size:1.7em;line-height:1.3;color:#666;margin:0;padding:.5em 0 .25em 0;}
+#descriptionCol h1#jobTitle{padding:0 0 .25em 0;font-size:25px;}
+#descriptionCol #contactInfo{padding:1em 0;margin:1em 0 0 0;border-top:1px dotted #DDD;border-bottom:4px solid #777;}
+#descriptionCol .djvBtnContainer{display:block;height:2.25em;margin:0;padding:0.5em 10px;background:#EEE none;}
+#descriptionCol .djvBtnContainer .overviewButtons{display:block;float:left;width:65%;margin:0;padding:3px 0 0 0;}
+#descriptionCol .djvBtnContainer .overviewButtons li{display:block;float:left;margin:0;padding:0 5px 0 0;}
+#descriptionCol .djvBtnContainer #applyNowButton{display:block;float:right;width:31%;margin:0;padding:0;}
+#descriptionCol .facebookShare{margin:0 10px 0 0;}
+.jobBtns{height:40px;background:url(../../pages/modus-create_files/images/sortRowBG.gif) no-repeat 50% 0;}
+.jobBtns .overviewButtons{display:block;width:35%;float:left;margin:0;padding:.65em 0 0 10px;}
+.jobBtns #socialShareLinks{display:block;width:60%;float:right;margin:0;padding:.75em 0 0 0;border:0 none;}
+.jobBtns #socialShareLinks table{float:right;}
+.jobBtns #socialShareLinks table td{float:right;}
+
+/* @end */
+/* @group RELATED APPLIED */
+#similarJobsViewed, #similarJobsApplied{margin:1em 0 0 0;padding:.5em 0;}
+#similarJobsViewed h1{margin:0;padding:.25em 0 0 0;}
+#similarJobsViewed{border-top:4px solid #777;}
+.jobListContainer{position:relative;width:100%;color:#666;}
+.jobListContainer .jobListJob{display:block;padding:.75em 0;margin:0;font-size:11px;}
+.jobListContainer .jobListJobTitle{display:block;font-size:15px;padding:0 0 4px 0;font-family:"Trebuchet MS",Tahoma,Arial,sans-serif;font-weight:bold;}
+#similarJobsViewed .similarJobsLinks{margin:.5em 0 0 0;padding:0;border-top:1px dotted #CCC;text-align:right;}
+#jobPanel #similarJobsViewed ul.overviewButtons li a#matchJobAlert-button{margin:0;padding:4px 20px 4px 0;background:url(../../pages/modus-create_files/images/ICO16px_mailAction.gif) no-repeat 100% 50%;}
+.yui-skin-sam .similarJobsLinks .button2link .yui-button a{font-weight:bold;}
+/* @end */
+/* @group FACEBOOK REFERRALS */
+.facebookReferrals{display:block;margin:0;padding:0;border-top:4px solid #777;}
+.facebookReferrals h2{margin:0;padding:.75em 0 0 0;}
+.facebookReferrals .facebookLine{display:block;margin:0;padding:0 0 1.5em 0;background:url(/assets/stylesheets/images/ICO16px_SNfacebook.gif) no-repeat 135px 0}
+.facebookReferrals .grayPane{display:block;margin:0;padding:1.5em;background:#F1F1F1 none;-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px;}
+.facebookReferrals .grayPane h3{display:block;margin:0;padding:0 0 .75em 0;font-size:120%;color:#555;}
+.facebookReferrals .grayPane p{font-size:13px;line-height:1.5}
+
+.facebookContainer {display:block;margin:1em 0 0 0;padding:0;}
+.facebookContainer h2{margin:0;padding:.75em 0 0 0;}
+.facebookContainer .facebookLine{display:block;margin:0;padding:0 0 1.5em 0;background:url(/assets/stylesheets/images/ICO16px_SNfacebook.gif) no-repeat 135px 0}
+.facebookContainer .grayPane{display:block;margin:0;padding:0 0 1.5em 0}
+.facebookContainer .grayPane h3{display:block;margin:0;padding:0 0 .75em 0;font-size:120%;color:#555;}
+.facebookContainer .grayPane p{font-size:13px;line-height:1.5}
+
+/* @group FACEBOOK FRIEND */
+.facebookFriend{display:block;float:left;width:50%;height:50px;margin:0;padding:0 0 1.5em 0;line-height:50px;vertical-align:middle}
+.facebookLeft{display:block;width:70px;float:left;height:50px;line-height:50px;}
+.facebookFriend .facebookLeft input{display:block;height:50px;width:15px;float:left;line-height:50px;vertical-align:middle;margin:0;border:0 none;outline:0 none;}
+.facebookFriend .facebookLeft img{display:block;float:right;width:50px;height:50px;padding:0;margin:0;}
+.facebookFriend .friendName{margin:0 0 0 75px;height:50px;line-height:50px;vertical-align:middle;font-weight:bold;}
+/* @end */

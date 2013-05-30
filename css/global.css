@@ -1,0 +1,79 @@
+/* HTML Elements
+------------------------------------------------------------------------------ */
+html {
+	overflow-y: scroll;
+}
+
+body {
+	padding: 50px 0 0 0;
+	margin: 20px;
+}
+
+
+
+
+/* Dropdown Menu Overrides
+------------------------------------------------------------------------------ */
+ul.nav li.dropdown:hover > ul.dropdown-menu { /* Make dropdown menu work on hover */
+  display: block;
+}
+
+.navbar li > .dropdown-menu { /* Pull up menu so hover works better. */
+	top: 35px;
+	left: -50px;
+}
+
+.navbar .pull-right > li > .dropdown-menu { /* Pull up menu so hover works better. */
+	xtop: 28px;
+}
+
+
+.navbar .nav > li > .dropdown-menu:before {
+  display: none;
+}
+
+.navbar #left-menu > li > .dropdown-menu:after {
+  position: absolute;
+  top: -6px;
+  left: 120px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #ffffff;
+  border-left: 6px solid transparent;
+  content: '';
+}
+
+.navbar .pull-right > li > .dropdown-menu,
+.navbar .nav > li > .dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+
+
+
+/* Career Opportunities Thumbnails
+-------------------------------------------------------- --------------------- */
+#career-opportunities .thumbnail {
+	height: 420px;
+}
+
+#career-opportunities .thumbnail .btn {
+	float: right;
+	margin: 20px;
+}
+
+.accordion-group, .accordion-inner {
+ border:  none;
+}
+
+.accordion-inner {
+  padding: 0;
+}
+
+
+
+/* Fix SyntaxHighlighter Bootstrap Conflicts
+-------------------------------------------------------- --------------------- */
+div.syntaxhighlighter .container:before,div.syntaxhighlighter .container:after {
+	content:none;
+}

@@ -1,0 +1,2 @@
+var _ = (("https:" == document.location.protocol) ? "https://secure." : "http://ib.");
+document.write(unescape("%3Cscript src='" + _ + "adnxs.com/ttj?id=624077' type='text/javascript'%3E%3C/script%3E"));

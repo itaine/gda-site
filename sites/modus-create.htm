@@ -1,0 +1,2849 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+* $RCSfile: basicTestB.jsp,v $
+* $Author: boeb $
+* $Date: 2012/07/26 20:05:22 $
+-->
+<!-- START JSTL_INITIALIZATION -->
+<!--
+ * $RCSfile: common.jsp,v $
+ * $Author: zacd $
+ * $Date: 2009/06/10 20:56:47 $
+-->
+<!--
+NOTE:  IF YOU CHANGE THIS FILE, PLEASE ALSO MAKE THE CORRESPONDING CHANGE TO JOBMIRRORCOMMON.JSP!!!
+
+The only difference between this(common.jsp) and jobMirrorCommon.jsp is that we are NOT passing true
+into the argument list in the JSP Initializer.
+-->
+<!-- START JSTL_INITIALIZATION -->
+<!-- FINISH JSTL_INITIALIZATION -->
+<!-- FINISH JSTL_INITIALIZATION -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+
+	<title>UI Developer jobs - Dice.com</title>
+	<meta name="generator" content="Dice.com JobSearch">
+	<meta name="description" content="Browse UI Developer jobs at Dice.com">
+	<meta name="keywords" content="UI Developer jobs, tech jobs, it jobs, dice.com">
+
+	
+		
+		
+			<link rel="stylesheet" href="modus-create_files/skin2_002.css" type="text/css">
+			<link rel="stylesheet" href="modus-create_files/mercury3_002.css" type="text/css">
+			<link rel="stylesheet" href="modus-create_files/djv2.css" type="text/css">
+
+			<img src="modus-create_files/__rcrtx.gif" style="visibility: hidden;"><script async="" src="modus-create_files/cbgapi.loaded_0"></script><script src="modus-create_files/ga.js" async="" type="text/javascript"></script><script src="modus-create_files/rcrtx.js" async="" type="text/javascript"></script><script src="modus-create_files/widgets_002.js" async="" type="text/javascript"></script><script gapi_processed="true" src="modus-create_files/plusone.js" async="" type="text/javascript"></script><script src="modus-create_files/widgets.js" id="twitter-wjs"></script><script src="modus-create_files/all.js" id="facebook-jssdk"></script><script type="text/javascript" src="modus-create_files/yahoo-dom-event.js"></script>
+			<script type="text/javascript" src="modus-create_files/element-min.js"></script>
+			<script type="text/javascript" src="modus-create_files/button-min.js"></script>
+			<script type="text/javascript" src="modus-create_files/container-min.js"></script>
+			<script type="text/javascript" src="modus-create_files/connection-min.js"></script>
+		
+	
+
+	<style type="text/css">
+		#rateJobPanel,#reportJobPanel,#matchJobAlertPanel,#matchJobAlertInfoPanel{text-align:left !important;}
+		body#mainBody #container #reportJobPanel .bd #reportWidgetArea #matchJobAlertPanel #matchJobAlertInfoPanel .bd #matchJobAlertWidgetArea #matchJobAlertInfoWidgetArea #widgetContent #reportJobChoices {text-align:left !important;}
+
+		#alsoAppliedContainer{padding:1em 0;}
+		#overviewCol #alsoAppliedContainer .pane,#overviewCol #alsoAppliedContainer #jobPanel .pane{padding:1em 10px .75em 10px;margin:0;border-top:4px solid #777;border-bottom:4px solid #777;}
+		#overviewCol #alsoAppliedContainer h3{color:#555;margin:0;padding:0 0 .25em 10px;}
+		#overviewCol #alsoAppliedContainer .yuimenubar{margin:0;padding:0;}
+
+		.yui-skin-sam #alsoAppliedContainer .yuimenubarnav .yuimenubaritem{background:#FFF none;border-color:#FFF;border-style:solid;border-width:1px !important;margin:0 1px;padding: 0.5em 5px 0.5em 10px;}
+		.yui-skin-sam #alsoAppliedContainer .yuimenubarnav .yuimenubaritem-selected{background-color:#FFF;border-color:#EEE;border-style:solid;border-width:1px !important;}
+		.yui-skin-sam #alsoAppliedContainer .yuimenubarnav .yuimenubaritem .yuimenubaritemlabel, .yui-skin-sam #alsoAppliedContainer .yuimenubarnav .yuimenubaritemlabel-hassubmenu{background:#FFF url(http://assets.dicedev.com/assets/stylesheets/images/ICO16px_nextV2.gif) no-repeat 0 50%;border:0 none;display:block;margin:0;padding:2px 0 2px 20px;}
+		.yui-skin-sam #alsoAppliedContainer .yuimenubarnav .yuimenubaritem-selected .yuimenubaritemlabel-hassubmenu{border-color:#EEE !important;color:#5DBFEB !important;}
+
+		#alsoAppliedContainer .yuimenu .bd{background-color:#FFF;border-color:#FFF #EEE #DDD #EEE;margin:-1px 0 0 0;}
+		#alsoAppliedContainer .yuimenu .bd .yuimenuitemlabel,#alsoAppliedContainer .yuimenu .bd a.yuimenuitemlabel,#alsoAppliedContainer .yuimenu .bd a.yuimenuitemlabel:link,#alsoAppliedContainer .yuimenu .bd a.yuimenuitemlabel:visited{color:#3F819F;}
+		#alsoAppliedContainer .yuimenu .bd .yuimenuitem-selected .yuimenuitemlabel,#alsoAppliedContainer .yuimenu .bd .yuimenuitem-selected a.yuimenuitemlabel,#alsoAppliedContainer .yuimenu .bd .yuimenuitem-selected a.yuimenuitemlabel:hover,#alsoAppliedContainer .yuimenu .bd .yuimenuitem-selected a.yuimenuitemlabel:active{color:#5DBFEB;background-color:#EEF8FD;}
+		#overviewCol #alsoAppliedContainer .yuimenuitemlabel{font-size:12px;padding:.5em 10px;line-height:1.2;}
+		#overviewCol #alsoAppliedContainer .yuimenuitemlabel span.alsoAppliedMenuCoLocation{font-size:11px;display:block;color:#666;}
+		.facebookCompanyName {margin:0;color:#7A4;padding:0 0 0 0;font-weight:bold;}
+	</style>
+	<style media="print" type="text/css">
+		.noPrint,#hd,#ft,#jobPanel,#companyButtons,#applyNowButton,#container,.wrapper,#fade{display:none !important;}
+		html,body{font-size:10pt;background:#FFF;color:#000;height:100%;margin:0 !important;padding:0 !important;}a,a:link,a:visited{color:#000;}
+		#overviewCol,#descriptionCol{float:none !important;margin:0;padding:1em 0;}
+		#light.white_content{position:relative;border:0 none;width:auto !important;height:100%;top:0;left:0;right:0;overflow:visible;}#light.white_content .stepRow{display:none;}
+		#light.white_content iframe{height:100% !important;overflow:visible;width:auto !important;}
+		#doc4,#doc4 #bd,#doc4 #bd .yui-g,#doc4 #bd .yui-g .colContainer,#doc4 #bd .yui-g .colContainer #overviewCol,#doc4 #bd .yui-g .colContainer #descriptionCol{float:none !important;position:relative;width:auto !important;margin:0 !important;padding:0 !important;}
+		#doc4,#doc4 #bd,#doc4 #bd .yui-g,#doc4 #bd .yui-g .colContainer{overflow:visible;}
+		#bd #reportCaptchaInput input#captcha.captchaText,#bd #reportJobSecurity #reportCaptchaInput input#captcha.captchaText{width:120px !important;max-width:120px !important;}
+	</style>
+	
+		<script type="text/javascript">
+			function addReferralToSession(id) {
+				var referralListArray;
+				var workingStorage = "";
+				var selectedReferralList = document.getElementById("selectedReferralList").value;
+
+				if (document.getElementById(id).checked) {
+					selectedReferralList = selectedReferralList + "," + id;
+				} else {
+					referralListArray = selectedReferralList.split(",");
+					for (i=0; i < referralListArray.length; i++) {
+						if (referralListArray[i] != id) {
+							workingStorage = workingStorage + referralListArray[i] + ",";
+						} else {
+						}
+					}
+					selectedReferralList = workingStorage.substring(0, workingStorage.length -1);
+				}
+
+				if (selectedReferralList.substring(0,1) == ",") {
+					selectedReferralList = selectedReferralList.substring(1, selectedReferralList.length);
+				}
+
+				document.getElementById("selectedReferralList").value = selectedReferralList;
+				submitAsyncRequest('POST', '/common/servlet/CommonController', setSessionVarCallback, 'op=7077&sessionVarName=com.dice.seeker.instantReferralList&sessionVarValue='+selectedReferralList);
+			}
+			function submitAsyncRequest (type, url, callBack, postData){
+				var d = new Date();
+				var bigNumber = " " + d.getYear() + d.getDay() + d.getHours() + d.getMinutes() + d.getSeconds() + d.getMilliseconds();
+				if(postData == ""){
+					postData = 'random=' + (Math.floor(Math.random() * bigNumber));
+				}else{
+					postData += '&random=' + (Math.floor(Math.random() * bigNumber));
+				}
+				if(type == 'POST'){
+					YAHOO.util.Connect.asyncRequest(type, url, callBack, postData);
+				}else{
+					YAHOO.util.Connect.asyncRequest(type, url, callBack);
+				}
+			}
+			var setSessionVarCallback = {
+				cache:false,
+				success: function(o) {
+					if(o.responseXML){
+						if(o.responseXML.getElementsByTagName("error")[0].firstChild.nodeValue == 1 || o.responseXML.getElementsByTagName("error")[0].firstChild == null){
+							alert("There has been an error setting your Dice Instant Referrals.  We apologize for the inconvenience.");
+						} else {
+							var sessionVarXML = o.responseXML;
+							if (sessionVarXML.getElementsByTagName("sessionVarName").length > 0) {
+								//don't do anything, the session var got set successfully
+							}
+						}
+					}
+				},
+				failure: function(o) {}
+			};
+		</script>
+	
+<script src="modus-create_files/nonSecureAnonymousFramework"></script><style type="text/css">/**
+ * Highlight style classes
+ * .a background color
+ * .b underline
+ * .c underline + font color
+ */
+ 
+@media screen{
+em.diigoHighlight {
+	text-align:inherit;
+	text-decoration: inherit;
+	line-height:inherit;
+	font:inherit;
+	color:inherit;
+	display:inline;
+	position:relative;
+}
+em.diigoHighlight.a_style.mouseOvered {
+	background-color: #ffc62a !important;
+}	
+
+em.diigoHighlight.b_style.mouseOvered, em.diigoHighlight.c_style.mouseOvered {
+	border-bottom: solid 2px #ffc62a;
+}
+	
+em.diigoHighlight.c_style {
+	color: #000099;
+}
+em.diigoHighlight.c_style.mouseOvered {
+	color: #ffc62a;
+}	
+
+em.diigoHighlight.a_style.yellow {
+	background-color: #FF9;
+}
+
+em.diigoHighlight.b_style.yellow, em.diigoHighlight.c_style.yellow {
+	border-bottom: solid 2px #FF9;
+}
+	
+img.diigoHighlight.yellow {/*image highlight*/
+	cursor: pointer; 
+	outline:2px solid #FF9;
+}
+	
+em.diigoHighlight.a_style.blue {
+	background-color: #ABD5FF;
+}
+
+em.diigoHighlight.b_style.blue, em.diigoHighlight.c_style.blue {
+	border-bottom: solid 2px #ABD5FF;
+}
+	
+img.diigoHighlight.blue {/*image highlight*/
+	cursor: pointer; 
+	outline:2px solid #ABD5FF;
+}
+	
+	
+em.diigoHighlight.a_style.green {
+	background-color: #B2E57E;
+}
+
+em.diigoHighlight.b_style.green, em.diigoHighlight.c_style.green {
+	border-bottom: solid 2px #B2E57E;
+}
+
+img.diigoHighlight.green {/*image highlight*/
+	cursor: pointer; 
+	outline:2px solid #B2E57E;
+}	
+	
+	
+em.diigoHighlight.a_style.pink {
+	background-color: #ffcccc;
+}
+
+em.diigoHighlight.b_style.pink, em.diigoHighlight.c_style.pink {
+	border-bottom: solid 2px #ffcccc;
+}
+	
+img.diigoHighlight.pink {/*image highlight*/
+	cursor: pointer; 
+	outline:2px solid #ffcccc;
+}	
+	
+img.diigoHighlight.mouseOvered {
+	cursor: pointer; 
+	outline:2px solid #ffc62a;
+}	
+	
+
+div.diigotb-inline-cloud{
+	position:fixed !important;
+	width:440px !important;
+	height:370px !important;
+	left:0;top:0;
+	background-color:#fef5c7 !important;
+	z-index:9999999999 !important;
+	display:none;
+	-moz-border-radius:15px !important;
+}
+/*  capture image */
+
+.diigotb-body #diigotb-upload-cover{
+	cursor:crosshair!important;
+	z-index:1999999!important;
+	position:fixed!important;
+	left:0!important;
+	top:31px;
+}
+	
+.diigotb-body #diigotb-upload-tip{
+    color: #fff!important;
+    padding:2px 4px!important;
+    position:fixed!important;
+    z-index:11000001!important;
+}
+	
+.diigotb-body #diigotb-upload-select{
+	position:fixed!important;
+	z-index:1000001;
+}
+	
+.diigotb-body #diigotb-upload-resizer{
+	z-index:11000002!important;
+	position:fixed!important;
+	cursor:move!important;
+	border:1px dashed black!important;
+}
+	
+.diigotb-body #currentColor{
+  background-color: #fff!important;
+  width: 37px!important;
+  height: 37px!important;
+  padding: 1px!important;
+  border: 1px solid #2e68e6!important;
+  float: left!important;
+  margin: 0 5px 0 0!important;
+}
+	
+.diigotb-body #currentColor div{
+  width: 37px!important;
+  height: 37px!important;	
+  margin:0!important;
+}
+.diigotb-body .selectPanel{
+	margin-top:5px!important;
+}
+	
+.diigotb-body .colorCell{
+  float: left!important;
+  margin: 0 1px 1px 0!important;
+  border: 1px solid #5f92ff!important;
+  width: 18px!important;
+  height: 18px!important;
+}
+	
+.diigotb-body .colorCell:hover{
+  border: 1px solid #FF9900!important;
+}
+.diigotb-body .colorCell.actived{
+  border: 1px solid #FF9900!important;
+}	
+	
+.diigotb-body .colorCell div{
+  width: 18px!important;
+  height: 18px!important;
+  cursor:pointer!important;
+  margin:0!important;
+}
+
+.diigotb-body .capture-black{background-color:#000!important;}
+.diigotb-body .capture-white{background-color:#fff!important;}
+.diigotb-body .capture-gray{background-color:#808080!important;}
+.diigotb-body .capture-light-gray{background-color:#c0c0c0!important;}
+
+.diigotb-body .capture-red{background-color:#ff0000!important;}
+.diigotb-body .capture-cyan{background-color:#00ffff!important;}
+.diigotb-body .capture-orange{background-color:#ff9900!important;}
+.diigotb-body .capture-blue{background-color:#0000ff!important;}
+
+.diigotb-body .capture-yellow{background-color:#ffff00!important;}
+.diigotb-body .capture-purple{background-color:#9900ff!important;}
+.diigotb-body .capture-green{background-color:#00ff00!important;}
+.diigotb-body .capture-pink{background-color:#ff00ff!important;}
+	
+.diigotb-body #diigotb-colorpanel{
+	background:transparent url(chrome://diigotb/skin/ann-bar-palette-bg-left.png) no-repeat scroll left center!important;
+	display:block;
+	height:55px!important;
+	position:fixed!important;
+	width:180px!important;
+	z-index:11000022!important;
+	margin:0!important;
+}
+	
+.diigotb-body .diigotb-cbg{
+	background:transparent url(chrome://diigotb/skin/ann-bar-palette-bg-right.png) no-repeat scroll right top!important;
+	height:55px!important;
+	line-height:55px!important;
+	padding-left:6px!important;
+	width:180px!important;
+	margin:0!important;
+}
+
+	
+.diigotb-body #currentArrow{
+	background:transparent url(chrome://diigotb/skin/ann-bar-palette-arrow.png) no-repeat scroll 0 0!important;
+	height:6px!important;
+	left:0;
+	position:relative!important;
+	top:-5px;
+	width:7px!important;
+	margin:0!important;
+}
+	
+.diigotb-body #currentArrow._istop{
+	background:transparent url(chrome://diigotb/skin/ann-bar-palette-arrow-down.png) no-repeat scroll 0 0!important;
+	top:51px!important;
+}
+	
+	
+.diigotb-body #diigotb-text-area{
+	position:fixed!important;
+	z-index:11000010!important;
+}
+	
+.diigotb-body .diigotb-text-input{
+	font: 18px/22px Helvetica,Arial,sans-serif!important;
+	border:0px solid #5f92ff!important;
+	z-index:11000011!important;
+}	
+	
+.diigotb-body #diigotb-editpanel{
+	background:transparent url(chrome://diigotb/skin/ann-bar-bg-right.png) no-repeat scroll right center!important;
+	height:35px!important;
+	position: fixed!important;
+	z-index:11000022!important;
+	margin:0!important;
+}
+	
+	
+.diigotb-body .diigotb-btn div{
+	cursor:pointer!important;
+	width:18px!important;
+	height:18px!important;
+	margin:2px!important;
+}
+.diigotb-body .diigotb-btn{
+	width:23px!important;
+	height:23px!important;
+}
+		
+	
+.diigotb-body #diigotb-editpanel .diigotb-bg{
+	background:transparent url(chrome://diigotb/skin/ann-bar-bg-left.png) repeat-x scroll left center!important;
+	height:35px!important;
+	padding-left:6px!important;
+	line-height:35px!important;
+	margin:0!important;
+}
+	
+		
+.diigotb-body div.diigotb-tip{
+	-moz-border-radius:4px 4px 4px 4px;
+	background-color:#f1f2f7;
+	border:1px solid #767676;
+	color:black;
+	display:none;
+	-moz-box-shadow:5px 5px 5px -5px #767676;
+	font:12px Arial,Helvetica,sans-serif;
+	margin:0 !important;
+	padding:3px 6px !important;
+	position:absolute;
+	z-index:2147483647;
+}
+	
+.diigotb-body #diigotb-editpanel div.diigotb-btn{
+	padding:0px!important;
+	display:inline-table!important;
+	margin-bottom:0 !important;
+	margin-left:0 !important;
+	margin-right:0 !important;
+	margin-top:5px;
+}
+	
+	
+.diigotb-body #diigotb-editpanel div.diigotb-sep img{
+	padding:0!important;
+	margin:0!important;
+}
+	
+.diigotb-body #diigotb-editpanel div.diigotb-sep{
+	padding:4px 0!important;
+	display:inline-table!important;
+	margin:0!important;
+	line-height:0 !important;
+}	
+	
+.diigotb-body #diigotb-editpanel div.diigotb-btn.enabled:hover{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-current.png') no-repeat!important;
+}
+	
+.diigotb-body #diigotb-editpanel #diigotb-undo.enabled div{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-undo.png') no-repeat center center!important;
+}
+	
+.diigotb-body #diigotb-editpanel div.diigotb-btn.actived{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-current.png') no-repeat!important;
+}
+	
+.diigotb-image-border{
+	border:1px solid #666 !important;
+}
+	
+#diigotb-imagepanel{
+	height:22px!important;
+	position: absolute!important;
+	z-index:11000022!important;
+	margin:0!important;
+}
+
+#diigotb-imagepanel .diigotb-btn{
+	cursor:pointer!important;
+	width:20px!important;
+	height:20px!important;
+	margin:2px!important;
+	float:left !important;
+	background:transparent url(chrome://diigotb/skin/save-image-action-icons.png) no-repeat scroll!important;
+}	
+	
+	
+#diigotb-imagepanel #diigotb-quick-save{
+	background-position:0 0!important;
+}
+		
+#diigotb-imagepanel.processing #diigotb-quick-save{
+	background-position:0 -20px!important;
+	cursor:default!important;
+}
+
+		
+#diigotb-imagepanel.needpremium #diigotb-quick-save{
+	background-position:0 -20px!important;
+	cursor:default!important;
+}	
+
+#diigotb-imagepanel.hassaved #diigotb-quick-save{
+	background-position: -60px 0!important;
+	cursor: pointer !important;
+}
+
+.diigotb-imagetip{
+	background:transparent url(chrome://diigotb/skin/notice-bar-bg-right.png) no-repeat scroll right center !important;
+	height:21px !important;
+	margin:0 !important;
+	position:absolute !important;
+	z-index:11000022 !important;
+	width:106px;
+}
+	
+.diigotb-imagebg{
+	background:transparent url(chrome://diigotb/skin/notice-bar-bg-left.png) repeat-x scroll left center !important;
+	height:21px !important;
+	margin:0 !important;
+	padding-left:6px !important;
+	width:90px;
+}
+	
+.diigotb-imagetip-text{
+	padding-left:20px!important;
+	font:11px/13px Helvetica,Arial,sans-serif!important;
+	color:white!important;
+	line-height:20px!important;
+	float:left;
+}
+	
+.diigotb-imagetip.processing .diigotb-imagetip-text{
+	background:transparent url(chrome://diigotb/skin/processing-fb.gif) no-repeat scroll left center !important;
+}
+	
+.diigotb-imagetip.hassaved .diigotb-imagetip-text{
+	background:transparent url(chrome://diigotb/skin/icon-done.png) no-repeat scroll left center !important;
+}
+	
+.diigotb-border{
+	position: absolute!important;
+	z-index:11000000!important;
+	margin:0!important;
+	background-color: #4b8cdc!important;
+}
+.diigotb-left{
+	width:1px!important;
+}
+.diigotb-right{
+	width:1px!important;
+}
+.diigotb-top{
+	height:1px!important;
+}
+.diigotb-bottom{
+	height:1px!important;
+}
+
+.diigotb-body #diigotb-rect div{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-rectangle.png') no-repeat center center!important;
+}	
+.diigotb-body #diigotb-round div{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-ellipse.png') no-repeat center center!important;
+}
+.diigotb-body #diigotb-text div{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-font.png') no-repeat center center!important;
+}
+	
+.diigotb-body #diigotb-arrow div{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-arrow.png') no-repeat center center!important;
+}
+	
+.diigotb-body .diigotb-sep{
+	background: transparent url('chrome://diigotb/skin/ann-bar-bg-separator.png') no-repeat center center!important;
+}
+	
+.diigotb-body #diigotb-undo div{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-undo-disabled.png') no-repeat center center!important;
+}
+	
+.diigotb-body #diigotb-capture-save div{
+	background: transparent url('chrome://diigotb/skin/ann-bar-opt-quickly-save.png') no-repeat center center!important;
+}
+	
+	
+	
+.diigotb-body #diigotb-upload-resizer div {
+  position: absolute!important;
+  width: 9px!important;
+  height: 9px!important;
+  /*background-color: white;*/
+  z-index:11000002!important;
+  margin:0px!important;
+  background:transparent url(chrome://diigotb/skin/spot.png) no-repeat scroll left center!important;
+}
+
+.diigotb-body #diigotb-upload-resizer div.gleft {
+  left: -9px!important;
+}
+
+.diigotb-body #diigotb-upload-resizer div.gtop {
+  top: -9px!important;
+}
+
+.diigotb-body #diigotb-upload-resizer div.gright {
+  right: -9px!important;
+}
+
+.diigotb-body #diigotb-upload-resizer div.gbottom {
+  bottom: -9px!important;
+}
+
+.diigotb-body #diigotb-upload-resizer div.ghor {
+  margin-left: auto!important;
+  margin-right: auto!important;
+  left: 0px!important;
+  right: 0px!important;
+}
+
+.diigotb-body #diigotb-upload-resizer div.gver {
+  margin-top: auto!important;
+  margin-bottom: auto!important;
+  top: 0px!important;
+  bottom: 0px!important;
+}
+	
+.diigotb-body{
+	padding-top: 31px!important;
+}
+	
+.diigotb-body #diigotb-topbar{
+  background: url(chrome://diigotb/skin/topbar-bg.png) left top repeat-x!important;
+  border-bottom: 1px solid #999!important;
+  color: #555!important;
+  font: 12px/18px Helvetica,Arial,sans-serif!important;
+  height: 30px!important;
+  line-height: 30px!important;
+  position: fixed!important;
+  left: 0!important;
+  top: 0!important;
+  text-align:center!important;
+  z-index:1999999!important;
+}
+
+.diigotb-body #diigotb-msg img{
+  margin:0 5px 0 0!important;
+  vertical-align: middle!important;
+}
+	
+.diigotb-body #diigotb-msg{
+	color:#333!important;
+}
+
+.diigotb-body #diigotb-msg a{
+  color: #0044cc!important;
+  text-decoration: none!important;
+}
+
+.diigotb-body #diigotb-msg a:hover{
+  text-decoration: underline!important;
+}
+
+.diigotb-body #diigotb-escLink{
+  display: block!important;
+  float: right!important;
+  margin: 5px 5px 0 0!important;
+  text-decoration: none!important;
+  width: 50px!important;
+  cursor:pointer!important;
+}
+
+.diigotb-body #diigotb-escLink:hover{
+  text-decoration: underline!important;
+}
+
+.diigotb-body #diigotb-escLink span{
+  background: url(chrome://diigotb/skin/esc-right.png) right top no-repeat!important;
+  display: block!important;
+  padding-right: 9px!important;
+}
+
+.diigotb-body #diigotb-escLink span strong{
+  background: url(chrome://diigotb/skin/esc-left.png) left top no-repeat!important;
+  display: block!important;
+  color: #fff!important;
+  font-weight: 700!important;
+  line-height: 20px!important;
+  text-indent:7px!important;
+}
+	
+	
+
+/*highlight label*/
+.diigoHighlight .diigoHighlightLabel sup {
+	font:normal normal normal 8px/8px "lucida grande",tahoma,verdana,arial,sans-serif;
+	text-decoration:none;
+	background-color:inherit;
+	cursor:default;
+}
+	
+body.diigoHiPen.yellow{
+	cursor:url(chrome://diigotb/skin/highlighter-orange.cur), text !important
+}
+	
+body.diigoHiPen.blue{
+	cursor:url(chrome://diigotb/skin/highlighter-blue.cur), text !important
+}
+
+body.diigoHiPen.green{
+	cursor:url(chrome://diigotb/skin/highlighter-green.cur), text !important
+}	
+	
+body.diigoHiPen.pink{
+	cursor:url(chrome://diigotb/skin/highlighter-pink.cur), text !important
+}
+em.diigoHighlight.type_0.commented {	
+	padding-left:30px;
+}
+	
+/*float note*/
+div.diigoHighlight.type_2 {
+	position:absolute;
+	width:29px;
+	height:36px;
+	text-align:center;
+	background:transparent url('chrome://diigotb/skin/float_icon.png') no-repeat 50% 50%;
+	z-index:9996;
+}
+div.diigoHighlight.type_2.mouseOvered {
+	position:absolute;
+	width:37px;
+	height:31px;
+	text-align:center;
+	background:transparent url('chrome://diigotb/skin/float_icon.png') no-repeat;
+	z-index:9996;
+}	
+div.diigoHighlight.type_2 span {
+	color:#000;
+	font:bold 13px Arial, Helvetica, sans-serif;
+	cursor: default;
+	line-height: 37px;
+	text-shadow: #fff 0 1px 0;
+}
+	
+
+div.diigoIcon.commented.TextIcon.diigoEdit{
+	background-repeat:no-repeat !important;
+	background-position:right !important;
+}
+
+	
+div.diigoIcon.commented.ImageIcon.diigoEdit{
+	background-repeat:no-repeat !important;
+	background-position:right !important;
+}
+
+
+/*mouse over effect*/
+/*
+.diigoHighlight.id_190e5778b533dc0fa1b1660653a4f6f5 {outline: 2px dotted green !important;}
+*/
+div.diigoIcon{
+	cursor:pointer !important;
+	margin: 0pt; 
+	padding: 0px 0px 0px 0px;
+	position: absolute;
+	display:none;
+	width: 24px !important; 
+	z-index:999999;
+	height: 23px !important;
+	background: transparent url('chrome://diigotb/skin/edit-highlight.png') no-repeat left;
+}
+
+div.diigoIcon span{
+	color:#000000;
+	display:block;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:13px;
+	font-weight:700;
+	line-height:18px;
+	text-align:center;
+	text-shadow:0 1px 1px #FFFFFF;
+}
+
+div.diigoIcon.commented.ImageIcon{
+	display:block !important;
+	background-color: transparent !important;
+}
+	
+div.diigoIcon:hover{
+	background-color: transparent !important;
+	background-repeat:no-repeat !important;
+	background-position:right !important;
+}
+	
+div.diigoIcon.commented.TextIcon{
+	display:block !important;
+	left:0;
+	bottom:0;
+}
+	
+div.diigoIcon.commented.public{
+	background: #FFFFFF url('chrome://diigotb/skin/public-annotation.png') no-repeat left;
+}
+
+div.diigoIcon.commented.private{
+	background: #FFFFFF url('chrome://diigotb/skin/private-annotation.png') no-repeat left;
+}
+	
+div.diigoIcon.commented.group{
+	background: #FFFFFF url('chrome://diigotb/skin/group-annotation.png') no-repeat left;
+}
+	
+/*Clip video*/
+div.diigoClipVideo{
+	float:left;
+	height:16px;
+	padding:0 16px 0 6px;
+	background:#f5f5f5 url(chrome://diigotb/skin/toolbar-clip-bg.gif) no-repeat right 0;
+	border:1px solid #ccc;
+	border-bottom-width:0;
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	z-index:999;
+	position:absolute;
+}
+
+div.diigoClipVideo.clipped {
+  background-position: right -32px; left: 717px; top: 135px;
+}
+
+	div.diigoClipVideo span{
+		font-weight:bold;
+		font-size:10px;
+		line-height:16px;
+		text-decoration:underline;
+		color:#03f;
+		cursor:pointer;
+		margin-right:6px
+	}
+	div.diigoClipVideo span:hover,div.diigoClipVideo span:active{
+		color:#00f
+	}
+	/*.diigolet input{
+		font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+		font-size:9px;
+	}*/
+	
+/*-----------notice msg--------------*/
+.diigotb-notice-img  {
+	float:left!important;
+	height:16px!important;
+	width:16px!important;
+	margin-top:6px!important;
+	margin-right:3px!important;
+}
+.success .diigotb-notice-img{
+	background:url("chrome://diigotb/skin/notice-icons.png") no-repeat scroll 0 0 transparent!important;
+}
+.failed .diigotb-notice-img{
+	background:url("chrome://diigotb/skin/notice-icons.png") no-repeat scroll -16px 0 transparent!important;
+}
+.info .diigotb-notice-img{
+	background:url("chrome://diigotb/skin/notice-icons.png") no-repeat scroll -32px 0 transparent!important;
+}
+.process .diigotb-notice-img{
+	background:url("chrome://diigotb/skin/processing.gif") no-repeat scroll left 0 transparent!important;
+}	
+	
+.diigotb-notice-msg-rt  {
+	background:url("chrome://diigotb/skin/notice-bar-2-bg-left.png") no-repeat scroll left bottom transparent!important;
+	line-height:28px!important;
+	padding-left:10px!important;
+	height:30px!important;
+}
+.failed .diigotb-notice-msg-rt  {
+	background:url("chrome://diigotb/skin/notice-bar-2-bg-left.png") no-repeat scroll left top transparent!important;
+}
+	
+.diigotb-notice-close{
+	float:right!important;
+	height:16px!important;
+	width:16px!important;
+	margin-left:20px!important;
+	margin-top:6px!important;
+	cursor:pointer;
+	background:url("chrome://diigotb/skin/notice-icons.png") no-repeat scroll -48px 0 transparent!important;
+}
+
+.diigotb-notice-close:hover{
+	background-position: -63px 0!important;
+}
+	
+.diigotb-notice-msg  {
+	background:url("chrome://diigotb/skin/notice-bar-2-bg-right.png") no-repeat scroll right bottom transparent!important;
+	float:right!important;
+	height:30px!important;
+	padding:0 11px 0 0!important;
+	border: none!important;
+	margin:0!important;
+	position:fixed!important;
+	font:12px/14px Helvetica,Arial,sans-serif!important;
+	z-index:100000!important;
+}
+.diigotb-notice-msg a {
+	color:#0044cc!important; 
+	text-decoration:underline!important;
+}
+	
+.failed.diigotb-notice-msg  {
+	background:url("chrome://diigotb/skin/notice-bar-2-bg-right.png") no-repeat scroll right top transparent!important;
+}
+	
+}
+
+
+@media print{
+em.diigoHighlight.a, em.diigoHighlight.b, em.diigoHighlight.c {
+	border-bottom:0.5pt dashed Black;
+}
+
+
+/*image highlight*/
+/*no inline comments*/
+img.diigoHighlight {
+	border:0.5pt dashed Black
+}
+
+/*float note*/
+div.diigoHighlight.type_2 {
+	display:none
+}
+div.diigoHighlight.type_2 span {
+	display:none
+}
+}</style><style id="diigo-activeHighlight" type="text/css">dummyRuleForDigg{}</style><style type="text/css">* html #li_ui_li_gen_1368566746399_0 a#li_ui_li_gen_1368566746399_0-link{height:1% !important;}#li_ui_li_gen_1368566746399_0{position:relative !important;overflow:visible !important;display:block !important;}#li_ui_li_gen_1368566746399_0 a#li_ui_li_gen_1368566746399_0-link{border:0 !important;height:20px !important;text-decoration:none !important;padding:0 !important;margin:0 !important;display:inline-block !important;}#li_ui_li_gen_1368566746399_0 a#li_ui_li_gen_1368566746399_0-link:link, #li_ui_li_gen_1368566746399_0 a#li_ui_li_gen_1368566746399_0-link:visited, #li_ui_li_gen_1368566746399_0 a#li_ui_li_gen_1368566746399_0-link:hover, #li_ui_li_gen_1368566746399_0 a#li_ui_li_gen_1368566746399_0-link:active{border:0 !important;text-decoration:none !important;}#li_ui_li_gen_1368566746399_0 a#li_ui_li_gen_1368566746399_0-link:after{content:"." !important;display:block !important;clear:both !important;visibility:hidden !important;line-height:0 !important;height:0 !important;}#li_ui_li_gen_1368566746399_0 #li_ui_li_gen_1368566746399_0-logo{background:url(http://static.licdn.com/scds/common/u/img/sprite/sprite_connect_v13.png) 0px -276px no-repeat !important;cursor:pointer !important;border:0 !important;text-indent:-9999em !important;overflow:hidden !important;padding:0 !important;margin:0 !important;position:absolute !important;left:0px !important;top:0px !important;display:block !important;width:20px !important;height:20px !important;float:right !important;}#li_ui_li_gen_1368566746399_0.hovered #li_ui_li_gen_1368566746399_0-logo{background-position:-20px -276px !important;}#li_ui_li_gen_1368566746399_0.clicked #li_ui_li_gen_1368566746399_0-logo, #li_ui_li_gen_1368566746399_0.down #li_ui_li_gen_1368566746399_0-logo{background-position:-40px -276px !important;}.IN-shadowed #li_ui_li_gen_1368566746399_0 #li_ui_li_gen_1368566746399_0-logo{}#li_ui_li_gen_1368566746399_0 #li_ui_li_gen_1368566746399_0-title{color:#333 !important;cursor:pointer !important;display:block !important;white-space:nowrap !important;float:left !important;margin-left:1px !important;vertical-align:top !important;overflow:hidden !important;text-align:center !important;height:18px !important;padding:0 4px 0 23px !important;border:1px solid #000 !important;border-top-color:#E2E2E2 !important;border-right-color:#BFBFBF !important;border-bottom-color:#B9B9B9 !important;border-left-color:#E2E2E2 !important;border-left:0 !important;text-shadow:#FFFFFF -1px 1px 0 !important;line-height:20px !important;border-radius:0 !important;-moz-border-radius:0 !important;border-top-right-radius:2px !important;border-bottom-right-radius:2px !important;-moz-border-radius-topright:2px !important;-moz-border-radius-bottomright:2px !important;background-color:#ECECEC !important;background-image:-moz-linear-gradient(top, #FEFEFE 0%, #ECECEC 100%) !important;}#li_ui_li_gen_1368566746399_0.hovered #li_ui_li_gen_1368566746399_0-title{border:1px solid #000 !important;border-top-color:#ABABAB !important;border-right-color:#9A9A9A !important;border-bottom-color:#787878 !important;border-left-color:#04568B !important;border-left:0 !important;background-color:#EDEDED !important;background-image:-moz-linear-gradient(top, #EDEDED 0%, #DEDEDE 100%) !important;}#li_ui_li_gen_1368566746399_0.clicked #li_ui_li_gen_1368566746399_0-title, #li_ui_li_gen_1368566746399_0.down #li_ui_li_gen_1368566746399_0-title{color:#666 !important;border:1px solid #000 !important;border-top-color:#B6B6B6 !important;border-right-color:#B3B3B3 !important;border-bottom-color:#9D9D9D !important;border-left-color:#49627B !important;border-left:0 !important;background-color:#DEDEDE !important;background-image:-moz-linear-gradient(top, #E3E3E3 0%, #EDEDED 100%) !important;}.IN-shadowed #li_ui_li_gen_1368566746399_0 #li_ui_li_gen_1368566746399_0-title{}.IN-shadowed #li_ui_li_gen_1368566746399_0.hovered #li_ui_li_gen_1368566746399_0-title{}.IN-shadowed #li_ui_li_gen_1368566746399_0.clicked #li_ui_li_gen_1368566746399_0-title, .IN-shadowed #li_ui_li_gen_1368566746399_0.down #li_ui_li_gen_1368566746399_0-title{}#li_ui_li_gen_1368566746399_0 #li_ui_li_gen_1368566746399_0-title-text, #li_ui_li_gen_1368566746399_0 #li_ui_li_gen_1368566746399_0-title-text *{color:#333 !important;font-size:11px !important;font-family:Arial, sans-serif !important;font-weight:bold !important;font-style:normal !important;display:inline-block !important;background:transparent none !important;vertical-align:baseline !important;height:18px !important;line-height:20px !important;float:none !important;}#li_ui_li_gen_1368566746399_0 #li_ui_li_gen_1368566746399_0-title-text strong{font-weight:bold !important;}#li_ui_li_gen_1368566746399_0 #li_ui_li_gen_1368566746399_0-title-text em{font-style:italic !important;}#li_ui_li_gen_1368566746399_0.hovered #li_ui_li_gen_1368566746399_0-title-text, #li_ui_li_gen_1368566746399_0.hovered #li_ui_li_gen_1368566746399_0-title-text *{color:#000 !important;}#li_ui_li_gen_1368566746399_0.clicked #li_ui_li_gen_1368566746399_0-title-text, #li_ui_li_gen_1368566746399_0.down #li_ui_li_gen_1368566746399_0-title-text, #li_ui_li_gen_1368566746399_0.clicked #li_ui_li_gen_1368566746399_0-title-text *, #li_ui_li_gen_1368566746399_0.down #li_ui_li_gen_1368566746399_0-title-text *{color:#666 !important;}#li_ui_li_gen_1368566746399_0 #li_ui_li_gen_1368566746399_0-title #li_ui_li_gen_1368566746399_0-mark{display:inline-block !important;width:0px !important;overflow:hidden !important;}.success #li_ui_li_gen_1368566746399_0 #li_ui_li_gen_1368566746399_0-title{color:#333 !important;border-top-color:#E2E2E2 !important;border-right-color:#BFBFBF !important;border-bottom-color:#B9B9B9 !important;border-left-color:#E2E2E2 !important;background-color:#ECECEC !important;background-image:-moz-linear-gradient(top, #FEFEFE 0%, #ECECEC 100%) !important;}.success #li_ui_li_gen_1368566746399_0 #li_ui_li_gen_1368566746399_0-title-text, .success #li_ui_li_gen_1368566746399_0 #li_ui_li_gen_1368566746399_0-title-text *{color:#333 !important;}.IN-shadowed .success #li_ui_li_gen_1368566746399_0 #li_ui_li_gen_1368566746399_0-title{}.success #li_ui_li_gen_1368566746399_0.hovered #li_ui_li_gen_1368566746399_0-title{color:#000 !important;border-top-color:#ABABAB !important;border-right-color:#9A9A9A !important;border-bottom-color:#787878 !important;border-left-color:#04568B !important;background-color:#EDEDED !important;background-image:-moz-linear-gradient(top, #EDEDED 0%, #DEDEDE 100%) !important;}.success #li_ui_li_gen_1368566746399_0.hovered #li_ui_li_gen_1368566746399_0-title-text, .success #li_ui_li_gen_1368566746399_0.hovered #li_ui_li_gen_1368566746399_0-title-text *{color:#000 !important;}.success #li_ui_li_gen_1368566746399_0.clicked #li_ui_li_gen_1368566746399_0-title, .success #li_ui_li_gen_1368566746399_0.down #li_ui_li_gen_1368566746399_0-title{color:#666 !important;border-top-color:#B6B6B6 !important;border-right-color:#B3B3B3 !important;border-bottom-color:#9D9D9D !important;border-left-color:#49627B !important;background-color:#DEDEDE !important;background-image:-moz-linear-gradient(top, #E3E3E3 0%, #EDEDED 100%) !important;}.success #li_ui_li_gen_1368566746399_0.clicked #li_ui_li_gen_1368566746399_0-title-text, .success #li_ui_li_gen_1368566746399_0.down #li_ui_li_gen_1368566746399_0-title-text, .success #li_ui_li_gen_1368566746399_0.clicked #li_ui_li_gen_1368566746399_0-title-text *, .success #li_ui_li_gen_1368566746399_0.down #li_ui_li_gen_1368566746399_0-title-text *{color:#666 !important;}.IN-shadowed .success #li_ui_li_gen_1368566746399_0.clicked #li_ui_li_gen_1368566746399_0-title, .IN-shadowed .success #li_ui_li_gen_1368566746399_0.down #li_ui_li_gen_1368566746399_0-title{}#li_ui_li_gen_1368566746409_1-container.IN-hidden #li_ui_li_gen_1368566746409_1 {display:none !important;}</style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}
+.fb_invisible{display:none}
+.fb_reset{background:none;border-spacing:0;border:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}
+.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}
+.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
+.fb_dialog_content{background:#fff;color:#333}
+.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px;top:8px\9;right:7px\9}
+.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}
+.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}
+.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}
+.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}
+.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}
+.fb_dialog_top_left,
+.fb_dialog_top_right,
+.fb_dialog_bottom_left,
+.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}
+/* @noflip */
+.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}
+/* @noflip */
+.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}
+/* @noflip */
+.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}
+/* @noflip */
+.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right,
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right{width:10px;height:100%}
+.fb_dialog_vert_left{margin-left:-10px}
+.fb_dialog_vert_right{right:0;margin-right:-10px}
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{width:100%;height:10px}
+.fb_dialog_horiz_top{margin-top:-10px}
+.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}
+.fb_dialog_iframe{line-height:0}
+.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}
+.fb_dialog_content .dialog_title > span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif)
+no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}
+body.fb_hidden{-webkit-transform:none;height:100%;margin:0;left:-10000px;overflow:visible;position:absolute;top:-10000px;width:100%
+}
+.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif)
+white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}
+.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}
+#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}
+#fb-root #fb_dialog_ipad_overlay.hidden{display:none}
+.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}
+.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0 0, 0 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}
+.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%
+}
+.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0 0, 0 100%, from(#4966A6),
+color-stop(0.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset,
+rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}
+.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}
+.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}
+.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}
+#fb_dialog_loader_close{float:left}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}
+.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}
+.fb_iframe_widget iframe{position:absolute}
+.fb_iframe_widget_lift{z-index:1}
+.fb_hide_iframes iframe{position:relative;left:-10000px}
+.fb_iframe_widget_loader{position:relative;display:inline-block}
+.fb_iframe_widget_fluid{display:inline}
+.fb_iframe_widget_fluid span{width:100%}
+.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}
+.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,
+.fb_connect_bar_container span,
+.fb_connect_bar_container a,
+.fb_connect_bar_container img,
+.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}
+.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}
+.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}
+.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}
+.fb_connect_bar a:hover{color:#fff}
+.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}
+.fb_connect_bar div a,
+.fb_connect_bar span,
+.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}
+.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fb_edge_widget_with_comment{position:relative;*z-index:1000}
+.fb_edge_widget_with_comment span.fb_edge_comment_widget{position:absolute}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget{z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget .FB_Loader{left:0;top:1px;margin-top:6px;margin-left:0;background-position:50% 50%;background-color:#fff;height:150px;width:394px;border:1px #666 solid;border-bottom:2px solid #283e6c;z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.dark .FB_Loader{background-color:#000;border-bottom:2px solid #ccc}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.siderender
+.FB_Loader{margin-top:0}
+.fbpluginrecommendationsbarleft,
+.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}
+/* @noflip */
+.fbpluginrecommendationsbarleft{left:10px}
+/* @noflip */
+.fbpluginrecommendationsbarright{right:10px}</style></head>
+
+<body data-twttr-rendered="true" id="mainBody" class=" yui-skin-sam yellow"><iframe style="position: absolute; visibility: visible; background-color: transparent; border-width: 0px; width: 2em; height: 2em; left: 0px; top: -27px;" role="presentation" tabindex="-1" title="Text Resize Monitor" id="_yuiResizeMonitor"></iframe>
+
+<script type="text/javascript">
+	var init = function () {
+		var submitAsyncRequest = function(type, url, callBack, postData){
+			var d = new Date();
+			var bigNumber = " " + d.getYear() + d.getDay() + d.getHours() + d.getMinutes() + d.getSeconds() + d.getMilliseconds();
+			if(postData == ""){
+				postData = 'random=' + (Math.floor(Math.random() * bigNumber));
+			}else{
+				postData += '&random=' + (Math.floor(Math.random() * bigNumber));
+			}
+			if(type == 'POST'){
+				YAHOO.util.Connect.asyncRequest(type, url, callBack, postData);
+			}else{
+				YAHOO.util.Connect.asyncRequest(type, url, callBack);
+			}
+		}
+
+		var receivedRefreshedCaptchaCallback = {
+			cache:false,
+			success: function(o) {
+				if(o.responseXML){
+					if(o.responseXML.getElementsByTagName("error")[0].firstChild.nodeValue == 1 || o.responseXML.getElementsByTagName("error")[0].firstChild == null){
+						alert("There has been an error retrieving your new question.  We apologize for the inconvenience.");
+					} else {
+						var newQuestion;
+						var newCaptchaQuestionXML = o.responseXML;
+						if (newCaptchaQuestionXML.getElementsByTagName("question").length > 0) {
+							document.getElementById("reportCaptcha").innerHTML = newCaptchaQuestionXML.getElementsByTagName("question")[0].firstChild.nodeValue;
+						}
+					}
+				}
+			},
+			failure: function(o) {}
+		};
+
+		function refreshCaptcha(p_oEvent) {
+			submitAsyncRequest('POST', '/common/servlet/CommonController', receivedRefreshedCaptchaCallback, 'op=9857');
+		}
+
+        function refreshCaptcha2(p_oEvent) {
+            submitAsyncRequest('POST', '/common/servlet/CommonController', receivedRefreshedCaptcha2Callback, 'op=9857');
+        }
+
+		YAHOO.util.Event.onContentReady("bd", function() {
+			var oLinkButton1 = new YAHOO.widget.Button("captchaRefresh", { onclick: { fn: refreshCaptcha } });
+			var oLinkButton2 = new YAHOO.widget.Button("captchaSubmit");
+			var oLinkButton3 = new YAHOO.widget.Button("rateJob");
+            var oLinkButton2 = new YAHOO.widget.Button("matchJobAlertSubmit");
+			var oLinkButton4 = new YAHOO.widget.Button("seeMoreJobs");
+
+			YAHOO.util.Event.addListener("rateJob", "click", rateJobClicked);
+		});
+
+		// Handle a rate button click on the originating page. Set up some fields for later use and show the panel.
+		// NOTE: This is when the rate button is clicked from within the YUI dropdown, not the rate button that displays the dropdown.
+		function rateJobClicked(p_oEvent) {
+			YAHOO.util.Event.stopEvent(p_oEvent);
+		
+				var r = Math.floor(Math.random()*10000);
+			for (i = 1; i <= 3; i++) {
+				var ratingID = "rating" + i;
+				if (document.getElementById(ratingID).checked) {
+					var rating = document.getElementById(ratingID).value;
+				}
+			}
+
+			document.location.href = "/jobsearch/servlet/JobSearch?op=306&dockey=xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex&source=4&currdoc=1&queryString=&r=" + r + "&rating=" + rating;
+		
+		}
+
+		// Handle a report button click on the originating page. Set up some fields for later use and show the panel.
+		// NOTE: This is when the rate button is clicked from within the YUI dropdown, not the rate button that displays the dropdown.
+		function reportJobClicked(p_oEvent) {
+			YAHOO.util.Event.stopEvent(p_oEvent);
+		
+					document.reportJob.submit();
+		
+		}
+	}();
+
+	// Limit the number of characters the user can enter in the report job comments textarea.
+	function limitChars() {
+		var text1 = document.getElementById('reportExplain');
+		var max = 400;
+		if(text1.value.length >= max) {
+			text1.value = text1.value.substring(0, max - 1);
+		}
+	}
+
+</script>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--
+* $RCSfile: loginDialogIncludeJS.jsp,v $
+* $Author: jenniferp $
+* $Date: 2012/04/22 17:56:45 $
+-->
+
+
+
+<input id="destinationLink" name="destinationLink" type="hidden">
+<script type="text/javascript">
+var rateJobPanel = null;
+var reportJobPanel = null;
+var matchJobAlertPanel = null;
+var matchJobAlertInfoPanel = null;
+var reportJobPanelReported = null;
+var connectPanel = null;
+var companyConnectClicked  = null;
+var recruiterConnectClicked = null;
+var talentConnection = false;
+
+
+
+var init = function () {
+    var loginPanel;
+    var validLogin;
+    var submitAfterLogin;
+    var isAuthenticated = "true";
+    var jobReportedDate = "";
+
+    var r = Math.floor(Math.random()*10000);
+    var joinNetworkHref = "/jobsearch/servlet/JobSearch?op=327&dockey=xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex&source=4&currdoc=1&queryString=&diceID=10447586&joinNetwork=1&r=" + r;
+    var rateJobHref ="/jobsearch/servlet/JobSearch?op=306&dockey=xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex&source=4&currdoc=1&queryString=&r=" + r;
+    var reportJobHref ="/jobsearch/servlet/JobSearch?op=2006&dockey=xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex&source=4&currdoc=1&queryString=&r=" + r;
+    var matchJobAlertHref ="/jobsearch/servlet/JobSearch?op=2007&dockey=xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex&source=4&currdoc=1&queryString=&r=" + r;
+    var companyConnectHref = "&r=" + r;
+	var recruiterConnectHref;
+
+    if (talentConnection) {
+        recruiterConnectHref = "";
+    } else {
+        recruiterConnectHref = "&r=" + r;
+    }
+    var recruiterViewHref = "/daf/servlet/DAFctrl?op=2010&pid=0&fromDJV=1&r=" + r;
+
+    
+        joinNetworkHref      = joinNetworkHref      + "&basicJspVersion=basicTestB.jsp";
+        companyConnectHref   = companyConnectHref   + "&basicJspVersion=basicTestB.jsp";
+        recruiterConnectHref = recruiterConnectHref + "&basicJspVersion=basicTestB.jsp";
+        recruiterViewHref    = recruiterViewHref    + "&basicJspVersion=basicTestB.jsp";
+    
+
+    // Load up any parameters we may have been handed and build the login panel.
+    YAHOO.util.Event.onContentReady("bd", function() {
+    
+    
+    
+    
+        YAHOO.util.Event.addListener("APPLY_FOR_JOB", "click", applyForJobClicked);
+    
+    
+        YAHOO.util.Event.addListener("APPLY_FOR_JOB2", "click", applyForJobClicked);
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+        
+    
+        var oLoginDialoghideButton = new YAHOO.widget.Button("hideJob");
+        YAHOO.util.Event.addListener("hideJob", "click", hideJobClicked);
+    
+    
+        var oLoginDialogSaveButton = new YAHOO.widget.Button("saveJob");
+    
+    
+        YAHOO.util.Event.addListener("saveJob", "click", saveJobClicked);
+    
+    
+    
+    
+        var oLoginDialogRateButton = new YAHOO.widget.Button("rateJobJS");
+    
+    
+        YAHOO.util.Event.addListener("rateJobJS", "click", rateThisJobClicked);
+    
+    
+    
+        YAHOO.util.Event.addListener("joinNetworkJS", "click", joinThisNetworkClicked);
+    
+    
+        var oLoginDialogReportButton = new YAHOO.widget.Button("reportJobJS");
+    
+    
+        YAHOO.util.Event.addListener("reportJobJS", "click", reportThisJobClicked);
+    
+    
+		YAHOO.util.Event.addListener("connectCompanyJS", "click", companyConnectClicked);
+	
+		
+		YAHOO.util.Event.addListener("connectJS", "click", recruiterConnectClicked);
+	
+        
+        YAHOO.util.Event.addListener("viewJS", "click", recruiterViewClicked);
+        
+    
+        var oLoginDialogMatchJobAlertButton = new YAHOO.widget.Button("matchJobAlert");
+    
+    
+        YAHOO.util.Event.addListener("matchJobAlert", "click", matchJobAlertClicked);
+    
+
+        loginPanel = new YAHOO.widget.Panel("loginPanelDiv", { width:"450px", visible:false, fixedcenter : true, constraintoviewport: false, modal : true, y: 25 });
+        loginPanel.hide();
+        loginPanel.render();
+
+	
+		
+		
+			
+				rateJobPanel = new YAHOO.widget.Overlay("rateJobPanel", { width: "20em",
+					close : true,
+					fixedcenter : false,
+					context : ["rateJobJS", "tr", "br"],
+					modal : false,
+					visible : false,
+					draggable : false,
+					hideaftersubmit : true});
+				rateJobPanel.render();
+				if (false) {
+					rateJobPanelShow();
+				}
+			
+			
+				reportJobPanel = new YAHOO.widget.Overlay("reportJobPanel", { width: "30em",
+					close : true,
+					fixedcenter : false,
+					context : ["reportJobJS", "tr", "br"],
+					modal : false,
+					visible : false,
+					draggable : false,
+					hideaftersubmit : true});
+				reportJobPanel.render();
+				if (false) {
+					reportJobPanelShow();
+				}
+			
+			
+				reportJobPanelReported = new YAHOO.widget.Overlay("reportJobPanelReported", { width: "27em",
+					close : true,
+					fixedcenter : false,
+					context : ["reportJobJS", "tr", "br"],
+					modal : false,
+					visible : false,
+					draggable : false,
+					hideaftersubmit : true});
+				reportJobPanelReported.render();
+			
+        
+        matchJobAlertPanel = new YAHOO.widget.Overlay("matchJobAlertPanel", { width: "32em",
+            close : true,
+            fixedcenter : false,
+            context : ["matchJobAlert", "tl", "bl"],
+            modal : false,
+            visible : false,
+            draggable : false,
+            hideaftersubmit : true});
+        matchJobAlertPanel.render();
+        if (false) {
+            matchJobAlertPanelShow();
+        }
+        matchJobAlertInfoPanel = new YAHOO.widget.Overlay("matchJobAlertInfoPanel", { width: "32em",
+            close : true,
+            fixedcenter : false,
+            context : ["matchJobAlert", "tl", "bl"],
+            modal : false,
+            visible : false,
+            draggable : false,
+            hideaftersubmit : true});
+        matchJobAlertInfoPanel.render();
+        if (false) {
+            matchJobAlertInfoPanelShow();
+        }
+        
+		
+	
+
+    
+    });
+
+    // Load up the buttons on the login panel.
+    YAHOO.util.Event.onContentReady("loginPanelDiv", function() {
+        var oLinkButton1 = new YAHOO.widget.Button("loginPanelButton");
+        var oLinkButton2 = new YAHOO.widget.Button("signUpNowPanelButton");
+
+        YAHOO.util.Event.addListener("loginPanelButton", "click", logMeIn);
+        YAHOO.util.Event.addListener("signUpNowPanelButton", "click", signUpNowClicked);
+    });
+
+    // Determine the rating and add it to the URL.
+    function getRateUrl() {
+        var rating;
+        for (i = 1; i <= 3; i++) {
+            if (document.getElementById("rating" + i).checked) {
+                rating = document.getElementById('rating' + i).value;
+            }
+        }
+        return rateJobHref + "&rating=" + rating;
+    }
+
+    // Handle a login button click. Set up some fields for later use and show the login panel.
+    function loginClicked(p_oEvent) {
+        YAHOO.util.Event.stopEvent(p_oEvent);
+        document.getElementById("destinationLink").value = "";
+        document.getElementById("loginError").innerHTML = "";
+        document.getElementById("loginPanelDiv").style.display = "block";
+        loginPanel.show();
+    }
+	// Handle a login link click. Set up some fields for later use and show the login panel.
+	function loginLinkClicked(p_oEvent) {
+		YAHOO.util.Event.stopEvent(p_oEvent);
+		submitAfterLogin = 5;
+		document.getElementById("destinationLink").value = "";
+		document.getElementById("loginError").innerHTML = "";
+		document.getElementById("loginPanelDiv").style.display = "block";
+		loginPanel.show();
+	}
+
+    function applyForJobClicked(p_oEvent) {
+        YAHOO.util.Event.stopEvent(p_oEvent);
+    
+    
+    
+    
+    
+        document.location.href = document.getElementById("APPLY_FOR_JOB").href;
+    
+    
+    
+    }
+
+    // Handle a hide job button click. Set up some fields for later use and call the processor.
+    function hideJobClicked(p_oEvent) {
+        YAHOO.util.Event.stopEvent(p_oEvent);
+    
+        submitAfterLogin = 1;
+        //commented out/deleted since google spiders were grabbing it and this code shouldn't be running
+        //document.location.href = '';
+        return true;
+    
+    }
+
+    // Handle a save job button click. Set up some fields for later use and either call the processor or show the login panel.
+    function saveJobClicked(p_oEvent) {
+        YAHOO.util.Event.stopEvent(p_oEvent);
+    
+        if (isAuthenticated == "true") {
+            var r = Math.floor(Math.random()*10000);
+            document.location.href = "/jobsearch/servlet/JobSearch?op=303&pv=3&dk=xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex&jt=UI+Developer&source=4&r=" + r;
+        }
+        else {
+            submitAfterLogin = 1;
+            document.getElementById("destinationLink").value = "/jobsearch/servlet/JobSearch?op=303&pv=3&dk=xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex&jt=UI+Developer&source=4";
+            document.getElementById("loginError").innerHTML = "";
+            document.getElementById("loginPanelDiv").style.display = "block";
+            loginPanel.show();
+        }
+    
+    }
+
+    // Handle a rate button click. Set up some fields for later use and either call the processor or show the login panel.
+    // NOTE: This is when the rate button is clicked from within the YUI dropdown, not the rate button that displays the dropdown.
+    function rateThisJobClicked(p_oEvent) {
+        YAHOO.util.Event.stopEvent(p_oEvent);
+    
+        if (isAuthenticated == "true") {
+            rateJobPanelShow();
+        }
+        else {
+            submitAfterLogin = 2;
+            document.getElementById("destinationLink").value = getRateUrl();
+            document.getElementById("loginError").innerHTML = "";
+            document.getElementById("loginPanelDiv").style.display = "block";
+            loginPanel.show();
+        }
+    
+    }
+
+    // Handle a connect company button click. Set up some fields for later use and either call the processor or show the login panel.
+	function companyConnectClicked(p_oEvent) {
+		YAHOO.util.Event.stopEvent(p_oEvent);
+	
+		if (isAuthenticated == "true") {
+            document.location.href = companyConnectHref;
+		}
+		else {
+			submitAfterLogin = 4;
+			document.getElementById("destinationLink").value = companyConnectHref;
+			document.getElementById("loginError").innerHTML = "";
+			document.getElementById("loginPanelDiv").style.display = "block";
+			loginPanel.show();
+		}
+	
+	}
+
+    // Handle a connect recruiter button click. Set up some fields for later use and either call the processor or show the login panel.
+	function recruiterConnectClicked(p_oEvent) {
+		YAHOO.util.Event.stopEvent(p_oEvent);
+		if (isAuthenticated == "true") {
+			document.location.href = recruiterConnectHref;
+		}
+		else {
+			submitAfterLogin = 4;
+			document.getElementById("destinationLink").value = recruiterConnectHref;
+			document.getElementById("loginError").innerHTML = "";
+			document.getElementById("loginPanelDiv").style.display = "block";
+			loginPanel.show();
+		}
+	}
+
+    // Handle a view recruiter button click. Set up some fields for later use and either call the processor or show the login panel.
+    function recruiterViewClicked(p_oEvent) {
+        YAHOO.util.Event.stopEvent(p_oEvent);
+        if (isAuthenticated == "true") {
+            document.location.href = recruiterViewHref;
+        }
+        else {
+            submitAfterLogin = 4;
+            document.getElementById("destinationLink").value = recruiterViewHref;
+            document.getElementById("loginError").innerHTML = "";
+            document.getElementById("loginPanelDiv").style.display = "block";
+            loginPanel.show();
+        }
+    }
+
+    // Handle a join network button click. Set up some fields for later use and either call the processor or show the login panel.
+    function joinThisNetworkClicked(p_oEvent) {
+        YAHOO.util.Event.stopEvent(p_oEvent);
+    
+        if (isAuthenticated == "true") {
+            document.location.href = joinNetworkHref;
+        }
+        else {
+            submitAfterLogin = 4;
+            document.getElementById("destinationLink").value = joinNetworkHref;
+            document.getElementById("loginError").innerHTML = "";
+            document.getElementById("loginPanelDiv").style.display = "block";
+            loginPanel.show();
+        }
+    
+    }
+
+    function connectClicked(p_oEvent) {
+        YAHOO.util.Event.stopEvent(p_oEvent);
+        connectPanelShow();
+    }
+
+    // Handle a report job button click. Set up some fields for later use and either call the processor or  show the login panel.
+    // NOTE: This is when the report job button is clicked from within the YUI dropdown, not the report job button that displays the dropdown.
+    function reportThisJobClicked(p_oEvent) {
+        YAHOO.util.Event.stopEvent(p_oEvent);
+    
+        if (isAuthenticated == "true") {
+            if (jobReportedDate == null || jobReportedDate == "") {
+                reportJobPanelShow();
+            }
+            else {
+                reportJobPanelReportedShow();
+            }
+        }
+        else {
+            submitAfterLogin = 3;
+            document.getElementById("destinationLink").value = reportJobHref;
+            document.getElementById("loginError").innerHTML = "";
+            document.getElementById("loginPanelDiv").style.display = "block";
+            loginPanel.show();
+        }
+    
+    }
+
+    // Handle a burning glass job alert button click. Set up some fields for later use and either call the processor or  show the login panel.
+    function matchJobAlertClicked(p_oEvent) {
+        YAHOO.util.Event.stopEvent(p_oEvent);
+    
+        if (isAuthenticated == "true") {
+                matchJobAlertPanelShow();
+        }
+        else {
+            submitAfterLogin = 6;
+            document.getElementById("destinationLink").value = matchJobAlertHref;
+            document.getElementById("loginError").innerHTML = "";
+            document.getElementById("loginPanelDiv").style.display = "block";
+            loginPanel.show();
+        }
+    
+    }
+
+    // Handle a registration button click on the login panel. Route the user to the original destination link
+    // (rate job processor, for example) and let RTS handle registration.
+    function signUpNowClicked(p_oEvent) {
+        // If a form name is provided then simply submit that form.
+    
+    
+    
+        // Call the appropriate processor based on which button was clicked to bring up the login dialog in the first place.
+        document.location.href = document.getElementById("destinationLink").value + "&rts=1&ml=1";
+    
+    
+    }
+
+    // User clicked the login button on the panel. Send request to server for authentication.
+    function logMeIn(p_oEvent) {
+        var sjt_user_name = document.getElementById("SJT_USER_NAME").value;
+        var sjt_password = document.getElementById("SJT_PASSWD").value;
+        var xmlhttp = null;
+        if (window.XMLHttpRequest) {
+            // code for Firefox, Opera, IE7, etc.
+            xmlhttp = new XMLHttpRequest();
+        }
+        else if (window.ActiveXObject) {
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        if (xmlhttp != null) {
+            // Generate random to prevent caching.
+            var d = new Date();
+            var bigNumber = " " + d.getYear() + d.getDay() + d.getHours() + d.getMinutes() + d.getSeconds() + d.getMilliseconds();
+            var randomNumber = (Math.floor(Math.random() * bigNumber));
+
+            xmlhttp.onreadystatechange = logMeInResponded(xmlhttp, processLogMeInResponse);
+
+            // Note: The dockey may not be populated. If it is populated the report and rate job information is included in the response.
+            xmlhttp.open("GET", "http://www.dice.com/profman/servlet/ProfMan?op=2000&ajax=1&SUBMIT=1&SJT_USER_NAME=" + sjt_user_name + "&SJT_PASSWD=" + sjt_password + "&dockey=xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex" + "&random=" + randomNumber, true);
+            xmlhttp.send(null);
+        }
+        else {
+            //alert("Your browser does not support XMLHTTP.");
+        }
+    }
+
+    // Server responded to out request for authentication. Check status codes.
+    function logMeInResponded(xmlhttp, responseXmlHandler) {
+        return function () {
+
+            if (xmlhttp.readyState == 4) {
+                // 4 = "loaded"
+                if (xmlhttp.status == 200) {
+                    // 200 = "OK"
+                    responseXmlHandler(xmlhttp.responseXML);
+
+                }
+                else {
+                    //alert("Problem retrieving data:" + xmlhttp.statusText);
+                }
+            }
+        }
+    }
+
+    // Process the server's response to our request for authentication.
+    function processLogMeInResponse(locations) {
+        var locationsVals = locations.getElementsByTagName("locations")[0];
+        // If we didn't get anything back from the server,
+        // exit here or risk the wrath of IE's stellar javascript error detection.
+        if (locationsVals == null) {
+            return;
+        }
+
+        // if password doesn't meet compliance send them to change their password
+        var passwordComplianceNotMet = locationsVals.getElementsByTagName("passwordComplianceNotMet")[0].firstChild.nodeValue;
+        if (typeof passwordComplianceNotMet != 'undefined' && passwordComplianceNotMet == '1') {
+            document.location.href = document.getElementById("destinationLink").value + "&rts=4&ml=1";
+        }
+
+        var items = locationsVals.getElementsByTagName("item");
+
+        for (var I = 0; I < items.length; I++) {
+            var item = items[I];
+            validLogin = item.getElementsByTagName("validLogin")[0].firstChild.nodeValue;
+
+            if (validLogin == 1) {
+                //var loginPanel = new YAHOO.widget.Panel("loginPanelDiv").hide();
+
+                document.body.className = "yui-skin-sam";
+
+                var jobRating;
+                var applicationDate;
+                var jobInfoPresent = item.getElementsByTagName("jobInfoPresent")[0].firstChild.nodeValue;
+                if (jobInfoPresent == "1") {
+                    if (item.getElementsByTagName("jobRating")[0].firstChild != null) {
+                        jobRating = item.getElementsByTagName("jobRating")[0].firstChild.nodeValue;
+                    }
+                    if (item.getElementsByTagName("applicationDate")[0].firstChild != null) {
+                        applicationDate = item.getElementsByTagName("applicationDate")[0].firstChild.nodeValue;
+                    }
+                    if (item.getElementsByTagName("jobReportedDate")[0].firstChild != null) {
+                        jobReportedDate = item.getElementsByTagName("jobReportedDate")[0].firstChild.nodeValue;
+                    }
+                }
+
+                var matchJobAlerts = item.getElementsByTagName("matchJobAlert")[0].firstChild.nodeValue;
+
+            
+            
+            
+                if (submitAfterLogin == 1) {
+                    // Call the appropriate processor based on which button was clicked to bring up the login dialog in the first place.
+                    document.location.href = document.getElementById("destinationLink").value;
+                }
+                else {
+                    // We're staying on this page. Update any information that needs to be updated.
+                    loginPanel.hide();
+                    isAuthenticated = "true";
+
+                    
+                        document.getElementById("rating1").checked = false;
+                        document.getElementById("rating2").checked = false;
+                        document.getElementById("rating3").checked = false;
+                        if (jobRating == 1) {
+                            document.getElementById("rating1").checked = true;
+                        }
+                        if (jobRating == 0 || jobRating == 99) {
+                            document.getElementById("rating2").checked = true;
+                        }
+                        if (jobRating == -1) {
+                            document.getElementById("rating3").checked = true;
+                        }
+                    
+
+                    // Rate This Job was clicked. Populate the rate job dropdown with seeker's rating information for
+                    // this job before showing the rating dropdown.
+                    if (submitAfterLogin == 2) {
+                        rateJobPanelShow();
+                    }
+                    else if (submitAfterLogin == 3) {
+                        // Report This Job was clicked. Determine which dropdown to show based on whether this seeker has
+                        // previously reported this job.
+                        if (jobReportedDate == null || jobReportedDate == "") {
+                            reportJobPanelShow();
+                        }
+                        else {
+                            reportJobPanelReportedShow();
+                        }
+                    } else if (submitAfterLogin == 4) {
+                        // Join Network was clicked. Or maybe connect to company or recruiter
+                        document.location.href = document.getElementById("destinationLink").value;
+                    } else if (submitAfterLogin == 6) {
+
+                        if(matchJobAlerts == "true") {
+                            matchJobAlertPanelShow();
+                            matchJobAlertInfoPanelHide();
+                        } else {
+                            matchJobAlertPanelHide();
+                            matchJobAlertInfoPanelShow();
+                            //Hide the form information
+                            document.getElementById("matchJobAlertInfoMessageText").innerHTML = "You have reached your maximum number of search agents.";
+                            document.getElementById("matchJobAlert").style.display = "none";
+                        }
+                    }
+                }
+            
+            
+            }
+            else {
+                // AUthorization failed. Inform the user.
+                var error = item.getElementsByTagName("error")[0].firstChild.nodeValue;
+                var loginError = document.getElementById("loginError");
+                loginError.innerHTML = error.replace("\n", "<br>");
+            }
+        }
+    }
+
+    // Catch the click event and determine if we've clicked outside of the report or rate job panels.
+    // If so, hide the panel.
+    document.onclick=checkClick;
+    function checkClick(e) {
+        var target = (e && e.target) || (event && event.srcElement);
+
+    
+        var obj = document.getElementById('rateJobPanel');
+        checkParent(target, "rateJobPanel") ? rateJobPanelHide() : null;
+    
+
+    
+        obj = document.getElementById('reportJobPanel');
+        checkParent(target, "reportJobPanel") ? reportJobPanelHide() : null;
+    
+
+    
+        obj = document.getElementById('matchJobAlertPanel');
+        checkParent(target, "matchJobAlertPanel") ? matchJobAlertPanelHide() : null;
+    
+
+    
+        obj = document.getElementById('matchJobAlertInfoPanel');
+        checkParent(target, "matchJobAlertInfoPanel") ? matchJobAlertInfoPanelHide() : null;
+    
+
+    
+        obj = document.getElementById('reportJobPanelReported');
+        checkParent(target, "reportJobPanelReported") ? reportJobPanelReportedHide() : null;
+    
+
+    
+    }
+
+    // Used by checkClick method to crawl up parental elements from the one clicked looking for the panel div name.
+    function checkParent(target, panelDiv) {
+        if (document.getElementById(panelDiv) != null) {
+        }
+        while(target.parentNode) {
+            if (target == document.getElementById(panelDiv)) {
+                return false;
+            }
+            target = target.parentNode;
+        }
+        return true;
+    }
+
+    // Hide the rate job dropdown.
+    var rateJobPanelHide = function () {
+        if (rateJobPanel != null) {
+            rateJobPanel.hide();
+        }
+    }
+
+    // Show the rate job dropdown.
+    var rateJobPanelShow = function () {
+        rateJobPanel.show();
+        reportJobPanelHide();
+        matchJobAlertPanelHide();
+        matchJobAlertInfoPanelHide();
+        reportJobPanelReportedHide();
+        connectPanelHide();
+    }
+
+    // Hide the network dropdown
+    var connectPanelHide = function () {
+        if (connectPanel != null) {
+            connectPanel.hide();
+        }
+    }
+
+    // Show the network dropdown.
+    var connectPanelShow = function () {
+        connectPanel.show();
+        rateJobPanelHide();
+        reportJobPanelHide();
+        matchJobAlertPanelHide();
+        matchJobAlertInfoPanelHide();
+        reportJobPanelReportedHide();
+    }
+
+    // Hide the report job dropdown.
+    var reportJobPanelHide = function () {
+        if (reportJobPanel != null) {
+            reportJobPanel.hide();
+        }
+    }
+
+    // Show the report job dropdown.
+    var reportJobPanelShow = function () {
+        reportJobPanel.show();
+        rateJobPanelHide();
+        matchJobAlertPanelHide();
+        matchJobAlertInfoPanelHide();
+        reportJobPanelReportedHide();
+        connectPanelHide();
+    }
+
+    // Hide the Match alert dropdown.
+    var matchJobAlertPanelHide = function () {
+        if (matchJobAlertPanel != null) {
+            matchJobAlertPanel.hide();
+        }
+    }
+
+    // Show the bg alert dropdown.
+    var matchJobAlertPanelShow = function () {
+        matchJobAlertPanel.show();
+        matchJobAlertInfoPanelHide();
+        reportJobPanelHide();
+        rateJobPanelHide();
+        rateJobPanelHide();
+        reportJobPanelReportedHide();
+        connectPanelHide();
+    }
+
+    // Hide the Match alert dropdown.
+    var matchJobAlertInfoPanelHide = function () {
+        if (matchJobAlertInfoPanel != null) {
+            matchJobAlertInfoPanel.hide();
+        }
+    }
+
+    // Show the bg alert dropdown.
+    var matchJobAlertInfoPanelShow = function () {
+        matchJobAlertPanelHide();
+        matchJobAlertInfoPanel.show();
+        reportJobPanelHide();
+        rateJobPanelHide();
+        rateJobPanelHide();
+        reportJobPanelReportedHide();
+        connectPanelHide();
+    }
+    // Hide the report job reported dropdown.
+    var reportJobPanelReportedHide = function () {
+        if (reportJobPanelReported != null) {
+            reportJobPanelReported.hide();
+        }
+    }
+
+    // Hide the report job reported dropdown.
+    var reportJobPanelReportedShow = function () {
+        document.getElementById('reportReportedMessage').innerHTML = "&nbsp;&nbsp;This job was reported on " + jobReportedDate;
+        reportJobPanelReported.show();
+        rateJobPanelHide();
+        reportJobPanelHide();
+        matchJobAlertPanelHide();
+        matchJobAlertInfoPanelHide();
+        connectPanelHide();
+    }
+}();
+</script>
+
+
+<div style="visibility: hidden; top: 205px; left: 354px; z-index: 2;" id="loginPanelDiv_c" class="yui-panel-container yui-overlay-hidden shadow"><div class="yui-module yui-overlay yui-panel" id="loginPanelDiv" style="display: none; visibility: inherit; width: 450px;"><a href="#" class="container-close">Close</a>
+    <div id="loginPanelDiv_h" style="cursor: move;" class="hd"></div>
+    <div class="bd" style="text-align:left;">
+        <div style="color:#720000; font-weight:bold; padding:5px 0; position: relative;" id="loginError"></div>
+        <div class="fillForm">
+            <div style="padding-bottom:.5em; position: relative;">
+                <label class="leftlabel">E-mail&nbsp;Address:</label>
+                <input name="SJT_USER_NAME" id="SJT_USER_NAME" maxlength="60" tabindex="1" class="infoRight" style="width:12em;" type="text">
+                <span>&nbsp;<a href="http://www.dice.com/profman/resetPassword.jsp" tabindex="3" style="font-size:10px;">Forgot your password?</a></span>
+                <div class="clear"></div>
+            </div>
+            <div style="padding-bottom:.25em;">
+                <label class="leftlabel">Password:</label>
+                <input name="SJT_PASSWD" id="SJT_PASSWD" maxlength="12" value="" tabindex="2" class="infoRight" style="width:12em;" type="password">
+                <div class="clear"></div>
+            </div>
+            <div class="buttonleft">
+                <div style="margin-left:10em;"><span id="loginPanelButton" class="yui-button yui-push-button"><span class="first-child"><button id="loginPanelButton-button" tabindex="4" type="button">Login</button></span></span></div>
+            </div>
+        </div>
+        <div id="signup">
+            <fieldset class="gradient">
+                <div class="padRow">
+                    <h2 style="margin-top:0;">Not a member yet?</h2>
+                    <span id="signUpNowPanelButton" class="yui-button yui-push-button"><span class="first-child"><button id="signUpNowPanelButton-button" tabindex="5" type="button">Sign Up Now!</button></span></span>
+                    <span style="font-size:13px;line-height:2;font-weight:bold;">Sign up now for your FREE Dice Account!</span>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+</div></div>
+
+<div id="doc4" class="yui-t7">
+
+	
+		
+		
+	
+
+
+<!--
+* $RCSfile: header.jsp,v $
+* $Author: zacd $
+* $Date: 2012/05/18 21:58:31 $
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+    
+    
+        <link rel="stylesheet" href="modus-create_files/skin2.css" type="text/css">
+        <link rel="stylesheet" href="modus-create_files/mercury3.css" type="text/css">
+        <script type="text/javascript" src="modus-create_files/yahoo-dom-event.js"></script>
+        <script type="text/javascript" src="modus-create_files/container-min.js"></script>
+        <script type="text/javascript" src="modus-create_files/menu-min.js"></script>
+        <script type="text/javascript" src="modus-create_files/dragdrop-min.js"></script>
+        
+    
+
+
+<script type="text/javascript">
+    YAHOO.util.Event.onContentReady("diceMainNav", function () {
+        var oMenuBar = new YAHOO.widget.MenuBar("diceMainNav", { autosubmenudisplay: true, hidedelay: 750, lazyload: true });
+        oMenuBar.render();
+    });
+    function clearText() {
+        var searchBarText = document.getElementById('navSearchInput');
+        if (searchBarText != null && searchBarText.value == "Search Tech Jobs") {
+            searchBarText.value = "";
+        }
+    }
+    function omnitureTracking() {
+        s.eVar37='seeker navigation search';
+        s.linkTrackVars='eVar37,events';
+        s.events=s.linkTrackEvents='event34';
+        s.tl(this,'o','Seeker Navigation Search');
+    }
+</script>
+<div id="hd">
+    <div style="z-index: 2; position: static; display: block; visibility: visible;" id="diceMainNav" class="yuimenubar yuimenubarnav yui-module yui-overlay visible">
+        <div class="bd">
+            
+                
+                
+                    <a class="diceLogoLink" href="http://www.dice.com/"><img src="modus-create_files/Dice_navBG.png" alt="Dice"></a>
+                
+            
+            <ul id="navLeft" class="first-of-type">
+                <li index="0" groupindex="0" id="yui-gen1" class="yuimenubaritem yuimenubaritem-hassubmenu first-of-type">
+                    <a class="yuimenubaritemlabel yuimenubaritemlabel-hassubmenu" href="http://www.dice.com/profman/servlet/ProfMan?op=3000">MyDice</a>
+                    <div style="z-index: 2; position: absolute; visibility: hidden; left: 295px; top: 50px;" id="mydicesubmenu" class="yuimenu yui-module yui-overlay yui-overlay-hidden">
+                        <div class="bd">
+                            <ul class="first-of-type">
+                                <li index="0" groupindex="0" id="yui-gen4" class="yuimenubaritem yuimenuitem first-of-type"><a class="yuimenubaritemlabel yuimenuitemlabel" href="http://www.dice.com/profman/servlet/ProfMan?op=3000">Dashboard</a></li>
+                                <li index="1" groupindex="0" id="yui-gen5" class="yuimenubaritem yuimenuitem"><a class="yuimenubaritemlabel yuimenuitemlabel" href="http://www.dice.com/profman/servlet/ProfMan?op=1040">My Resumes</a></li>
+                                <li index="2" groupindex="0" id="yui-gen6" class="yuimenubaritem yuimenuitem"><a class="yuimenubaritemlabel yuimenuitemlabel" href="http://www.dice.com/profman/servlet/ProfMan?op=3003">My Search Agents</a></li>
+                                <li index="3" groupindex="0" id="yui-gen7" class="yuimenubaritem yuimenuitem"><a class="yuimenubaritemlabel yuimenuitemlabel" href="http://www.dice.com/profman/servlet/ProfMan?op=3005">My Saved Jobs</a></li>
+                            </ul>
+                        </div>
+                    <div class="yui-menu-shadow"></div></div>
+                </li>
+                <li index="1" groupindex="0" id="yui-gen2" class="yuimenubaritem yuimenubaritem-hassubmenu">
+                    <a class="yuimenubaritemlabel yuimenubaritemlabel-hassubmenu" href="http://news.dice.com/talent-community-landing-page">Talent Communities</a>
+                    <div style="z-index: 2; position: absolute; visibility: hidden;" id="talentcommunitysubmenu" class="yuimenu yui-module yui-overlay yui-overlay-hidden">
+                        <div class="bd">
+                            <ul>
+                                
+                                    <li class="yuimenubaritem"><a class="yuimenubaritemlabel" href="http://www.dice.com/profman/servlet/ProfMan?op=3020">My Tech Feed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li index="2" groupindex="0" id="yui-gen3" class="yuimenubaritem yuimenubaritem-hassubmenu">
+                    <a class="yuimenubaritemlabel yuimenubaritemlabel-hassubmenu" href="http://news.dice.com/">Tech News &amp; Advice</a>
+                    <div style="z-index: 2; position: absolute; visibility: hidden;" id="newsadvicesubmenu" class="yuimenu yui-module yui-overlay yui-overlay-hidden">
+                        <div class="bd">
+                            <ul>
+                                <li class="yuimenubaritem"><a class="yuimenubaritemlabel" href="http://news.dice.com/">Dice Blog Network</a></li>
+                                <li class="yuimenubaritem"><a class="yuimenubaritemlabel" href="http://techtalk.dice.com/">Discussions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            
+                
+                    <!-- BEGIN NAV SEARCH - IF NOT NAVSUMMARY or ADVANCED SEARCH -->
+                    <div id="navSearchContainer">
+                        <div id="navSearchBox">
+                            <div id="navSearchForm">
+
+                                <form method="post" action="http://www.dice.com/job/wwwSearch.html">
+                                    <div id="navSearch">
+                                        <input id="navSearchInput" name="FREE_TEXT" value="Search Tech Jobs" onclick="clearText();" type="text">
+                                        <input id="navSearchSubmit" title="Search" value="" onclick="omnitureTracking();clearText();" type="submit">
+	                                    <input name="src" value="54" type="hidden">
+
+                                        <div class="clearLeft">&nbsp;</div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                        <a class="advSearch" href="http://www.dice.com/job/advancedSearch.html">Advanced Search</a>
+                    </div>
+                    <!-- END NAV SEARCH - IF NOT NAVSUMMARY or ADVANCED SEARCH -->
+                
+            
+
+
+            
+                
+                    <!-- BEGIN SEEKER LOGOUT - IF AUTHENTICATED -->
+                    <ul id="seekerLogin" class="seekerLogout">
+                        <li index="0" groupindex="1" id="yui-gen0" class="yuimenubaritem first-of-type"><a class="yuimenubaritemlabel" href="http://www.dice.com/profman/servlet/ProfMan?op=3002">Logout</a></li>
+                    </ul>
+                    <!-- END SEEKER LOGOUT - IF AUTHENTICATED -->
+                
+                
+            
+        </div>
+    </div>
+</div>
+<div id="siteMessageArea" align="center"><!--<div>This is a test of the Dice messaging system, I repeat, this is only a test.</div>--></div>
+
+    <!--BEGIN TOP PROMO CONTENT -->
+    <div class="topBanner">
+        
+            <style type="text/css" media="screen"></style>
+            <!-- Dice/job_tools -->
+            <script type="text/javascript">
+                var ord = window.ord || Math.floor(Math.random() * 1e16);
+                document.write('<NOLAYER>')
+                document.write('<IFRAME SRC="http://ad.doubleclick.net/adi/dice.dart/job_tools;kw=;sz=728x90;ord=' + ord + '?" width="728" height="90" frameborder="no" border="0" MARGINWIDTH="0" MARGINHEIGHT="0" SCROLLING="no">')
+                document.write('<a href="http://ad.doubleclick.net/jump/dice.dart/job_tools;kw=;abr=!ie;sz=728x90;ord=' + ord + '?"><IMG SRC="http://ad.doubleclick.net/ad/dice.dart/job_tools;kw=;abr=!ie;sz=728x90;ord=' + ord + '?" border="0" height="90" width="728"><\/a>')
+                document.write('<\/IFRAME>')
+                document.write('<\/NOLAYER>')
+                document.write('<ILAYER id="layer1" visibility="hidden" width=728 height=90 left=10><\/ILAYER>')
+            </script><nolayer><iframe src="modus-create_files/job_tools.htm" border="0" marginwidth="0" marginheight="0" frameborder="no" height="90" scrolling="no" width="728">&lt;a
+ 
+href="http://ad.doubleclick.net/jump/dice.dart/job_tools;kw=;abr=!ie;sz=728x90;ord=6954444990027833?"&gt;&lt;IMG
+ 
+SRC="http://ad.doubleclick.net/ad/dice.dart/job_tools;kw=;abr=!ie;sz=728x90;ord=6954444990027833?"
+ border="0" height="90" width="728"&gt;&lt;/a&gt;</iframe></nolayer><ilayer id="layer1" visibility="hidden" width="728" height="90" left="10"></ilayer>
+        
+    </div>
+
+<!--END TOP PROMO CONTENT -->
+
+
+
+<div id="bd">
+<div class="yui-g">
+<!-- BEGIN DETAIL JOB VIEW CONTENT -->
+
+<div class="colContainer">
+<!-- BEGIN OVERVIEW COLUMN -->
+<div id="overviewCol">
+<div id="jobPanel">
+	<div class="pane">
+		
+		
+			<ul class="previousResultsBTN">
+				
+					
+					
+						<li><a class="previousButton" href="http://www.dice.com/profman/servlet/ProfMan?op=3005" id="backResults1">Back to Saved Jobs</a></li>
+					
+					
+				
+				
+			</ul>
+			<div class="companyLogo">
+				
+					
+						
+						
+							<a href="http://www.dice.com/jobsearch/company/DiceId_10447586/Modus+Create" target="_top"><img src="modus-create_files/99976a984294c0bf94e3f6d68aa90271.png" alt="Modus Create" border="0"></a>
+						
+					
+				
+			</div>
+		
+		
+	<div id="companyPanel">
+		<!-- BEGIN MARKUP EXAMPLE -->
+		<div id="companyButtons">
+		<!-- BEGIN - NOT CONNECTED - COMPANY AND RECRUITER -->
+		
+
+		<!-- END - NOT CONNECTED - COMPANY AND RECRUITER -->
+		
+
+
+		<!-- BEGIN VIEW PROFILE - BOTH AVAILABLE -->
+		<ul class="overviewButtons">
+            
+				
+                
+                     <li><a class="company" href="http://www.dice.com/jobsearch/company/DiceId_10447586/Modus+Create">Company Profile<!--Profile for Modus Create--></a></li>
+            
+            
+		</ul>
+
+		<!-- END VIEW PROFILE - BOTH AVAILABLE -->
+
+		<ul class="overviewButtons">
+			<li><a class="findMoreButton" href="http://www.dice.com/job/results/modus-create-10447586?x=all&amp;p=d" id="findMore">More jobs with Modus Create</a></li>
+		</ul>
+		</div>
+	<!-- END MARKUP EXAMPLE -->
+
+	</div>
+ 
+
+<script type="text/javascript">
+    /*
+     Initialize and render the MenuBar when its elements are ready
+     to be scripted.
+     */
+    YAHOO.util.Event.onContentReady("connectBothContainer", function () {
+        /*
+         Instantiate a MenuBar:  The first argument passed to the constructor
+         is the id for the Menu element to be created, the second is an
+         object literal of configuration properties.
+         */
+        var oMenuBar = new YAHOO.widget.MenuBar("connectBothContainer", {
+            autosubmenudisplay: true,
+            hidedelay: 750,
+            lazyload: true });
+        /*
+         Call the "render" method with no arguments since the
+         markup for this MenuBar instance is already exists in
+         the page.
+         */
+        oMenuBar.render();
+    });
+</script>
+<script type="text/javascript">
+    /*
+     Initialize and render the MenuBar when its elements are ready
+     to be scripted.
+     */
+    YAHOO.util.Event.onContentReady("profileBothContainer", function () {
+        /*
+         Instantiate a MenuBar:  The first argument passed to the constructor
+         is the id for the Menu element to be created, the second is an
+         object literal of configuration properties.
+         */
+        var oMenuBar = new YAHOO.widget.MenuBar("profileBothContainer", {
+            autosubmenudisplay: true,
+            hidedelay: 750,
+            lazyload: true });
+        /*
+         Call the "render" method with no arguments since the
+         markup for this MenuBar instance is already exists in
+         the page.
+         */
+        oMenuBar.render();
+    });
+</script>
+		
+			<div id="similarJobsViewed" class="noPrint">
+				<h1>More Jobs Like This</h1>
+				<div class="jobListContainer" style="clear:left;">
+					
+						<div class="jobListJob">
+							<a class="jobListJobTitle" href="http://www.dice.com/job/result/10216073/web_DC&amp;source=44&amp;FREE_TEXT=&amp;rating=99" onclick="s.eVar37='related job: job application page';s.linkTrackVars='eVar37,events';s.events=s.linkTrackEvents='event29';s.tl(this,'o','Related Job: Job Application Page');"> Web/Graphic Designer</a>
+							Saphire Solutions Inc - Washington, DC US
+						</div>
+					
+						<div class="jobListJob">
+							<a class="jobListJobTitle" href="http://www.dice.com/job/result/10466845/42660281&amp;source=44&amp;FREE_TEXT=&amp;rating=99" onclick="s.eVar37='related job: job application page';s.linkTrackVars='eVar37,events';s.events=s.linkTrackEvents='event29';s.tl(this,'o','Related Job: Job Application Page');"> UI Developer/Mobile Developer</a>
+							The Creative Group - Washington, DC US
+						</div>
+					
+						<div class="jobListJob">
+							<a class="jobListJobTitle" href="http://www.dice.com/job/result/10217036/688833&amp;source=44&amp;FREE_TEXT=&amp;rating=99" onclick="s.eVar37='related job: job application page';s.linkTrackVars='eVar37,events';s.events=s.linkTrackEvents='event29';s.tl(this,'o','Related Job: Job Application Page');"> UI Visual Designer</a>
+							5AM Solutions, Inc. - Rockville, MD US
+						</div>
+					
+						<div class="jobListJob">
+							<a class="jobListJobTitle" href="http://www.dice.com/job/result/10124713/091375&amp;source=44&amp;FREE_TEXT=&amp;rating=99" onclick="s.eVar37='related job: job application page';s.linkTrackVars='eVar37,events';s.events=s.linkTrackEvents='event29';s.tl(this,'o','Related Job: Job Application Page');"> Graphic/Web Designer</a>
+							GlobalNet Services, Inc - Rockville, MD US
+						</div>
+					
+						<div class="jobListJob">
+							<a class="jobListJobTitle" href="http://www.dice.com/job/result/10105424/2822504&amp;source=44&amp;FREE_TEXT=&amp;rating=99" onclick="s.eVar37='related job: job application page';s.linkTrackVars='eVar37,events';s.events=s.linkTrackEvents='event29';s.tl(this,'o','Related Job: Job Application Page');"> User Interface/Web Developer</a>
+							TEKsystems - Rockville, MD US
+						</div>
+					
+						<div class="jobListJob">
+							<a class="jobListJobTitle" href="http://www.dice.com/job/result/RTX15740c/025045&amp;source=44&amp;FREE_TEXT=&amp;rating=99" onclick="s.eVar37='related job: job application page';s.linkTrackVars='eVar37,events';s.events=s.linkTrackEvents='event29';s.tl(this,'o','Related Job: Job Application Page');"> User Experience (UX)/Interaction Designer</a>
+							Mandiant - Reston, VA US
+						</div>
+					
+					<div class="similarJobsLinks">
+						
+							<div style="text-align:right;padding:.5em 0;font-weight:bold;"><span class="button2link arrowRight"><span class="yui-button yui-link-button" id="seeMoreJobs"><span class="first-child"><a id="seeMoreJobs-button" href="http://www.dice.com/jobsearch/similar/UI+Developer/10447586/141171" tabindex="0">Find more jobs like this</a></span></span></span></div>
+						
+						
+							<ul class="overviewButtons">
+								<li><span class="yui-button yui-link-button" id="matchJobAlert"><span class="first-child"><a id="matchJobAlert-button" href="#" tabindex="0">Email me more jobs like this</a></span></span></li>
+							</ul>
+							<div style="display:none;" id="matchJobAlertDiv"></div>
+						
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		
+		
+			<div class="facebookReferrals">
+				<h2>Dice Instant Referrals</h2>
+				<div class="facebookLine">Powered by Facebook</div>
+				<div class="grayPane">
+					<h3>Who you know gets you noticed</h3>
+					<div>You can add Facebook friends as Instant Referrals to your application.</div>
+					<div style="padding:.75em 0 0 0;text-align:center;">
+						<img src="modus-create_files/facebookCollage2.png" alt="Match Jobs to Your Facebook Network">
+						<div style="width:154px;margin:0 auto;padding:.75em 0 0 0;"><a class="FacebookLogin" title="Login to Facebook" href="https://www.facebook.com/dialog/oauth?client_id=281766255166979&amp;redirect_uri=http%3A%2F%2Fseeker.dice.com%2Fprofman%2Fservlet%2FProfMan%3Fop%3D3016%26djv%3Dtrue&amp;scope=email%2Cuser_work_history%2Cfriends_work_history&amp;code=">Login to Facebook</a></div>
+					</div>
+				</div>
+			</div>
+		
+	</div>
+</div>
+</div>
+<!-- END OVERVIEW COLUMN -->
+<!-- BEGIN DESCRIPTION COLUMN -->
+<div id="descriptionCol">
+	<h1 id="jobTitle">UI Developer</h1>
+	<div class="djvBtnContainer">
+		<ul class="overviewButtons">
+			<li><span class="yui-button yui-link-button" id="saveJob"><span class="first-child"><a id="saveJob-button" href="#" tabindex="0">Save Job</a></span></span></li>
+			
+			<li><span class="yui-button yui-link-button" id="rateJobJS"><span class="first-child"><a id="rateJobJS-button" href="#" tabindex="0">Rate Job</a></span></span></li>
+			<li><span class="yui-button yui-link-button" id="reportJobJS"><span class="first-child"><a id="reportJobJS-button" href="#" tabindex="0">Report Job</a></span></span></li>
+			<div class="clear"></div>
+		</ul>
+		<div id="applyNowButton">
+			
+				
+				
+				
+					<a class="applyNow" id="APPLY_FOR_JOB" href="http://www.dice.com/jobsearch/servlet/JobSearch?op=318&amp;dockey=xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex&amp;source=4&amp;ral=JobSearch?op=302%26source=4%26dockey=xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex%26bb=1" target="_top" title="Click Here to Apply"><span>Apply Now</span></a>
+				
+			
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="jobBtns">
+		<!-- Start Social -->
+
+
+		
+		
+		
+		
+		
+			<div id="socialShareLinks">
+				<table>
+					<tbody>
+						<tr>
+							<td class="linkedinShare"><span class="linkedinShareLink">
+								<script src="modus-create_files/in.js" type="text/javascript"></script>
+								<span class="IN-widget" style="line-height: 1; vertical-align: baseline; display: inline-block; text-align: center;"><span style="padding: 0px ! important; margin: 0px ! important; text-indent: 0px ! important; display: inline-block ! important; vertical-align: baseline ! important; font-size: 1px ! important;"><span id="li_ui_li_gen_1368566746409_1-container" class="IN-none"><span id="li_ui_li_gen_1368566746409_1" class="IN-none"><span id="li_ui_li_gen_1368566746409_1-inner" class="IN-none"><span id="li_ui_li_gen_1368566746409_1-content" class="IN-none">0</span></span></span></span></span><span style="padding: 0px ! important; margin: 0px ! important; text-indent: 0px ! important; display: inline-block ! important; vertical-align: baseline ! important; font-size: 1px ! important;"><span id="li_ui_li_gen_1368566746399_0"><a id="li_ui_li_gen_1368566746399_0-link" href="javascript:void(0);"><span id="li_ui_li_gen_1368566746399_0-logo">in</span><span id="li_ui_li_gen_1368566746399_0-title"><span id="li_ui_li_gen_1368566746399_0-mark"></span><span id="li_ui_li_gen_1368566746399_0-title-text">Share</span></span></a></span></span></span><script type="IN/Share+init" data-counter="none"></script>
+							</span></td>
+							<td class="suShare"><span class="suShareLink"><iframe id="iframe-stmblpn-widget-1" src="modus-create_files/a.htm" style="overflow: hidden; margin: 0px; padding: 0px; border: 0px none;" allowtransparency="true" frameborder="0" height="18" scrolling="no" width="18"></iframe></span></td>
+							<td class="twitterShare"><span class="twitterShareLink"><iframe data-twttr-rendered="true" title="Twitter Tweet Button" style="width: 56px; height: 20px;" class="twitter-share-button twitter-count-none" src="modus-create_files/tweet_button.htm" allowtransparency="true" frameborder="0" scrolling="no"></iframe></span></td>
+							<td class="gplusShare"><span class="gplusShareLink">
+								<div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat scroll 0% 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 32px; height: 20px;"><iframe title="+1" data-gapiattached="true" allowtransparency="true" src="modus-create_files/fastbutton.htm" name="I0_1368566746487" id="I0_1368566746487" vspace="0" tabindex="0" style="position: static; top: 0px; width: 32px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" marginwidth="0" marginheight="0" hspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div>
+							</span></td>
+							<td class="facebookShare"><span class="facebookShareLink"><div fb-xfbml-state="rendered" class="fb-like fb_edge_widget_with_comment fb_iframe_widget" layout="button_count" data-send="false" data-width="50" data-show-faces="false"><span style="height: 20px; width: 73px;"><iframe src="modus-create_files/like.htm" class="fb_ltr" title="Like this content on Facebook." style="border: medium none; overflow: hidden; height: 20px; width: 73px;" name="f34f5af1178dde8" id="f2e0d48c6e36848" scrolling="no"></iframe></span></div></span></td>
+						</tr>
+					</tbody>
+				</table>
+				<script type="text/javascript">
+					(function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0];
+						if (d.getElementById(id)) return;
+						js = d.createElement(s); js.id = id;
+						js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+						fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));
+			
+					!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+			
+					(function() {
+						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+						po.src = 'https://apis.google.com/js/plusone.js';
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					})();
+			
+					(function() {
+						var li = document.createElement('script'); li.type = 'text/javascript'; li.async = true;
+						li.src = 'https://platform.stumbleupon.com/1/widgets.js';
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(li, s);
+					})();
+				</script>
+			</div>
+		
+		<!-- End Social -->
+		
+		<ul class="overviewButtons">
+			<li><a class="shareButton" id="emailFriend1" href="http://www.dice.com/jobsearch/servlet/JobSearch?op=305&amp;dockey=xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex&amp;source=4&amp;ral=JobSearch?op=302%26source=4%26dockey=xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex%26bb=1">Share Job With Others</a></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	
+		
+		
+		
+		
+		
+				<!--<IMG SRC="http://mail.dice.com/cgi-bin10/buyrate?ID=1375636515&type=1&category=detail_view" width="1" height="1">-->
+		<!-- Start of DoubleClick Spotlight Tag: Please do not remove-->
+		<!-- Activity Name for this tag is:detail_view -->
+		<!-- Web site URL where tag should be placed: http://seeker.dice.com/jobsearch/JobSearch&op=1002 -->
+		<!-- This tag must be placed within the opening <body> tag, as close to the beginning of it as possible-->
+		<!-- Creation Date:06/09/07 -->
+		<script language="JavaScript">
+		var axel = Math.random()+"";
+		var a = axel * 10000000000000;
+		document.write('<IFRAME SRC="http://fls.doubleclick.net/activityi;src=982522;type=jobvi374;cat=detai743;ord='+ a + '?" WIDTH=1 HEIGHT=1 FRAMEBORDER=0></IFRAME>');
+		</script><iframe src="modus-create_files/activityi.htm" frameborder="0" height="1" width="1"></iframe>
+		<noscript>
+		<IFRAME SRC="http://fls.doubleclick.net/activityi;src=982522;type=jobvi374;cat=detai743;ord=1?" WIDTH=1 HEIGHT=1 FRAMEBORDER=0></IFRAME>
+		</noscript>
+		<!-- End of DoubleClick Spotlight Tag: Please do not remove-->
+		
+		
+	
+	<div id="jobOverview">
+		<div class="pane">
+			<dl>
+				<dt>Location:</dt>
+				<dd>Washington, DC&nbsp;</dd>
+			</dl>
+			<dl>
+				<dt>Area Code:</dt>
+				<dd>202&nbsp;</dd>
+			</dl>
+			<dl>
+				<dt>Telecommute:</dt>
+				<dd>no&nbsp;</dd>
+			</dl>
+			<dl>
+				<dt>Travel Required:</dt>
+				<dd>none&nbsp;</dd>
+			</dl>
+		</div>
+		<div class="pane">
+			<dl class="skills">
+				<dt>Skills:</dt>
+				<dd><em class="diigoHighlight a_style id_4137dbb7277452099d0843c7d8cbad2c type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_4137dbb7277452099d0843c7d8cbad2c type_9 TextIcon private diigoEdit"></div>JavaScript HTML5 CSS3 "Media Queries" SASS Compass Git "responsive frameworks"</em>&nbsp;</dd>
+			</dl>
+		</div>
+		<div class="pane">
+			<dl>
+				<dt>Pay Rate:</dt>
+				<dd><em class="diigoHighlight a_style id_68ffea0e0afc4b1e15b5af961e9fd89f type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_68ffea0e0afc4b1e15b5af961e9fd89f type_9 TextIcon private diigoEdit"></div>80-100k</em>&nbsp;</dd>
+			</dl>
+			<dl>
+				<dt>Tax Term:</dt>
+				<dd>FULLTIME&nbsp;</dd>
+			</dl>
+			<dl>
+				<dt>Length:</dt>
+				<dd>&nbsp;</dd>
+			</dl>
+		</div>
+		<div class="pane">
+			<dl>
+				<dt>Date Posted:</dt>
+				<dd>5-5-2013&nbsp;</dd>
+			</dl>
+			<dl>
+				<dt>Position ID:</dt>
+				<dd>141171&nbsp;</dd>
+			</dl>
+			<dl>
+				<dt>Dice ID:</dt>
+				<dd>10447586&nbsp;</dd>
+			</dl>
+		</div>
+	</div>
+	<div id="detailDescription"><p dir="ltr"><span>Passion is what drives 
+the best developers. After all, that’s why you started playing with 
+computers years ago. That’s exactly how we started Modus Create and how 
+we got to be so successful. &nbsp;</span>Join our team and satisfy your passion. <br><br>Though
+ Modus Create is located in the Washington, DC area, it doesn’t really 
+matter where you are, as long as you can get online and want to boost 
+your talent to its best.<br><br>If you’re like us, you always wanted to say “I can’t believe they pay me for this”. Here’s your chance.<br><br>As
+ our UI Developer you appreciate good design and have the skills to 
+implement it. &nbsp;You can take a style guide and make design oriented 
+decisions in your development. &nbsp;Our UI Developer will be working 
+beside our development team creating customer facing rich interfaces for
+ our high-profile clients, worldwide.</p><strong><strong><br></strong></strong><p dir="ltr"><strong>For this role, You Must Have:</strong></p><ul><li dir="ltr"><p dir="ltr"><span>3+ years hands experience with <em class="diigoHighlight a_style id_597ab18fc28a31269a6553cfecc54456 type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_597ab18fc28a31269a6553cfecc54456 type_9 TextIcon private diigoEdit"></div>designing and implementing application design with HTML5/CSS3.</em></span></p></li><li dir="ltr"><p dir="ltr"><span>2+ years <em class="diigoHighlight a_style id_185b0769789bdc84355641e54d055652 type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_185b0769789bdc84355641e54d055652 type_9 TextIcon private diigoEdit"></div>developing application functionality with JavaScript</em></span></p></li><li dir="ltr"><p dir="ltr"><span>Hands on experience utilizing <em class="diigoHighlight a_style id_ff8066e67f7ef5a2609f2f0ccbf7899b type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_ff8066e67f7ef5a2609f2f0ccbf7899b type_9 TextIcon private diigoEdit"></div>new CSS3 properties</em></span></p></li><li dir="ltr"><p dir="ltr"><span>Experience with writing targeted <em class="diigoHighlight a_style id_d19f44bb8db828e34231b044db29fbe2 type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_d19f44bb8db828e34231b044db29fbe2 type_9 TextIcon private diigoEdit"></div>media queries for multiple devices</em></span></p></li><li dir="ltr"><p dir="ltr"><span>Experience with <em class="diigoHighlight a_style id_c594f52a8fa5fcffc75840a854232185 type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_c594f52a8fa5fcffc75840a854232185 type_9 TextIcon private diigoEdit"></div>SASS and Compass</em>. Any other <em class="diigoHighlight a_style id_c062da70f9dec9f0cf6d85c8ddbc183e type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_c062da70f9dec9f0cf6d85c8ddbc183e type_9 TextIcon private diigoEdit"></div>pre-processor</em> experience is a plus. </span></p></li><li dir="ltr"><p dir="ltr"><span>Experience using <em class="diigoHighlight a_style id_50878a83b8aec22b4a3b9f8989507110 type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_50878a83b8aec22b4a3b9f8989507110 type_9 TextIcon private diigoEdit"></div>Git as a version control system</em> </span></p></li><li dir="ltr"><p dir="ltr"><span>Familiarity with a responsive framework such as Foundation (brownie <em class="diigoHighlight a_style id_70f65c9c18ea928a15c194243c76d30b type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_70f65c9c18ea928a15c194243c76d30b type_9 TextIcon private diigoEdit"></div>points if you’ve rolled your own</em>)</span></p></li></ul><p dir="ltr"><strong>It would be nice if you...</strong></p><ul><li dir="ltr"><p dir="ltr"><span>expertise in Adobe CS Design applications: <em class="diigoHighlight a_style id_7cfeafc96930cb6667b692499fc4bf07 type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_7cfeafc96930cb6667b692499fc4bf07 type_9 TextIcon private diigoEdit"></div>Photoshop, Illustrator, InDesign, Fireworks</em></span></p></li><li dir="ltr"><p dir="ltr"><span>have used Grunt</span></p></li><li dir="ltr"><p dir="ltr"><span>familiarity with the <em class="diigoHighlight a_style id_340e75f59f36395d025ff01c6e9f6f2e type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_340e75f59f36395d025ff01c6e9f6f2e type_9 TextIcon private diigoEdit"></div>command line</em></span></p></li><li dir="ltr"><p dir="ltr"><span>front-end package management such as bower.</span></p></li><li dir="ltr"><p dir="ltr"><span>be experienced <em class="diigoHighlight a_style id_006e4ef254bdfa31af3968cdc37da0ea type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_006e4ef254bdfa31af3968cdc37da0ea type_9 TextIcon private diigoEdit"></div>collaborating on small teams in an agile software environment</em></span></p></li><li dir="ltr"><p dir="ltr"><span>be passionate about <em class="diigoHighlight a_style id_0cc9e33ac1dd4a60043dd6eb1840ed19 type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_0cc9e33ac1dd4a60043dd6eb1840ed19 type_9 TextIcon private diigoEdit"></div>good design and web standards</em></span></p></li><li dir="ltr"><p dir="ltr"><span>have knowledge and exposure to Sencha’s frameworks</span></p></li><li dir="ltr"><p dir="ltr"><span>have a <em class="diigoHighlight a_style id_ae94db91ab510c2201820ebf9a2b6392 type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_ae94db91ab510c2201820ebf9a2b6392 type_9 TextIcon private diigoEdit"></div>Dribbble</em>, Behance or <em class="diigoHighlight a_style id_eb1f81166ebdd02bc1ef368b053bda2e type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_eb1f81166ebdd02bc1ef368b053bda2e type_9 TextIcon private diigoEdit"></div>other portfolio site</em> showcasing your design skills</span></p></li><li dir="ltr"><p dir="ltr"><span>have consulting experience</span></p></li></ul><strong><strong><em></em><br></strong></strong><p dir="ltr"><strong>Are you not actually looking for a job? How would you like:</strong></p><ul><li dir="ltr"><p dir="ltr"><span><em class="diigoHighlight a_style id_2e076e55135ff1860f5adb3c913ef834 type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_2e076e55135ff1860f5adb3c913ef834 type_9 TextIcon private diigoEdit"></div>Competitive compensation &amp; benefits</em></span></p></li><li dir="ltr"><p dir="ltr"><span>Company-provided, top notch hardware, software and services</span></p></li><li dir="ltr"><p dir="ltr"><span>Ability to expense technical books</span></p></li><li dir="ltr"><p dir="ltr"><span><em class="diigoHighlight a_style id_c60d5db61587d3f5cf771801f45297bd type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_c60d5db61587d3f5cf771801f45297bd type_9 TextIcon private diigoEdit"></div>GitHub repos for your projects</em></span></p></li><li dir="ltr"><p dir="ltr"><span><em class="diigoHighlight a_style id_b23537c1c0d1becd0b969b91f5097e2f type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_b23537c1c0d1becd0b969b91f5097e2f type_9 TextIcon private diigoEdit"></div>A chance to get your personal projects sponsored</em></span></p></li><li dir="ltr"><p dir="ltr"><span><em class="diigoHighlight a_style id_debd7cf98eafee784709dd10d893e52a type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_debd7cf98eafee784709dd10d893e52a type_9 TextIcon private diigoEdit"></div>Travel if you like, stay at home if you don’t</em></span></p></li><li dir="ltr"><p dir="ltr"><span>Connect with your colleagues</span></p></li><li dir="ltr"><p dir="ltr"><span><em class="diigoHighlight a_style id_edb5688b7e003cb1a278865db5869f68 type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_edb5688b7e003cb1a278865db5869f68 type_9 TextIcon private diigoEdit"></div>Assisted continuous self-development</em></span></p></li><li dir="ltr"><p dir="ltr"><span>Work with the best Sencha team outside of Sencha</span></p></li><li dir="ltr"><p dir="ltr"><span><em class="diigoHighlight a_style id_faa6ebdd392bfb71c09245c8ddc5a6d0 type_0 yellow"><div title="" style="bottom: 0px; left: 0px;" class="diigoIcon id_faa6ebdd392bfb71c09245c8ddc5a6d0 type_9 TextIcon private diigoEdit"></div>Talk at meetups</em></span></p></li><li dir="ltr"><p dir="ltr"><span>Attend internal hackathons and win awards</span></p><div>&nbsp;</div></li></ul></div>
+	<div id="contactInfo">
+		
+			<div style="margin-bottom:.5em;">Kristen Williams</div>
+		
+		
+			<div style="margin-bottom:.5em;">Modus Create</div>
+		
+		
+			<div style="margin-bottom:.5em;">12355 Sunrise Valley Dr.</div>
+		
+		
+			<div style="margin-bottom:.5em;">Ste. 170</div>
+		
+		
+			<div style="margin-bottom:.5em;">Reston, VA 20190</div>
+		
+		
+		
+		
+		
+		
+			<div style="margin-bottom:.5em;">Web: <a href="http://www.moduscreate.com/" target="_blank">http://www.moduscreate.com</a></div>
+		
+	</div>
+	
+	<div class="djvBtnContainer">
+		<div id="applyNowButton">
+			
+				
+				
+				
+					<a class="applyNow" id="APPLY_FOR_JOB" href="http://www.dice.com/jobsearch/servlet/JobSearch?op=318&amp;dockey=xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex&amp;source=4&amp;ral=JobSearch?op=302%26source=4%26dockey=xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex%26bb=1" target="_top" title="Click Here to Apply"><span>Apply Now</span></a>
+				
+			
+			<div class="clear"></div>
+		</div>
+	</div>
+    
+        
+        
+        
+        
+            <!--
+ * $RCSfile: basic.jsp,v $
+ * $Author: boeb $
+ * $Date: 2011/10/06 21:31:49 $
+-->
+
+
+
+<!-- SiteCatalyst code version: H.10.
+Copyright 1997-2007 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script language="JavaScript" src="modus-create_files/s_code.js"></script>
+<script language="JavaScript"><!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+s.pageName="jobsearch_genthree_detail_basic"
+s.channel="__SEEKER___"
+s.pageType="COOL"
+s.prop14="xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex"
+/* s.propX="" */
+/* E-commerce Variables */
+s.events="prodView"
+s.events = s.apl(s.events,"event21",",",0)
+/* s.eVarX="" */
+s.products=";Job Detail View;;;;"
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><a href="http://www.omniture.com" title="Web Analytics"><img
+src="http://diceinc.112.2o7.net/b/ss/dice/1/H.10--NS/0"
+height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.10. -->
+
+<script src="../pages/modus-create_files/st" type="text/javascript"></script><script type="text/javascript">
+function shaddslashes(s){s=s.replace(/%/g,'%25%32%35');s=s.replace(/\\/g,'%5C');s=s.replace(/\'/g,'%27');s=s.replace(/\"/g,'%22');s=s.replace(/\?/g,'%25%33%46');s=s.replace(/&/g,'%25%32%36');s=s.replace(/\+/g,'%25%32%42');return s;}(function(){var steelhouse=null,shver="3.3.0",
+shaid="9912",
+shpn=shaddslashes("PRODUCT NAME"),
+shpc=shaddslashes("PRODUCT CATEGORY"),
+shpp="PRODUCT PRICE",
+shpb=shaddslashes("PRODUCT BRAND"),
+shpi="PRODUCT IMAGE URL",
+shps="PRODUCT SKU",
+shpil="PRODUCT INVENTORY COMMA SEPARATED LIST",
+shcv="SHOPPING CART VALUE",
+shcq="SHOPPING CART QTY",
+shcp="SHOPPING CART COMMA SEPARATED LIST OF PRODUCT SKUs",
+shadditional="",
+tdr,urlNew,plh;try{tdr=top.document.referer!==""?encodeURIComponent(top.document.referrer.substring(0,256)):"";}catch(tdr_e){tdr=document.referrer!==null?document.referrer.toString().substring(0,256):"";}try{urlNew=window&&window.top&&document.location&&window.top.location===document.location?document.location:window&&window.top&&window.top.location&&""!==window.top.location?window.top.location:document.location;}catch(urlNew_e){urlNew=document.location;}try{plh=parent.location.href!==""?encodeURIComponent(parent.location.href.toString().substring(0,256)):"";}catch(plh_e){try{plh=urlNew!==null?encodeURIComponent(urlNew.toString().substring(0,256)):"";}catch(urlNew_e1){plh="";}}shpi=encodeURIComponent(shpi);steelhouse={add:function(a,b,c,d){d=d||false;if(a.addEventListener){a.addEventListener(b,c,d);}else{if(a.attachEvent){a.attachEvent("on"+b,c);}}},load:function(){var a,b=document.createElement("script"),c=null,d=document.getElementsByTagName("script"),e=Number(d.length)-1,f=document.getElementsByTagName("script")[e];if(typeof a==="undefined"){a=Math.floor(Math.random()*100000000000000000);}c="px.steelhousemedia.com/st?shver="+shver+"&shaid="+shaid+"&shcv="+shcv+"&shcq="+shcq+"&shcp="+shcp+"&shpn="+shpn+"&shpc="+shpc+"&shpp="+shpp+"&shpb="+shpb+"&shpi="+shpi+"&shps="+shps+"&shpil="+shpil+"&tdr="+tdr+"&plh="+plh+"&cb="+a+shadditional;b.type="text/javascript";b.src=("https:"===document.location.protocol?"https://":"http://")+c;f.parentNode.insertBefore(b,f);}};steelhouse.load();}());
+</script>
+
+        
+    
+
+    
+
+
+    <!-- Recruitics Analytics --> 
+    <script type="text/javascript"> 
+      var _rcrtx = _rcrtx || {}; 
+      _rcrtx['account'] = 'RX-00000242-1'; 
+	  
+      _rcrtx['job'] = '10447586/141171'; // Unique Job ID
+  
+      _rcrtx['applicant'] = false; // Boolean for whether viewer is now an applicant or not 
+  
+      _rcrtx['trackView'] = true; // Whether the view will be track 
+  
+	  _rcrtx['viewer'] = document.cookie; 
+  
+      (function () { var rx=document.createElement('script'); rx.type='text/javascript'; rx.async=true; rx.src='http://analytics.recruitics.com/rcrtx.js'; var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(rx, s);}()); 
+    </script>  
+
+
+    <div class="clear"></div>
+</div>
+
+<!-- END DESCRIPTION COLUMN -->
+</div>
+
+<!-- END DETAIL JOB VIEW CONTENT -->
+</div>
+</div>
+
+	<!--
+ * $RCSfile: footer.jsp,v $
+ * $Author: boeb $
+ * $Date: 2012/04/19 16:20:45 $
+-->
+
+
+
+
+
+
+
+
+	
+	
+		<script type="text/javascript" src="modus-create_files/google.js"></script>
+	
+
+<div id="ft">
+	<div class="ftColMargin">
+		<div class="ftColLogo">
+			<a class="footerLogo" href="http://www.dice.com/">Dice</a>
+			<ul>
+				<li><a href="http://twitter.com/dicetechjobs" title="@Dicetechjobs" class="FTSMtwitter" target="_blank">@Dicetechjobs</a></li>
+				<li><a href="http://www.facebook.com/dice" title="Like Dice" class="FTSMfacebook" target="_blank">Like Dice</a></li>
+				<li><a href="http://www.youtube.com/dicenews" title="As Seen on YouTube" class="FTSMyoutube" target="_blank">As Seen on YouTube</a></li>
+			</ul>
+		</div>
+		<div class="ftColContainer">
+			<div class="ftCol">
+				<ul>
+	<li>
+		<h2>Talent Communities</h2>
+	</li>
+	<li><a href="http://news.dice.com/android-talent-community/">Android</a></li>
+	<li><a href="http://news.dice.com/big-data-talent-community/">Big Data</a></li>
+	<li><a href="http://news.dice.com/cloud-computing-talent-community/">Cloud Computing</a></li>
+	<li><a href="http://news.dice.com/ios-talent-community/">iOS</a></li>
+	<li><a href="http://news.dice.com/linux-talent-community/">Linux</a></li>
+	<li><a href="http://news.dice.com/mobile-development-talent-community/">Mobile Development</a></li>
+	<li><a href="http://news.dice.com/online-game-development-talent-community/">Online Games</a></li>
+	<li><a href="http://news.dice.com/project-management-talent-community/">Project Management</a></li>
+	<li><a href="http://news.dice.com/ruby-on-rails-talent-community/">Ruby on Rails</a></li>
+	<li><a href="http://news.dice.com/security-talent-community/">Security</a></li>
+	<li><a href="http://news.dice.com/silicon-valley-talent-community/">Silicon Valley</a></li>
+	<li><a href="http://news.dice.com/software-engineering-talent-community/">Software Engineering</a></li>
+	<li><a href="http://news.dice.com/tag/dicetv/">DiceTV</a></li>
+</ul>
+
+				<ul>
+					<li><h2>About Dice</h2></li>
+					<li><a href="http://media.dice.com/" target="_blank">Company Profile</a></li>
+					<li><a href="http://employer.dice.com/common/provider/contactSales.jsp">Contact Sales</a></li>
+					<li><a href="http://seeker.dice.com/common/seeker/docs/siteAdvertising.jsp">Advertising</a></li>
+                    <li><a href="http://www.dice.com/social">Social Recruiting with Dice</a></li>
+                    <li><a href="http://media.dice.com/diceinthenews/">Dice in the News</a></li>
+					<li><a href="http://media.dice.com/">Media Contact</a></li>
+					<li><a href="http://media.dice.com/category/the-dice-report/">The Dice Report</a></li>
+					<!--
+					<li><a href="http://twitter.com/dicetechjobs" class="FTSMtwitter" target="_blank">@Dicetechjobs</a></li>
+					<li><a href="http://www.facebook.com/dice" class="FTSMfacebook" target="_blank">Like Dice</a></li>
+					<li><a href="http://www.youtube.com/dicenews" class="FTSMyoutube" target="_blank">As Seen on YouTube</a></li>
+					-->
+				</ul>
+				<ul>
+					<li><h2>Related Dice Sites</h2></li>
+					<li><a href="http://www.diceholdingsinc.com/">Dice Holdings, Inc.</a></li>
+					<li><a href="http://sourceforge.net/">SourceForge</a></li>
+					<li><a href="http://slashdot.org/">Slashdot</a></li>
+					<li><a href="http://freecode.com/">free(code):</a></li>
+					<li><a href="http://www.efinancialcareers.com/">eFinancialCareers</a></li>
+					<li><a href="http://www.clearancejobs.com/">ClearanceJobs</a></li>
+					<li><a href="http://www.rigzone.com/">RIGZONE</a></li>
+					<li><a href="http://www.healthcallings.com/">Health Callings</a></li>
+					<li><a href="http://www.targetedjobfairs.com/">Targeted Job Fairs</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="ftLinks"><a href="http://assets.dice.com/assets/help/help_seeker/help_seeker.htm" target="_blank">Help</a>|<a href="http://media.dice.com/" target="_blank">About Us</a>|<a href="http://seeker.dice.com/profman/servlet/ProfMan?op=1045">Contact Us</a>|<a href="http://seeker.dice.com/common/seeker/docs/privacy.jsp">Your Privacy@Dice</a>|<a href="http://seeker.dice.com/common/seeker/docs/dice_jobs.jsp">Work@Dice</a>|<a href="http://www.dice.com/mobile">Free Mobile Apps</a>|<a href="http://seeker.dice.com/profman/servlet/ProfMan?op=3002">Logout</a> </div>
+	</div>
+</div>
+
+
+</div>
+
+
+<div id="container">
+
+	<div class="yui-module yui-overlay yui-overlay-hidden" id="rateJobPanel" style="visibility: hidden; z-index: 2; width: 20em; left: 276px; top: 307px;">
+		<div class="bd">
+			<div id="rateWidgetArea">
+				<div class="widgetContent">
+					<div class="widgetHD">
+						<h1>Rate Job</h1>
+						<a class="widgetH1logo" href="http://www.dice.com/">Dice.com</a>
+						<div class="clear"></div>
+					</div>
+					<div id="rateJobChoices">
+						<ul>
+							<li>
+								<input id="rating1" name="rating" value="1" type="radio">
+								<label for="rating1">Positive</label>
+							</li>
+							<li>
+								<input id="rating2" name="rating" value="0" checked="checked" type="radio">
+								<label for="rating2">Neutral</label>
+							</li>
+							<li>
+								<input id="rating3" name="rating" value="-1" type="radio">
+								<label for="rating3">Negative</label>
+							</li>
+						</ul>
+					</div>
+					<div id="rateJobSubmit" class="arrowRight"><span class="yui-button yui-link-button" id="rateJob"><span class="first-child"><a id="rateJob-button" href="#" tabindex="0">Submit</a></span></span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="yui-module yui-overlay yui-overlay-hidden" id="reportJobPanel" style="visibility: hidden; z-index: 2; width: 30em; left: 243px; top: 307px;">
+		<div class="bd">
+			<div id="reportWidgetArea">
+				<div class="widgetContent">
+					<form name="reportJob" action="/jobsearch/servlet/JobSearch?op=2006" method="post">
+						<input name="dockey" value="xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex" type="hidden">
+						<input name="source" value="4" type="hidden">
+						<input name="currdoc" value="1" type="hidden">
+						<input name="queryString" value="" type="hidden">
+						<div class="widgetHD">
+							<h1>Report Job</h1>
+							<a class="widgetH1logo" href="http://www.dice.com/">Dice.com</a>
+							<div class="clear"></div>
+						</div>
+						
+						<div id="reportJobChoices">
+							<ul>
+								<li>
+									<input id="report1" name="report" value="Misrepresented job" type="radio">
+									<label for="report1">Misrepresented job</label>
+								</li>
+								<li>
+									<input id="report2" name="report" value="Pays below market level" type="radio">
+									<label for="report2">Pays below market level</label>
+								</li>
+								<li>
+									<input id="report3" name="report" value="Not a real job" type="radio">
+									<label for="report3">Not a real job</label>
+								</li>
+								<li>
+									<input id="report4" name="report" value="Position no longer available" type="radio">
+									<label for="report4">Position no longer available</label>
+								</li>
+								<li>
+									<input id="report5" name="report" value="Other" type="radio">
+									<label for="report5">Other</label>
+								</li>
+							</ul>
+						</div>
+						<div id="reportJobExplanation"><label for="reportExplain">Please Provide an Explanation (400 character limit)</label><textarea name="reportExplain" id="reportExplain" onkeyup="limitChars();"></textarea></div>
+						<div id="reportJobSecurity">
+							<div>
+								<div id="reportCaptchaNote"><b>Security Check:</b> The question below helps prevent the use of automated programs.</div>
+								<div class="captchaArea">
+									<div id="reportCaptcha">18 - 1 = ?</div>
+									<div id="reportCaptchaInput"><input name="captcha" id="captcha" class="captchaText" type="text"><span class="refreshButton"><span class="yui-button yui-link-button" id="captchaRefresh"><span class="first-child"><a id="captchaRefresh-button" href="#cr" tabindex="0">Refresh Question</a></span></span></span><span class="arrowRight"><span id="captchaSubmit" class="yui-button yui-submit-button"><span class="first-child"><button id="captchaSubmit-button" tabindex="0" type="button">Submit</button></span></span></span></div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="yui-module yui-overlay yui-overlay-hidden" id="reportJobPanelReported" style="visibility: hidden; z-index: 2; width: 27em; left: 282px; top: 307px;">
+		<div class="bd">
+			<div id="reportWidgetAreaReported">
+				<div class="widgetContent">
+					<div class="info" id="reportReportedMessage"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="yui-module yui-overlay yui-overlay-hidden" id="matchJobAlertPanel" style="visibility: hidden; z-index: 2; width: 32em; left: 38px; top: 816px;">
+	<div class="bd">
+		<div id="matchJobAlertWidgetArea">
+			<div class="widgetContent">
+				<form name="matchJobAlert" action="/jobsearch/servlet/JobSearch?op=2007" method="post">
+					<input id="randomNum" name="randomNum" value="1.2056615168286936E12" type="hidden">
+					<input name="dockey" value="xml/a/7/a7f5223c80207307e38526f88c6e4b80@endecaindex" type="hidden">
+					<input name="source" value="4" type="hidden">
+					<input name="currdoc" value="1" type="hidden">
+					<input name="queryString" value="" type="hidden">
+					<div class="widgetHD">
+						<h1>Matching Jobs</h1>
+						<a class="widgetH1logo" href="http://www.dice.com/">Dice.com</a>
+						<div class="clear"></div>
+					</div>
+					
+					<div class="padRow">Send me daily updates of jobs like this one.</div>
+					<div class="padRow">
+						<label for="matchJobAlertName">Name of this search agent:</label>
+						<input id="matchJobAlertName" name="matchJobAlertName" maxlength="12" type="text">
+					</div>
+					<div class="padRow">
+						<label for="matchJobAlertDuration">Send this search agent for:</label>
+						<select id="matchJobAlertDuration" name="matchJobAlertDuration">
+							<option value="1"> 1 month</option>
+							<option value="3" selected="selected"> 3 months</option>
+							<option value="6"> 6 months</option>
+							<option value="12"> 1 year</option>
+						</select>
+						<div class="noteRow">You can cancel these emails at any time</div>
+					</div>
+					<div class="buttonright"><span class="arrowRight"><span id="matchJobAlertSubmit" class="yui-button yui-submit-button"><span class="first-child"><button id="matchJobAlertSubmit-button" tabindex="0" type="button">Submit</button></span></span></span></div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<div class="clear"></div>
+
+    
+    
+        <div class="yui-module yui-overlay yui-overlay-hidden" id="matchJobAlertInfoPanel" style="visibility: hidden; z-index: 2; width: 32em; left: 38px; top: 816px;">
+    
+
+    <div class="bd">
+        <div id="matchJobAlertWidgetArea">
+            <div class="widgetContent">
+                <div class="widgetHD">
+                    <h1>Matching Jobs</h1>
+                    <a class="widgetH1logo" href="http://www.dice.com/">Dice.com</a>
+                    <div class="clear"></div>
+                </div>
+                <div id="matchJobAlertInfoMessage" class="padRow">
+                    <div id="matchJobAlertInfoMessageText"></div>
+                    <div class="arrowRightICO" style="font-weight:bold;text-align:right;margin-top:1em;color:#069;"><a href="http://www.dice.com/profman/servlet/ProfMan?op=3003">Manage Search Agents</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+	
+
+
+
+
+
+
+
+
+    
+        <div id="subFT">
+            <div class="subFTmargin" style="width: 64em;">
+                <div style="padding: 0; margin: 5px 0 0 0; float:left; width: 54em;">
+                    <a class="subFTlogo" href="http://www.dice.com/">Dice</a><p>Copyright ©1990 - 2013 Dice. All rights reserved. Use of this site is subject to certain <a href="http://www.dice.com/common/seeker/docs/terms_and_conditions.jsp">Terms and Conditions</a>. </p>
+                </div>
+                <div style="float:right; padding: 0; margin: 0;">
+                    <a href="http://privacy-policy.truste.com/click-with-confidence/wps/en/www.dice.com/seal_s" title="TRUSTe online privacy certification" target="_blank"><img style="border: none" src="modus-create_files/seal_s.png" alt="TRUSTe online privacy certification"></a>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+    
+    
+
+
+
+
+
+<div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="modus-create_files/xd_arbiter.htm" style="border: medium none;" tab-index="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_http" allowtransparency="true" name="fb_xdm_frame_http" frameborder="0" scrolling="no"></iframe><iframe src="modus-create_files/xd_arbiter_002.htm" style="border: medium none;" tab-index="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0" scrolling="no"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div></body></html>

@@ -1,0 +1,168 @@
+REVISED DD170 LESSON PLAN
+WEEK1
+
+DAY 1
+•	Collect all info for domain registration
+•	History of web/internet overview (Prezi)
+•	How the internet works – speed – connection – how a webpage loads
+•	Internet protocols
+•	Internet terminology
+•	Directory structure
+•	Applications used for coding
+•	Browser consideration
+•	Assignment – Bring resume tomorrow
+•	Introduction to HTML
+o	HTML structure
+o	Commenting code (for note taking)
+o	Workflow
+o	Saving files
+o	Opening files
+o	Editing files
+o	Viewing source
+o	Syntax of HTML
+
+DAY 2
+•	Review HTML intro, reinforce structure and set up
+•	1st project handout – coded Resume due EOC Friday
+•	Continue with tags (Resume)
+o	Formatting
+o	Paragraphs
+o	Links
+o	Named Anchors
+o	Headings 1-6
+o	Rules
+o	Meta
+
+Day 3
+•	Image Tags
+•	Tables  (Skills section of resume)
+•	Table Time Game
+•	Lists
+
+
+
+Day 4
+
+•	Exam Review
+•	Project work until EOC (Resume)
+
+Day 5
+
+•	Exam (PracticleMarkup Exam)
+•	Project work until EOC – project 1 due (Resume)
+
+
+
+
+WEEK 2
+
+Day 1
+
+•	Introduction to CSS
+o	Methods of using CSS (Internal, External, Inline)
+o	Where to and not to use
+o	Practicality
+o	External embedding of file
+o	Workflow set up
+o	Code comments
+o	Syntax of CSS
+o	Simple formatting with CSS
+
+
+Day 2
+
+•	Continue simple formatting with CSS
+•	Applying to existing HTML (Resume)
+•	IDs and Classes
+•	Styling Divs with CSS
+•	Stylin’ With CSS PDF (Resource eBook)
+
+Day 3
+
+	•	Design Layout for the web (Box model, layout)
+	•	UI and importance of
+	•	Assignment paper – UI/UX and why it’s important (marked up with ref.)
+	•	Introduction to Dreamweaver
+	o	Tools and workspace overview and demonstration w/ practice
+	•	Using CSS in Dreamweaver
+	•	Table-less layout with Divs and CSS
+	•	Div layout structure
+	•	Commenting for easier code navigation
+
+	Day 4
+
+	•	Floating Divs
+	•	Absolute positioning
+	•	Understanding layout with Div placement
+	•	Practical application of div coding and styling
+	•	Introduction of next project
+	o	This depends on where the class is in the program – early in, I do restaurant redesigns after scouting poor designs on menupages, for those further along, I do portfolio sites
+	•	Begin research and development for website project, to be developed entirely in CSS and HTML Divs
+
+
+
+	•	Forms
+	•	Divs
+
+	Day 5
+	•	Revisit practical application
+	•	Continue to develop and reinforce how to work with CSS and HTML
+	•	Demonstration and practical application of Cutting and coding a layout using Photoshop and Dreamweaver
+	o	I distribute a pre-created PSD layout and go step-by-step through the process of cutting up the necessary pieces and explaining what is needed and what is not.
+	•	Announcement – next class will be a brief review of this exercise, followed by a practical exam
+	•	Remainder of class work on website project
+
+WEEK 3
+
+Day 1
+
+•	Practical Exam – PSD distributed. Students may use all their notes and references to complete the cutting and coding of the layout, however, they may not use the instructor or their classmates for assistance.
+•	Practical is due at the end of class, fully coded.
+•	Anyone finished early may use the remainder of class to work on website project
+
+Day 2
+
+•	Paper proposal for website should be submitted by today, latest
+•	Sketches for website to be worked on – thumbnails by 1st break
+•	Detailed sketch by end of class
+•	Anyone finished sooner may begin on digital layout development
+•	Design should be fully developed by the end of this week, latest.
+
+
+Day 3
+
+•	Continue work on digital layout development, all components of website must be stylized in this design comp
+
+
+Day 4
+
+•	Continue work on digital layout development, all components of website must be stylized in this design comp
+
+
+Day 5
+
+•	Continue work on digital layout development, all components of website must be stylized in this design comp
+
+
+
+
+
+
+
+
+
+WEEK 4
+Day 1
+
+•	Introduction to Filezilla
+•	Wrap up design development and begin cutting of design
+•	Begin coding of website project
+
+Day 2 through end of week (last day)
+
+•	Continue work on complete coding and implementation of website project
+
+Final Day of class
+
+•	Utilizing Filezilla, transfer finished, coded website to domain server
+
