@@ -1,52 +1,49 @@
 				<?php include('../../includes/header.php'); ?>
 				<?php include('../../includes/nav.php'); ?>
-				<!-- SIDEBAR NAVIGATION -->
+								<!-- SIDEBAR NAVIGATION -->
 
-				<nav id="toc" class="span3 bs-docs-sidebar">
-					<ul class="nav nav-list bs-docs-sidenav">
-						<li class="nav-header">Table of Contents</li>
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#career-opportunities"><i class="icon-chevron-right"></i>Career Opportunities</a></li>
-						<li><a href="#domain-names"><i class="icon-chevron-right"></i>Choosing Domain Names</a></li>
-						<li><a href="#history-internet"><i class="icon-chevron-right"></i>History of the Internet</a></li>
-						<li><a href="#how-internet-works"><i class="icon-chevron-right"></i>How the Internet works?</a></li>
-						<li><a href="#internet-protocols"><i class="icon-chevron-right"></i>Internet Protocols</a></li>
-						<li><a href="#industry-terminology"><i class="icon-chevron-right"></i>Web Industry Terminology</a></li>
-						<li><a href="#web-dev-apps"><i class="icon-chevron-right"></i>Popular Web Development Apps</a></li>
-						<li><a href="#x-browser-compatibility"><i class="icon-chevron-right"></i>Cross Browser Compatibility</a></li>
-						<li><a href="#dir-structure"><i class="icon-chevron-right"></i>Directory Structure</a></li>
-						<li><a href="#html-intro"><i class="icon-chevron-right"></i>Introduction to HTML</a></li>
+								<!-- <nav id="toc" class="span3 bs&#45;docs&#45;sidebar"> -->
+								<!-- 	<ul class="nav nav&#45;list bs&#45;docs&#45;sidenav"> -->
+								<!-- 		<li class="nav&#45;header">Table of Contents</li> -->
+								<!-- 		<li class="active"><a href="#">Home</a></li> -->
+								<!-- 		<li><a href="#career&#45;opportunities"><i class="icon&#45;chevron&#45;right"></i>Career Opportunities</a></li> -->
+								<!-- 		<li><a href="#domain&#45;names"><i class="icon&#45;chevron&#45;right"></i>Choosing Domain Names</a></li> -->
+								<!-- 		<li><a href="#history&#45;internet"><i class="icon&#45;chevron&#45;right"></i>History of the Internet</a></li> -->
+								<!-- 		<li><a href="#how&#45;internet&#45;works"><i class="icon&#45;chevron&#45;right"></i>How the Internet works?</a></li> -->
+								<!-- 		<li><a href="#internet&#45;protocols"><i class="icon&#45;chevron&#45;right"></i>Internet Protocols</a></li> -->
+								<!-- 		<li><a href="#industry&#45;terminology"><i class="icon&#45;chevron&#45;right"></i>Web Industry Terminology</a></li> -->
+								<!-- 		<li><a href="#web&#45;dev&#45;apps"><i class="icon&#45;chevron&#45;right"></i>Popular Web Development Apps</a></li> -->
+								<!-- 		<li><a href="#x&#45;browser&#45;compatibility"><i class="icon&#45;chevron&#45;right"></i>Cross Browser Compatibility</a></li> -->
+								<!-- 		<li><a href="#dir&#45;structure"><i class="icon&#45;chevron&#45;right"></i>Directory Structure</a></li> -->
+								<!-- 		<li><a href="#html&#45;intro"><i class="icon&#45;chevron&#45;right"></i>Introduction to HTML</a></li> -->
 
-						<li class="nav-header">Assignments</li>
-						<li><a href="#your-resume">Your Resume</a></li>
-						<li><a href="#daily-terms">Study Terms of the Day</a></li>
-						<li><a href="#independent-review">Independent Review</a></li>
-					</ul>
+								<!-- 		<li class="nav&#45;header">Assignments</li> -->
+								<!-- 		<li><a href="#your&#45;resume">Your Resume</a></li> -->
+								<!-- 		<li><a href="#daily&#45;terms">Study Terms of the Day</a></li> -->
+								<!-- 		<li><a href="#independent&#45;review">Independent Review</a></li> -->
+								<!-- 	</ul> -->
 
-					<br>
-					<p>
-						<span class="label label-important">Note:</span>
-						consider site design in photoshop class
-					</p>
-				</nav>
+								<!-- 	<br> -->
+								<!-- 	<p> -->
+								<!-- 		<span class="label label&#45;important">Note:</span> -->
+								<!-- 		consider site design in photoshop class -->
+								<!-- 	</p> -->
+								<!-- </nav> -->
 
 
 
-				<!-- MAIN CONTENT -->
-
-				<div id="main-content" class="span9">
+				<?php # MAIN CONTENT HEADING ?>
+				<div id="main-content" class="span12">
 					<div class="hero-unit">
 						<h1>Frontend Basics</h1>
 						<p>Week 1 Day 1</p>
 					</div>
 
+					<div class="accordion" id="accordion">
 
-
-					<div class="accordion" id="accordion2">
-
-						<?php # CAREER-OPPORTUNITIES ?>
+						<?php # CAREER OPPORTUNITIES ?>
 						<section id="career-opportunities" class="accordion-group">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#career-opportunities-c">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#career-opportunities-c">
 								<h2>Career Opportunities</h2>
 							</a>
 
@@ -61,7 +58,7 @@
 											<div class="thumbnail">
 												<img src="../../img/modus.jpg" data-src="holder.js/300x200" alt="Modus Create">
 												<h3>Modus Create</h3>
-												<p>We are a highly motivated, interdisciplinary team that believe in lean development, design strategy, and user experience to develop stunning applications with emerging technology.</p>
+												<!-- <p>We are a highly motivated, interdisciplinary team that believe in lean development, design strategy, and user experience to develop stunning applications with emerging technology.</p> -->
 												<a class="btn btn-primary" href="../../sites/modus-create.htm" target="_new">Job Posting</a>
 											</div>
 										</li>
@@ -70,7 +67,7 @@
 											<div class="thumbnail">
 												<img src="../../img/menlo.jpg" data-src="holder.js/300x200" alt="Menlo Technologies">
 												<h3>Menlo Tech</h3>
-												<p>Menlo Technologies takes the time to truly understand the needs of its clients. Instead of a one-size-fits-all approach, our Blended Delivery Model offers a unique approach...</p>
+												<!-- <p>Menlo Technologies takes the time to truly understand the needs of its clients. Instead of a one&#45;size&#45;fits&#45;all approach, our Blended Delivery Model offers a unique approach...</p> -->
 												<a class="btn btn-primary" href="../../sites/menlo-tech.htm" target="_new">Job Posting</a>
 											</div>
 										</li>
@@ -79,7 +76,7 @@
 											<div class="thumbnail">
 												<img src="../../img/rht.jpg" data-src="holder.js/300x200" alt="Robert Half Technology">
 												<h3>Robert Half Tech</h3>
-												<p>Robert Half Technology can provide customers with a breadth of technology staffing solutions to meet all your project, contract-to-hire and full-time staffing needs.</p>
+												<!-- <p>Robert Half Technology can provide customers with a breadth of technology staffing solutions to meet all your project, contract&#45;to&#45;hire and full&#45;time staffing needs.</p> -->
 												<a class="btn btn-primary" href="../../sites/rh-tech.htm" target="_new">Job Posting</a>
 											</div>
 										</li>
@@ -149,19 +146,20 @@
 
 
 
-						<?php # DOMAIN-NAMES ?>
+						<?php # DOMAIN NAMES ?>
 						<section id="domain-names" class="accordion-group">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#domain-names-c">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#domain-names-c">
 								<h2>Choosing Domain Names</h2>
 							</a>
 
 							<div id="domain-names-c" class="accordion-body collapse">
 								<div class="accordion-inner">
-									<a class="btn btn-info" href="../../dl/Anthem_Domains_Template.xls">
-										<i class="icon-arrow-down icon-white"></i>Excel Domain Template
-									</a>
 
-									<h3>Tips: Keep the following attributes in mine when choosing your domain name:</h3>
+									<div class="tip well well-small">
+										<span class="label label-success"><i class="icon-thumbs-up icon-white"></i> Tip:</span>
+										Keep the following attributes in mind when choosing your domain name:
+									</div>
+
 									<ol>
 										<li>Short - Make it as long as it needs to be, but no longer.</li>
 										<li>Simple - Try to avoid hyphens and numbers.</li>
@@ -173,15 +171,16 @@
 										Consider the fact that many professionals simply use their name for the domain
 										of their online profiles/portfolios.
 									</p>
+
 								</div><!-- accordion-inner -->
 							</div>
 						</section>
 
 
 
-						<?php # HISTORY-INTERNET ?>
+						<?php # HISTORY OF THE INTERNET ?>
 						<section id="history-internet" class="accordion-group">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#history-internet-c">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#history-internet-c">
 								<h2>History of the Internet</h2>
 							</a>
 
@@ -195,9 +194,9 @@
 
 
 
-						<?php # HOW-INTERNET-WORKS ?>
+						<?php # HOW THE INTERNET WORKS ?>
 						<section id="how-internet-works" class="accordion-group">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#how-internet-works-c">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#how-internet-works-c">
 								<h2>How the Internet Works</h2>
 							</a>
 
@@ -210,31 +209,99 @@
 
 
 
-						<?php # HOW-INTERNET-WORKS ?>
+						<?php # CROSS BROWSER COMPATIBILITY ?>
 						<section id="x-browser-compatibility" class="accordion-group">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#how-internet-works-c">
-								<h2>How the Internet Works</h2>
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#x-browser-compatibility-c">
+								<h2>Cross Broswer Compatibility</h2>
 							</a>
 
-							<div id="how-internet-works-c" class="accordion-body collapse">
+							<div id="x-browser-compatibility-c" class="accordion-body collapse">
 								<div class="accordion-inner">
-									<h2>Internet Protocols</h2>
-									content here
+									<h3>Internet Explorer</h3>
+									<p><span class="label label-important">Warning!</span> Don't use Internet Explorer for development and training.</p>
 								</div><!-- accordion-inner -->
 							</div>
 						</section>
 
 
 
-						<?php # SECTION-NAME ?>
-						<section id="" class="accordion-group">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-								<h2>Viewable Title</h2>
+						<?php # FILE & DIRECTORY CONVENTIONS ?>
+						<section id="file-dir-conventions" class="accordion-group">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#file-dir-conventions-c">
+								<h2>File &amp; Directory Conventions</h2>
 							</a>
 
-							<div id="collapseThree" class="accordion-body collapse">
+							<div id="file-dir-conventions" class="accordion-body collapse">
 								<div class="accordion-inner">
-									content here
+									<h3>Directory Structure</h3>
+									<h3>File and Folder Names</h3>
+								</div><!-- accordion-inner -->
+							</div>
+						</section>
+
+
+
+						<?php # INTRODUCTION TO HTML ?>
+						<section id="html-intro" class="accordion-group">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#html-intro-c">
+								<h2>Introduction to HTML</h2>
+							</a>
+
+							<div id="html-intro-c" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<a href="http://docs.webplatform.org/wiki/beginners">Great Resource</a>
+
+									<h3>Best Practices</h3>
+									<h4>Data Entry</h4>
+									<img src="../../img/keyboarding.jpg" alt="">
+									<ul>
+										<li>The fingers and the keys are color coded to show which finger handles which key.</li>
+										<li>The fingers always rest on the HOME keys, these are the keys shown at the tip of each finger. The thumbs are used for the space bar.</li>
+										<li>Each finger, with the exception of the index finger, handles three alphabetical keys: its HOME key, the key above it and the key below it. For instance, the left ring finger handles its home key S, the key W (above the home key) and the key X (below the home key).	 Therefore the finger always moves in between three keys, the home	 key, one	key up from the home key and one key down.</li>
+										<li>The index finger handles its home key, the key above it and the key below V. In addition, the index finger handles the keys bordering the wall" of the box. For instance, the left index handles its home key (F), the key above it (R), the key below it (V) and the keys	vbordering the ridges, T G and B.</li>
+									</ul>
+
+									<h4>Naming Files and Directories</h4>
+									<p>Case sensitivity</p>
+
+
+<!-- http://www.w3schools.com/html/html_intro.asp -->
+<!-- http://www.plus2net.com/html_tutorial/html_tagtypes.php -->
+<!-- http://docs.webplatform.org/wiki/beginners -->
+									<h3>TAGS</h3>
+									2 Kinds of tags
+									there are:
+									1. pair tags - always have an opening tag and a corresponding closing tag.
+
+									<tag> - opeing tag.
+
+									</tag> - closing tag.
+
+
+									2. self closing tags
+
+									<tag attribute="value">
+
+									<p>Close a tag right after you open it.</p>
+									<p>Consider in your spare time practicing typing. It will increase your value and it is a tale tell sign of your experience or rather the lack of.</p>
+
+									<pre class="brush: xml">
+										&lt;section&gt;			&lt;section&gt;
+													then...		&lt;p&gt;Inner Content&lt;/p&gt;
+										&lt;/section&gt;			&lt;/section&gt;
+									</pre>
+
+									<pre class="brush: xml">
+											&lt;!doctype html&gt;
+											&lt;html&gt;
+													&lt;head&gt;
+															&lt;title&gt;First Page&lt;/title&gt;
+													&lt;/head&gt;
+													&lt;body&gt;
+															&lt;p&gt;All publically visible content goes inside of the body tags.&lt;/p&gt;
+													&lt;/body&gt;
+											&lt;/html&gt;
+									</pre>
 								</div><!-- accordion-inner -->
 							</div>
 						</section>
@@ -242,98 +309,65 @@
 
 
 
+						<?php # ASSIGNMENTS ?>
+						<section id="assignments" class="accordion-group">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#assignments-c">
+								<h2>Assignments</h2>
+							</a>
+
+							<div id="assignments-c" class="accordion-body collapse">
+								<div class="accordion-inner">
+
+									<h3>Your Resume</h3>
+									<p>
+										Bring in your resume tomorrow. If you don't have one prepared
+										then draft a rough one <em>before</em> next class. Utilize a word processor such as the free docs app in
+										<a class="btn" href="http://drive.google.com">
+											<img src="../../img/drive-32.png" alt="Google Drive"> Google Drive
+										</a>. This way its in the <em>cloud</em> and always accessible where ever you have access to an online PC.
+										Ensure you include all the applicable sections below:
+									</p>
+
+									<div class="tip well well-small">
+										<span class="label label-success"><i class="icon-thumbs-up icon-white"></i> Tip:</span>
+										Focus on content, not formating... for now.
+									</div>
+
+									<ul>
+								  	<li>Education</li>
+								  	<li>Relevant Work Experience:</li>
+								  	<li>Applications</li>
+								  	<li>Coding Languages</li>
+								  	<li>Summary:</li>
+									</ul>
+
+									<h3>Daily Terms</h3>
+
+									<h3>Independent Review Terms</h3>
+									<?php include('../../includes/review.php'); ?>
+								</div><!-- accordion-inner -->
+							</div>
+						</section>
+
+
+
+						<?php # SUBJECT SECTION (TEMPLATE) ?>
+						<!-- <section id="" class="accordion&#45;group"> -->
+						<!-- 	<a class="accordion&#45;toggle" data&#45;toggle="collapse" data&#45;parent="#accordion" href="#idHere"> -->
+						<!-- 		<h2>Subject Title (Template)</h2> -->
+						<!-- 	</a> -->
+
+						<!-- 	<div id="idHere" class="accordion&#45;body collapse"> -->
+						<!-- 		<div class="accordion&#45;inner"> -->
+						<!-- 			content here -->
+						<!-- 		</div><!&#45;&#45; accordion&#45;inner &#45;&#45;> -->
+						<!-- 	</div> -->
+						<!-- </section> -->
+
+
+
+				<?php # MAIN CONTENT FOOTER ?>
 					</div><!-- accordion -->
 
-
-
-					<section id="x-browser-compatibility">
-						<h2>Cross Browser Compatibility</h2>
-						<h3>Internet Explorer</h3>
-						<p><span class="label label-important">Warning!</span> Don't use Internet Explorer for development and training.</p>
-					</section>
-
-
-
-					<h3>Best Practices</h3>
-					<img src="../../img/keyboarding.jpg" alt="">
-					<ul>
-						<li>The fingers and the keys are color coded to show which finger handles which key.</li>
-						<li>The fingers always rest on the HOME keys, these are the keys shown at the tip of each finger. The thumbs are used for the space bar.</li>
-						<li>Each finger, with the exception of the index finger, handles three alphabetical keys: its HOME key, the key above it and the key below it. For instance, the left ring finger handles its home key S, the key W (above the home key) and the key X (below the home key).	 Therefore the finger always moves in between three keys, the home	 key, one	key up from the home key and one key down.</li>
-						<li>The index finger handles its home key, the key above it and the key below V. In addition, the index finger handles the keys bordering the wall" of the box. For instance, the left index handles its home key (F), the key above it (R), the key below it (V) and the keys	vbordering the ridges, T G and B.</li>
-					</ul>
-
-
-
-					<section id="html-intro">
-						<h2>Introduction to HTML</h2>
-						<a href="http://docs.webplatform.org/wiki/beginners">Great Resource</a>
-						<h3>Case Sensitivity</h3>
-						TAGS - 2 Kinds of tags
-						there are:
-						1. pair tags - always have an opening tag and a corresponding closing tag.
-
-						<tag> - opeing tag.
-
-						</tag> - closing tag.
-
-
-						2. self closing tags
-
-						<tag attribute="value">
-
-						<p>Close a tag right after you open it.</p>
-						<p>Consider in your spare time practicing typing. It will increase your value and it is a tale tell sign of your experience or rather the lack of.</p>
-
-						<pre class="brush: xml">
-							&lt;section&gt;			&lt;section&gt;
-										then...		&lt;p&gt;Inner Content&lt;/p&gt;
-							&lt;/section&gt;			&lt;/section&gt;
-						</pre>
-
-						<pre class="brush: xml">
-								&lt;!doctype html&gt;
-								&lt;html&gt;
-										&lt;head&gt;
-												&lt;title&gt;First Page&lt;/title&gt;
-										&lt;/head&gt;
-										&lt;body&gt;
-												&lt;p&gt;All publically visible content goes inside of the body tags.&lt;/p&gt;
-										&lt;/body&gt;
-								&lt;/html&gt;
-						</pre>
-					</section>
-
-					<h1>Assignments</h1>
-					<section id="your-resume">
-						<h2>Your Resume</h2>
-					</section>
-
-
-
-					<section id="dir-structure">
-						<h2>Directory Structure</h2>
-						<h3>File Names</h3>
-					</section>
-
-
-
-					<section id="daily-terms">
-						<h2>Study Terms of the Day</h2>
-					</section>
-
-
-
-					<section id="independent-review">
-						<h2>Independent Review</h2>
-					</section>
-
-
-
-					<section id="references-resorces">
-						<h2>References &amp; Additional Resources</h2>
-						<a href="http://www.w3.org/TR/html5/">W3C HTML5 Spec</a>
-						<a href="http://gsnedders.html5.org/outliner/">Semantic Structure Outliner</a>
-					</section>
 				</div><!--main-content-->
 				<?php include('../../includes/footer.php'); ?>
