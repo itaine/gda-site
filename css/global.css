@@ -21,6 +21,10 @@ dt {
 
 /* Dropdown Menu Overrides
 ------------------------------------------------------------------------------ */
+.navbar li {
+	line-height: 20px;
+}
+
 ul.nav li.dropdown:hover > ul.dropdown-menu { /* Make dropdown menu work on hover */
   display: block;
 }
@@ -89,4 +93,5 @@ div.syntaxhighlighter .container:before,div.syntaxhighlighter .container:after {
 /* Misc Styles */
 .tip {
 	color: green;
+	margin: 20px 0;
 }
