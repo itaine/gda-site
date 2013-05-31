@@ -78,6 +78,7 @@
 							<ul class="nav pull-right">
 								<li class="divider-vertical"></li>
 								<li><a href="#">Glossary</a></li>
+								<li><a href="../resources.php">Resources</a></li>
 
 								<li id="fat-menu" class="dropdown">
 									<a id="drop3" class="dropdown-toggle" data-toggle="dropdown" role="button" href="#">
@@ -88,13 +89,13 @@
 										<li role="presentation"><a href="#">GDA Apps</a></li>
 
 										<li class="divider" role="presentation"></li>
-										<li role="presentation"><a href="../resources.php">Online Resources</a></li>
+										<li role="presentation"><a href="#">eBook 1</a></li>
 
 										<li class="divider" role="presentation"></li>
-										<li role="presentation"><a href="#">eBook 1</a></li>
+										<li role="presentation"><a href="../../dl/Anthem_Domains_Template.xls">Domain Name Template</a></li>
 									</ul>
-								</li>
-							</ul>
+								</li><!--fat-menu-->
+							</ul><!--nav pull-right-->
 						</div><!--nav-collapse-->
 
 						</div><!--container-->
