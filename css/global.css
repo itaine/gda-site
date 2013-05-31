@@ -65,11 +65,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu { /* Make dropdown menu work on hove
 /* Career Opportunities Thumbnails
 -------------------------------------------------------- --------------------- */
 #career-opportunities .thumbnail {
-	height: 420px;
+	/* height: 420px; */
+	overflow: hidden;
+	text-align: center;
 }
 
 #career-opportunities .thumbnail .btn {
-	float: right;
+	/* float: right; */
 	margin: 20px;
 }
 
