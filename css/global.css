@@ -5,11 +5,18 @@ html {
 }
 
 body {
-	padding: 50px 0 0 0;
+	font-size: 109%;
 	margin: 20px;
+	padding: 50px 0 0 0;
 }
 
+p, li, dt, dd {
+	line-height: 1.5em;
+}
 
+dt {
+	margin-top: 20px;
+}
 
 
 /* Dropdown Menu Overrides
@@ -24,7 +31,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu { /* Make dropdown menu work on hove
 }
 
 .navbar .pull-right > li > .dropdown-menu { /* Pull up menu so hover works better. */
-	xtop: 28px;
+	/* top: 28px; */
 }
 
 
@@ -76,4 +83,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu { /* Make dropdown menu work on hove
 -------------------------------------------------------- --------------------- */
 div.syntaxhighlighter .container:before,div.syntaxhighlighter .container:after {
 	content:none;
+}
+
+
+/* Misc Styles */
+.tip {
+	color: green;
 }
