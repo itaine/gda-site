@@ -126,7 +126,9 @@ div.syntaxhighlighter .container:before,div.syntaxhighlighter .container:after {
 
 
 /* Misc Styles */
-.tip {
-	color: green;
+.tip, .recommendation {
 	margin: 20px 0;
 }
+
+.tip { color: green; }
+.recommendation { color: #666; }
