@@ -9,7 +9,7 @@
 
 		<link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="../../bootstrap/css/bootstrap-responsive.min.css">
-		<link rel="stylesheet" href="../../bootstrap/css/docs.css">
+		<!-- <link rel="stylesheet" href="../../bootstrap/css/docs.css"> -->
 		<link rel="stylesheet" href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css">
 		<link rel="stylesheet" href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeMidnight.css">
 		<link rel="stylesheet" href="../../css/global.css">
