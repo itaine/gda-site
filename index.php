@@ -9,7 +9,7 @@
 
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css">
-		<link rel="stylesheet" href="bootstrap/css/docs.css">
+		<!-- <link rel="stylesheet" href="bootstrap/css/docs.css"> -->
 		<link rel="stylesheet" href="css/global.css">
 	</head>
 	<body>
