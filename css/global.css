@@ -21,8 +21,15 @@ dt {
 
 /* Dropdown Menu Overrides
 ------------------------------------------------------------------------------ */
+.navbar-fixed-top {
+	position: fixed;
+	width: 99.5%;
+	margin: 0 auto;
+}
+
 .navbar li {
 	line-height: 20px;
+	font-size: 14px;
 }
 
 ul.nav li.dropdown:hover > ul.dropdown-menu { /* Make dropdown menu work on hover */
@@ -63,7 +70,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu { /* Make dropdown menu work on hove
 
 
 /* Career Opportunities Thumbnails
--------------------------------------------------------- --------------------- */
+------------------------------------------------------------------------------ */
 #career-opportunities .thumbnail {
 	/* height: 420px; */
 	overflow: hidden;
@@ -75,18 +82,44 @@ ul.nav li.dropdown:hover > ul.dropdown-menu { /* Make dropdown menu work on hove
 	margin: 20px;
 }
 
-.accordion-group, .accordion-inner {
- border:  none;
+#career-opportunities .thumbnail img {
+	width: 100%;
+}
+
+
+
+/* Accordion Styles
+------------------------------------------------------------------------------ */
+@media (max-width: 767px) {
+	#accordion .span4 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	#accordion .span4 {
+		width: 30.1%;
+	}
+}
+
+@media (min-width: 1200px) {
+	#accordion .span4 {
+		width: 30.7%;
+	}
+}
+
+.accordion-group {
+ margin: 0 0 20px 0;
 }
 
 .accordion-inner {
-  padding: 0;
+ border:  none;
 }
 
 
 
 /* Fix SyntaxHighlighter Bootstrap Conflicts
--------------------------------------------------------- --------------------- */
+------------------------------------------------------------------------------ */
 div.syntaxhighlighter .container:before,div.syntaxhighlighter .container:after {
 	content:none;
 }
