@@ -1,7 +1,7 @@
 				<?php include('../../includes/header.php'); ?>
 				<?php include('../../includes/nav.php'); ?>
 
-				<?php # MAIN CONTENT HEADING ?><!--{-->
+				<?php # MAIN CONTENT HEADING ?><!--{{{-->
 				<div id="main-content" class="span12">
 					<div class="hero-unit">
 						<h1>Frontend Basics</h1>
@@ -9,14 +9,14 @@
 					</div>
 
 					<div class="accordion" id="accordion">
-<!--}-->
-						<?php # CAREER OPPORTUNITIES ?><!--{-->
-						<section id="career-opportunities" class="accordion-group"><!--{-->
+						<!--}}}-->
+						<?php # CAREER OPPORTUNITIES ?><!--{{{-->
+						<section id="career-opportunities" class="accordion-group"><!--{{{-->
 							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#career-opportunities-c">
 								<h2>Career Opportunities</h2>
 							</a>
-<!--}-->
-							<div id="career-opportunities-c" class="accordion-body collapse"><!--{-->
+							<!--}}}-->
+							<div id="career-opportunities-c" class="accordion-body collapse"><!--{{{-->
 								<div class="accordion-inner">
 									<p>Here are some example job postings that illustrate the kind of skill sets the industry is looking for:</p>
 									<p>
@@ -59,22 +59,47 @@
 											</div>
 										</li>
 									</ul>
-									<!--}-->
-									<h3>Semantic HTML</h3><!--{-->
-									<p>
-										Semantic HTML means you use
-										<abbr title="Hyper Text Markup Language">HTML</abbr> to
-										markup your content strictly for what it <em>means</em>. Not
-										for how you want it to <em>look</em>. The latter would be
-										a job for <abbr title="Cascading Style Sheets">CSS</abbr>
-										only. This topic will be covered in-depth in this course.
-									</p>
+									<!--}}}-->
+
+									<ul class="nav nav-tabs" id="myTab">
+  									<li class="active"><a href="#home">Home</a></li>
+  									<li><a href="#profile">Profile</a></li>
+  									<li><a href="#messages">Messages</a></li>
+  									<li><a href="#settings">Settings</a></li>
+									</ul>
+
+									<div class="tab-content">
+  									<div class="tab-pane active" id="home">
+											<h3>Semantic HTML</h3><!--{{{-->
+											<p>
+												Semantic HTML means you use
+												<abbr title="Hyper Text Markup Language">HTML</abbr> to
+												markup your content strictly for what it <em>means</em>. Not
+												for how you want it to <em>look</em>. The latter would be
+												a job for <abbr title="Cascading Style Sheets">CSS</abbr>
+												only. This topic will be covered in-depth in this course.
+											</p>
+										</div>
 
 
 
+										<!--}}}-->
+  									<div class="tab-pane" id="profile">
 
-<!--}-->
-									<h3 class="fyi">CSS Preprocessors</h3><!--{-->
+  									</div>
+
+  									<div class="tab-pane" id="messages">...</div>
+
+  									<div class="tab-pane" id="settings">...</div>
+									</div>
+
+									<script>
+  									$(function () {
+    									$('#myTab a:last').tab('show');
+  									})
+									</script>
+
+									<h3 class="fyi">CSS Preprocessors</h3><!--{{{-->
 									<p>
 										CSS preprocessors take code written in a more feature rich preprocessed language (Such as:
 										<a href="http://sass-lang.com/" target="_blank">Sass</a>,
@@ -93,7 +118,7 @@
 									</p>
 
 									<div style="text-align: center;"><img src="../../img/sass-compass.jpg" alt="sass+compass"></div>
-									<!--}-->
+									<!--}}}-->
 
 									<h3 class="fyi">JavaScript &amp; Popular Frameworks</h3>
 
@@ -162,8 +187,8 @@
 						</section>
 
 
-<!--}-->
-						<?php # DOMAIN NAMES ?><!--{-->
+						<!--}}}-->
+						<?php # DOMAIN NAMES ?><!--{{{-->
 						<section id="domain-names" class="accordion-group">
 							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#domain-names-c">
 								<h2>Choosing Domain Names</h2>
@@ -194,8 +219,8 @@
 						</section>
 
 
-<!--}-->
-						<?php # HISTORY OF THE INTERNET ?><!--{-->
+						<!--}}}-->
+						<?php # HISTORY OF THE INTERNET ?><!--{{{-->
 						<section id="history-internet" class="accordion-group">
 							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#history-internet-c">
 								<h2>History of the Internet</h2>
@@ -210,8 +235,8 @@
 						</section>
 
 
-<!--}-->
-						<?php # HOW THE INTERNET WORKS ?><!--{-->
+						<!--}}}-->
+						<?php # HOW THE INTERNET WORKS ?><!--{{{-->
 						<section id="how-internet-works" class="accordion-group">
 							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#how-internet-works-c">
 								<h2>How the Internet Works</h2>
@@ -225,8 +250,8 @@
 						</section>
 
 
-<!--}-->
-						<?php # CROSS BROWSER COMPATIBILITY ?><!--{-->
+						<!--}}}-->
+						<?php # CROSS BROWSER COMPATIBILITY ?><!--{{{-->
 						<section id="x-browser-compatibility" class="accordion-group">
 							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#x-browser-compatibility-c">
 								<h2>Cross Broswer Compatibility</h2>
@@ -241,8 +266,8 @@
 						</section>
 
 
-<!--}-->
-						<?php # FILE AND DIRECTORY CONVENTIONS ?><!--{-->
+						<!--}}}-->
+						<?php # FILE AND DIRECTORY CONVENTIONS ?><!--{{{-->
 						<section id="file-dir-conventions" class="accordion-group">
 							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#file-dir-conventions-c">
 								<h2>File and Directory Conventions</h2>
@@ -259,8 +284,8 @@
 						</section>
 
 
-<!--}-->
-						<?php # INTRODUCTION TO HTML ?><!--{-->
+						<!--}}}-->
+						<?php # INTRODUCTION TO HTML ?><!--{{{-->
 						<section id="html-intro" class="accordion-group">
 							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#html-intro-c">
 								<h2>Introduction to HTML</h2>
@@ -328,8 +353,8 @@
 
 
 
-<!--}-->
-						<?php # ASSIGNMENTS ?><!--{-->
+						<!--}}}-->
+						<?php # ASSIGNMENTS ?><!--{{{-->
 						<section id="assignments" class="accordion-group">
 							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#assignments-c">
 								<h2>Assignments</h2>
@@ -370,8 +395,8 @@
 						</section>
 
 
-<!--}-->
-						<?php # SUBJECT SECTION (TEMPLATE) ?><!--{-->
+<!--}}}-->
+						<?php # SUBJECT SECTION (TEMPLATE) ?><!--{{{-->
 						<!-- <section id="" class="accordion&#45;group"> -->
 						<!-- 	<a class="accordion&#45;toggle" data&#45;toggle="collapse" data&#45;parent="#accordion" href="#idHere"> -->
 						<!-- 		<h2>Subject Title (Template)</h2> -->
@@ -385,12 +410,14 @@
 						<!-- </section> -->
 
 
-<!--}-->
-				<?php # MAIN CONTENT FOOTER ?><!--{-->
+<!--}}}-->
+				<?php # MAIN CONTENT FOOTER ?><!--{{{-->
 					</div><!-- accordion -->
 
-				</div><!--main-content--><!--}-->
+				</div><!--main-content--><!--}}}-->
+
 				<?php include('../../includes/footer.php'); ?>
+
 				<!--
-					vim: fdm=marker:fmr={,}:ft=html:tw=120:
+				vim: fdm=marker:ft=html:tw=120:
 				-->
