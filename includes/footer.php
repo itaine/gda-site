@@ -12,17 +12,17 @@
 		$('#myCollapsible').collapse({
 			toggle: false
 		})
-	</script>
 
-	<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" type="text/javascript"></script>
-	<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shAutoloader.js" type="text/javascript"></script>
-	<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushXml.js" type="text/javascript"></script>
-	<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js" type="text/javascript"></script>
-	<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushCss.js" type="text/javascript"></script>
+		$('.instruction').popover();
 
-	<script type="text/javascript">
 		SyntaxHighlighter.all();
 	</script>
+
+	<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js"></script>
+	<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shAutoloader.js"></script>
+	<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushXml.js"></script>
+	<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js"></script>
+	<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushCss.js"></script>
 
 	</body>
 </html>

@@ -20,9 +20,14 @@
 								<div class="accordion-inner">
 									<p>Here are some example job postings that illustrate the kind of skill sets the industry is looking for:</p>
 									<p>
-										<span class="label label-warning">Playing Catch Up?</span>
-										Review the job postings below and observe particularly the highlighted portions
-										to get a feel for what skill sets and technology stacks the industry is looking for.
+										<a href="#"
+											class="btn btn-small btn-warning instruction"
+											data-toggle="popover"
+											data-content="
+											Review the job postings below and observe particularly the highlighted portions to get a feel for
+											what skill sets and technology stacks the industry is looking for."
+											>Instruction <i class="icon-share-alt icon-white"></i>
+										</a>
 									</p>
 									<br>
 
@@ -69,7 +74,7 @@
 
 
 <!--}-->
-									<h3 class="fyi">CSS and Popular Preprocessors</h3><!--{-->
+									<h3 class="fyi">CSS Preprocessors</h3><!--{-->
 									<p>
 										CSS preprocessors take code written in a more feature rich preprocessed language (Such as:
 										<a href="http://sass-lang.com/" target="_blank">Sass</a>,

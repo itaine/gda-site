@@ -132,3 +132,9 @@ div.syntaxhighlighter .container:before,div.syntaxhighlighter .container:after {
 
 .tip { color: green; }
 .recommendation { color: #666; }
+
+.popover-content {
+	font-size: 75%;
+	line-height: 1.5em;
+	color: #777;
+}
