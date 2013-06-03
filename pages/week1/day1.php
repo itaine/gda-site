@@ -11,30 +11,28 @@
 					<div class="accordion" id="accordion">
 						<!--}}}-->
 						<?php # CAREER OPPORTUNITIES ?><!--{{{-->
-						<section id="career-opportunities" class="accordion-group"><!--{{{-->
+						<section id="career-opportunities" class="accordion-group">
 							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#career-opportunities-c">
 								<h2>Career Opportunities</h2>
 							</a>
-							<!--}}}-->
-							<div id="career-opportunities-c" class="accordion-body collapse"><!--{{{-->
+
+							<div id="career-opportunities-c" class="accordion-body collapse">
 								<div class="accordion-inner">
-									<p>Here are some example job postings that illustrate the kind of skill sets the industry is looking for:</p>
-									<p>
-										<a href="#"
-											class="btn btn-small btn-warning instruction"
-											data-toggle="popover"
-											data-content="
-											Review the job postings below and observe particularly the highlighted portions to get a feel for
-											what skill sets and technology stacks the industry is looking for."
-											>Instruction <i class="icon-share-alt icon-white"></i>
-										</a>
+
+									<?php # Job Postings ?><!--{{{-->
+									<p
+										class="btn btn-small btn-warning instruction"
+										data-toggle="popover"
+										data-content="
+										Review the job postings below and observe the highlighted portions to get a feel for
+										what skill sets and technology stacks the industry is looking for.
+										"> <i class="icon-user icon-white"></i> <i class="icon-share-alt icon-white"></i>
 									</p>
-									<br>
 
 									<ul class="thumbnails">
 										<li class="span4">
 											<div class="thumbnail">
-												<img src="../../img/modus.jpg" data-src="holder.js/300x200" alt="Modus Create">
+												<img src="../../img/modus.jpg" alt="Modus Create">
 												<h3>Modus Create</h3>
 												<!-- <p>We are a highly motivated, interdisciplinary team that believe in lean development, design strategy, and user experience to develop stunning applications with emerging technology.</p> -->
 												<a class="btn btn-primary" href="../../sites/modus-create.htm" target="_new">Job Posting</a>
@@ -43,7 +41,7 @@
 
 										<li class="span4">
 											<div class="thumbnail">
-												<img src="../../img/menlo.jpg" data-src="holder.js/300x200" alt="Menlo Technologies">
+												<img src="../../img/menlo.jpg" alt="Menlo Technologies">
 												<h3>Menlo Tech</h3>
 												<!-- <p>Menlo Technologies takes the time to truly understand the needs of its clients. Instead of a one&#45;size&#45;fits&#45;all approach, our Blended Delivery Model offers a unique approach...</p> -->
 												<a class="btn btn-primary" href="../../sites/menlo-tech.htm" target="_new">Job Posting</a>
@@ -52,139 +50,242 @@
 
 										<li class="span4">
 											<div class="thumbnail">
-												<img src="../../img/rht.jpg" data-src="holder.js/300x200" alt="Robert Half Technology">
+												<img src="../../img/rht.jpg" alt="Robert Half Technology">
 												<h3>Robert Half Tech</h3>
 												<!-- <p>Robert Half Technology can provide customers with a breadth of technology staffing solutions to meet all your project, contract&#45;to&#45;hire and full&#45;time staffing needs.</p> -->
 												<a class="btn btn-primary" href="../../sites/rh-tech.htm" target="_new">Job Posting</a>
 											</div>
 										</li>
 									</ul>
-									<!--}}}-->
 
-									<ul class="nav nav-tabs" id="myTab">
-  									<li class="active"><a href="#home">Home</a></li>
-  									<li><a href="#profile">Profile</a></li>
-  									<li><a href="#messages">Messages</a></li>
-  									<li><a href="#settings">Settings</a></li>
+
+
+									<!--}}}-->
+									<?php # Skill Set Menu ?><!--{{{-->
+									<p
+										class="btn btn-small btn-warning instruction"
+										data-toggle="popover"
+										data-content="
+										Familiarize yourself with a sample of the kind of skills employers and technical recruiters are
+										looking for in the drop down menu below.
+										"> <i class="icon-user icon-white"></i> <i class="icon-share-alt icon-white"></i>
+									</p>
+
+									<ul id="skill-set-tabs" class="nav nav-tabs">
+										<li class="dropdown active">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown">Typical Frontend Skill Set <b class="caret"></b></a>
+											<ul class="dropdown-menu">
+												<li class="active"><a href="#skill-set-overview" data-toggle="tab">Overview</a></li>
+												<li><a href="#semantic-html" data-toggle="tab">Semantic HTML</a></li>
+												<li><a href="#css-preprocessors" data-toggle="tab">CSS Preprocessors</a></li>
+												<li><a href="#js-frameworks" data-toggle="tab">JavaScript Frameworks</a></li>
+												<li><a href="#responsive-design" data-toggle="tab">Responsive Design</a></li>
+												<li><a href="#vcs" data-toggle="tab">Version Control Systems</a></li>
+												<li><a href="#cli" data-toggle="tab">Command Line Interface</a></li>
+												<li><a href="#agile-methodology" data-toggle="tab">Agile Methodology</a></li>
+												<li><a href="#dev-social-networks" data-toggle="tab">Developer Social Networks</a></li>
+												<li><a href="#pop-web-dev-apps" data-toggle="tab">Popular Web Dev Apps</a></li>
+											</ul>
+										</li>
 									</ul>
 
-									<div class="tab-content">
-  									<div class="tab-pane active" id="home">
-											<h3>Semantic HTML</h3><!--{{{-->
+
+									<!--}}}-->
+									<?php # Skill Set Content ?><!--{{{-->
+									<div id="skill-set" class="tab-content">
+
+										<section id="skill-set-overview" class="r tab-pane fade active in"><!--{{{-->
+											<img class="pull-left"src="../../img/overview.jpg" alt="">
+											<hgroup>
+												<h3 class="featurette-heading">It more about your skills, <span class="muted">than your GPA.</h3>
+												<h4 class="muted">Overview</h4>
+											</hgroup>
+											<p>
+												As an aspiring UI/UX or front-end web designer/developer, you will be constantly trying to learn
+												new skills and technologies and adding to what you already know. Front-end developer job
+												postings, however, vary widely so the list of languages, frameworks, and technologies that could
+												theoretically fall under the category of front-end developer skills is very large.
+											</p>
+
+											<p>
+												Here is a stack of skills and technologies that would behoove you to learn or be familiar with,
+												at least to some extent.
+											</p>
+										</section>
+
+
+
+										<!--}}}-->
+										<section id="semantic-html" class="r tab-pane fade"><!--{{{-->
+											<img class="pull-right" src="../../img/semantic.jpg" alt="Semantic Cube">
+											<hgroup>
+												<h3 class="featurette-heading">Code what you mean... <span class="muted">and mean what you code.</h3>
+												<h4 class="muted">Semantic HTML</h4>
+											</hgroup>
 											<p>
 												Semantic HTML means you use
 												<abbr title="Hyper Text Markup Language">HTML</abbr> to
 												markup your content strictly for what it <em>means</em>. Not
 												for how you want it to <em>look</em>. The latter would be
 												a job for <abbr title="Cascading Style Sheets">CSS</abbr>
-												only. This topic will be covered in-depth in this course.
+												only. <span class="muted">This topic will be covered in-depth in this course.</span>
 											</p>
-										</div>
+										</section>
 
 
 
 										<!--}}}-->
-  									<div class="tab-pane" id="profile">
+										<section id="css-preprocessors" class="r tab-pane fade"><!--{{{-->
+											<img class="pull-left" src="../../img/sass-compass.jpg" alt="sass+compass">
+											<hgroup>
+												<h3 class="featurette-heading">Go ahead and put your CSS on steroids... <span class="muted">its legal!</h3>
+												<h4 class="muted">CSS Preprocessors</h4>
+											</hgroup>
+											<p>
+												CSS preprocessors take code written in a more feature rich preprocessed language (Such as:
+												<a href="http://sass-lang.com/" target="_blank">Sass</a>,
+												<a href="http://lesscss.org/" target="_blank">LESS</a>, or
+												<a href="http://learnboost.github.com/stylus/" target="_blank">Stylus</a>) and then
+												processes it into basic CSS. <span class="muted">This course will cover basic CSS only.
+												Afterwards, you are encourage to familiarize yourself in one of the preprocessor
+												languages.</span>
+											</p>
 
-  									</div>
+											<p class="recommendation">
+												<span class="label label-info"><i class="icon-thumbs-up icon-white"></i> Recommended:</span>
+												<a href="http://sass-lang.com/" target="_blank">Sass</a> is emerging as one of the most popular
+												preprocessors due in-part by the rapidly growing popularity of the
+												<a href="http://compass-style.org/" target="_blank">Compass CSS Framework</a>.
+											</p>
+										</section>
 
-  									<div class="tab-pane" id="messages">...</div>
 
-  									<div class="tab-pane" id="settings">...</div>
-									</div>
 
-									<script>
-  									$(function () {
-    									$('#myTab a:last').tab('show');
-  									})
-									</script>
+										<!--}}}-->
+										<section id="js-frameworks" class="r tab-pane fade"><!--{{{-->
+											<h3>JavaScript Frameworks</h3>
+											<p>
+											</p>
+										</section>
 
-									<h3 class="fyi">CSS Preprocessors</h3><!--{{{-->
-									<p>
-										CSS preprocessors take code written in a more feature rich preprocessed language (Such as:
-										<a href="http://sass-lang.com/" target="_blank">Sass</a>,
-										<a href="http://lesscss.org/" target="_blank">LESS</a>, or
-										<a href="http://learnboost.github.com/stylus/" target="_blank">Stylus</a>) and then
-										processes it into basic CSS. One way to think of them is, as some sort of booster add-on that turns
-										basic CSS into advance CSS. This course will cover basic CSS. Afterwards, you are encourage to
-										familiarize yourself in one of the preprocessor languages.
-									</p>
 
-									<p class="recommendation well well-small">
-										<span class="label label-info"><i class="icon-thumbs-up icon-white"></i> Recommended:</span>
-										<a href="http://sass-lang.com/" target="_blank">Sass</a> is emerging as one of the most popular
-										preprocessors due largely in-part by the rapidly growing popularity of the
-										<a href="http://compass-style.org/" target="_blank">Compass CSS Framework</a>.
-									</p>
 
-									<div style="text-align: center;"><img src="../../img/sass-compass.jpg" alt="sass+compass"></div>
+										<!--}}}-->
+										<section id="responsive-design" class="tab-pane fade"><!--{{{-->
+											<h3>Responsive Design</h3>
+											<p>
+											</p>
+										</section>
+
+
+
+										<!--}}}-->
+										<section id="vcs" class="tab-pane fade"><!--{{{-->
+											<h3>Version Control System</h3>
+											<h4>What is VCS?</h4>
+											<p>
+												Version Control System (VCS) also known as revision or source control is an aspect of source
+												control management (SCM) is software that allows a team to manage changes of documents,
+												programs, images and other information stored in computer files. Changes are usually identified
+												by an incrementing number or letter code also known as revision number or revision.
+
+												The simplest usage of versioning is - you can easily go back to the previous working version of
+												your files, should you mess something up with the latest changes.
+
+												Changes could range from fixing a typo in a text file up to a huge refactoring in a software
+												project, spanning hundreds of files. Each change usually has the name of the person who
+												introduced it, time of the change and an optional description message.
+											</p>
+
+											<h4>Here are a few of the many ways a VCS helps development teams:</h4>
+											<dl class="dl-horizontal">
+												<dt>Collaboration:</dt>
+												<dd>
+													VCS tools prevent one user from accidentally overwriting the changes of another, allowing many developers to work on the same code without stepping one each other's toes.
+												</dd>
+
+												<dt>History:</dt>
+												<dd>
+													VCS tools track the complete development history of the software, including the exact changes which have occurred between releases and who made those changes.
+												</dd>
+
+												<dt>Release Notes:</dt>
+												<dd>
+													Given the tracking of each change, the VCS can be used to generate notes for their software releases which accurately capture all of the changes included in the new release.
+												</dd>
+
+												<dt>Documentation:</dt>
+												<dd>
+													VCS tools can be used to manage not just software source code, but also test suites and documentation for their software.
+												</dd>
+
+												<dt>Change Notifications:</dt>
+												<dd>
+													To keep interested members of the team informed when changes occur to the source code.
+												</dd>
+											</dl>
+
+											<p>Some of the popular version control systems use in industry are:</p>
+											<ul>
+												<li><a href="http://git-scm.com/">Git</a></li>
+												<li><a href="http://mercurial.selenic.com/">Mercurial</a></li>
+												<li><a href="http://subversion.apache.org/">SVN</a></li>
+												<li><a href="http://www.nongnu.org/cvs/">CVS</a></li>
+											</ul>
+											<p class="well well-large">Git is a free and open source distributed VCS that is rapidly emerging as the industry defacto standard in part by the growing popularity of <a href="https://github.com/">GitHub</a>.</p>
+
+											Learn Git in your browser for free with
+											<a class="" href="http://try.github.io/levels/1/challenges/1">
+												<img src="../../img/try-git.png" alt="" width="64">
+											</a>
+										</section>
+
+
+
+										<!--}}}-->
+										<section id="cli" class="tab-pane fade"><!--{{{-->
+											<h3>Command Line Interfaces</h3>
+											<p>
+											</p>
+										</section>
+
+
+
+										<!--}}}-->
+										<section id="agile-methodology" class="tab-pane fade"><!--{{{-->
+											<h3>Agile Methodology</h3>
+											<p>
+											</p>
+										</section>
+
+
+
+										<!--}}}-->
+										<section id="dev-social-networks" class="tab-pane fade"><!--{{{-->
+											<h3>Developer Social Networks</h3>
+											<p>
+											</p>
+										</section>
+
+
+
+										<!--}}}-->
+										<section id="pop-web-dev-apps" class="tab-pane fade"><!--{{{-->
+											<h3>Popular Web Dev Apps</h3>
+											<p>
+											</p>
+										</section>
+
+
+
 									<!--}}}-->
 
-									<h3 class="fyi">JavaScript &amp; Popular Frameworks</h3>
+									</div><!--skill-set}}}-->
 
-									<h3 class="fyi">Responsive Design</h3>
+								</div><!--accordion-inner-->
+							</div><!--career-opportunities-c-->
+						</section><!--career-opportunities-->
 
-									<h3 class="fyi">Version Control System</h3>
-
-									<h4>What is VCS?</h4>
-									<p class="lead">
-										Version Control System (VCS) also known as revision or source control is an aspect of source control management (SCM) is software that allows a team to manage changes of documents, programs, images and other information stored in computer files. Changes are usually identified by an incrementing number or letter code also known as revision number or revision.
-
-										The simplest usage of versioning is - you can easily go back to the previous working version of your files, should you mess something up with the latest changes.
-
-										Changes could range from fixing a typo in a text file up to a huge refactoring in a software project, spanning hundreds of files. Each change usually has the name of the person who introduced it, time of the change and an optional description message.
-									</p>
-
-									<h4>Here are a few of the many ways a VCS helps development teams:</h4>
-									<dl>
-										<dt>Collaboration:</dt>
-										<dd>
-											VCS tools prevent one user from accidentally overwriting the changes of another, allowing many developers to work on the same code without stepping one each other's toes.
-										</dd>
-
-										<dt>History:</dt>
-										<dd>
-											VCS tools track the complete development history of the software, including the exact changes which have occurred between releases and who made those changes.
-										</dd>
-
-										<dt>Release notes generation:</dt>
-										<dd>
-											Given the tracking of each change, the VCS can be used to generate notes for their software releases which accurately capture all of the changes included in the new release.
-										</dd>
-
-										<dt>Documentation and test management:</dt>
-										<dd>
-											VCS tools can be used to manage not just software source code, but also test suites and documentation for their software.
-										</dd>
-
-										<dt>Change notifications:</dt>
-										<dd>
-											To keep interested members of the team informed when changes occur to the source code.
-										</dd>
-									</dl>
-
-									<p>Some of the popular version control systems use in industry are:</p>
-									<ul>
-										<li><a href="http://git-scm.com/">Git</a></li>
-										<li><a href="http://mercurial.selenic.com/">Mercurial</a></li>
-										<li><a href="http://subversion.apache.org/">SVN</a></li>
-										<li><a href="http://www.nongnu.org/cvs/">CVS</a></li>
-									</ul>
-									<p class="well well-large">Git is a free and open source distributed VCS that is rapidly emerging as the industry defacto standard in part by the growing popularity of <a href="https://github.com/">GitHub</a>.</p>
-
-									Learn Git in your browser for free with
-									<a class="" href="http://try.github.io/levels/1/challenges/1">
-										<img src="../../img/try-git.png" alt="" width="64">
-									</a>
-									<h3 class="fyi">Command Line Interfaces</h3>
-
-									<h3 class="fyi">Agile Methodology</h3>
-
-									<h3 class="fyi">Industry Social Sites</h3>
-									<h3>Popular Web Development Apps</h3>
-								</div><!-- accordion-inner -->
-							</div>
-						</section>
 
 
 						<!--}}}-->
@@ -197,19 +298,18 @@
 							<div id="domain-names-c" class="accordion-body collapse">
 								<div class="accordion-inner">
 
-									<p class="tip well well-small">
-										<span class="label label-success"><i class="icon-thumbs-up icon-white"></i> Tip:</span>
+									<p class="r">
 										Keep the following attributes in mind when choosing your domain name:
 									</p>
 
-									<ol>
+									<ol class="r indent">
 										<li>Short - Make it as long as it needs to be, but no longer.</li>
 										<li>Simple - Try to avoid hyphens and numbers.</li>
 										<li>Easy - Avoid "cool" alternative spellings(eg. grafix), unless its a brand.</li>
 										<li>Professional - Avoid anything inappropiate.</li>
 									</ol>
 
-									<p>
+									<p class="r">
 										Consider the fact that many professionals simply use their name for the domain
 										of their online profiles/portfolios.
 									</p>
@@ -379,11 +479,11 @@
 									</p>
 
 									<ul>
-								  	<li>Education</li>
-								  	<li>Relevant Work Experience:</li>
-								  	<li>Applications</li>
-								  	<li>Coding Languages</li>
-								  	<li>Summary:</li>
+										<li>Education</li>
+										<li>Relevant Work Experience:</li>
+										<li>Applications</li>
+										<li>Coding Languages</li>
+										<li>Summary:</li>
 									</ul>
 
 									<h3>Daily Terms</h3>

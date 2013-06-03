@@ -5,18 +5,20 @@ html {
 }
 
 body {
-	font-size: 109%;
 	margin: 20px;
 	padding: 50px 0 0 0;
+	color: #666;
 }
 
-p, li, dt, dd {
-	line-height: 1.5em;
+
+
+/* Typography
+------------------------------------------------------------------------------ */
+.r {
+	font-size: 21px;
+	line-height: 30px;
 }
 
-dt {
-	margin-top: 20px;
-}
 
 
 /* Dropdown Menu Overrides
@@ -32,8 +34,8 @@ dt {
 	font-size: 14px;
 }
 
-ul.nav li.dropdown:hover > ul.dropdown-menu { /* Make dropdown menu work on hover */
-  display: block;
+.nav li.dropdown:hover > ul.dropdown-menu { /* Make dropdown menu work on hover */
+  /* display: block; */
 }
 
 .navbar li > .dropdown-menu { /* Pull up menu so hover works better. */
@@ -44,7 +46,6 @@ ul.nav li.dropdown:hover > ul.dropdown-menu { /* Make dropdown menu work on hove
 .navbar .pull-right > li > .dropdown-menu { /* Pull up menu so hover works better. */
 	/* top: 28px; */
 }
-
 
 .navbar .nav > li > .dropdown-menu:before {
   display: none;
@@ -125,16 +126,80 @@ div.syntaxhighlighter .container:before,div.syntaxhighlighter .container:after {
 }
 
 
-/* Misc Styles */
+/* Career Opportunities Section
+------------------------------------------------------------------------------ */
+#career-opportunities .tab-content {
+	min-height: 320px;
+	padding: 22px;
+}
+
+#career-opportunities #skill-set img.pull-right {
+	margin-left: 30px;
+}
+
+#career-opportunities #skill-set img.pull-left {
+	margin-right: 30px;
+}
+
+
+
+/* Definition List Horizontal Styling
+------------------------------------------------------------------------------ */
+.dl-horizontal dt, .dl-horizontal dd {
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.dl-horizontal dt {
+	width: 180px;
+}
+
+.dl-horizontal dd {
+	font-size: 16px;
+	margin-left: 200px;
+}
+
+
+
+/* Misc Styles
+------------------------------------------------------------------------------ */
 .tip, .recommendation {
 	margin: 20px 0;
 }
 
-.tip { color: green; }
-.recommendation { color: #666; }
+.tip {
+	color: green;
+}
+
+.instruction {
+	margin: 20px 0;
+	cursor: auto;
+}
 
 .popover-content {
-	font-size: 75%;
+	font-size: 80%;
 	line-height: 1.5em;
-	color: #777;
+}
+
+.popover-inner {
+	width: 420px;
+}
+
+.featurette-heading {
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+
+.indent {
+	margin-left: 30px;
+}
+
+
+#skill-set hgroup h4 {
+	position: relative;
+	top: -140px;
+	left: 0;
+	font-weight: normal;
 }
