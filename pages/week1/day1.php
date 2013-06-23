@@ -12,7 +12,7 @@
 						<!--}}}-->
 						<?php # CAREER OPPORTUNITIES ?><!--{{{-->
 						<section id="career-opportunities" class="accordion-group">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#career-opportunities-c">
+							<a class="btn btn-block accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#career-opportunities-c">
 								<h2>Career Opportunities</h2>
 							</a>
 
@@ -78,7 +78,7 @@
 												<li class="active"><a href="#skill-set-overview" data-toggle="tab">Overview</a></li>
 												<li><a href="#semantic-html" data-toggle="tab">Semantic HTML</a></li>
 												<li><a href="#css-preprocessors" data-toggle="tab">CSS Preprocessors</a></li>
-												<li><a href="#js-frameworks" data-toggle="tab">JavaScript Frameworks</a></li>
+												<li><a href="#js-libraries" data-toggle="tab">JavaScript Libraries</a></li>
 												<li><a href="#responsive-design" data-toggle="tab">Responsive Design</a></li>
 												<li><a href="#vcs" data-toggle="tab">Version Control Systems</a></li>
 												<li><a href="#cli" data-toggle="tab">Command Line Interface</a></li>
@@ -94,20 +94,20 @@
 									<?php # Skill Set Content ?><!--{{{-->
 									<div id="skill-set" class="tab-content">
 
-										<section id="skill-set-overview" class="r tab-pane fade active in"><!--{{{-->
-											<img class="pull-left"src="../../img/overview.jpg" alt="">
+										<section id="skill-set-overview" class="lead tab-pane fade active in"><!--{{{-->
+											<img class="pull-left featurette-image" src="../../img/overview.jpg" alt="">
 											<hgroup>
-												<h3 class="featurette-heading">It more about your skills, <span class="muted">than your GPA.</h3>
 												<h4 class="muted">Overview</h4>
+												<h3 class="featurette-heading">Its more about your skills, <span class="muted">than your GPA.</span></h3>
 											</hgroup>
-											<p>
+											<p class="pull-right featurette-content">
 												As an aspiring UI/UX or front-end web designer/developer, you will be constantly trying to learn
 												new skills and technologies and adding to what you already know. Front-end developer job
 												postings, however, vary widely so the list of languages, frameworks, and technologies that could
 												theoretically fall under the category of front-end developer skills is very large.
 											</p>
 
-											<p>
+											<p class="pull-right featurette-content">
 												Here is a stack of skills and technologies that would behoove you to learn or be familiar with,
 												at least to some extent.
 											</p>
@@ -116,11 +116,11 @@
 
 
 										<!--}}}-->
-										<section id="semantic-html" class="r tab-pane fade"><!--{{{-->
-											<img class="pull-right" src="../../img/semantic.jpg" alt="Semantic Cube">
+										<section id="semantic-html" class="lead tab-pane fade"><!--{{{-->
+											<img class="pull-right featurette-image" src="../../img/semantic.jpg" alt="Semantic Cube">
 											<hgroup>
-												<h3 class="featurette-heading">Code what you mean... <span class="muted">and mean what you code.</h3>
 												<h4 class="muted">Semantic HTML</h4>
+												<h3 class="featurette-heading">Code what you mean... <span class="muted">and mean what you code.</span></h3>
 											</hgroup>
 											<p>
 												Semantic HTML means you use
@@ -128,33 +128,33 @@
 												markup your content strictly for what it <em>means</em>. Not
 												for how you want it to <em>look</em>. The latter would be
 												a job for <abbr title="Cascading Style Sheets">CSS</abbr>
-												only. <span class="muted">This topic will be covered in-depth in this course.</span>
+												only. This topic will be covered in-depth in this course.
 											</p>
 										</section>
 
 
 
 										<!--}}}-->
-										<section id="css-preprocessors" class="r tab-pane fade"><!--{{{-->
-											<img class="pull-left" src="../../img/sass-compass.jpg" alt="sass+compass">
+										<section id="css-preprocessors" class="lead tab-pane fade"><!--{{{-->
+											<img class="pull-left featurette-image" src="../../img/sass-compass.jpg" alt="sass+compass">
 											<hgroup>
-												<h3 class="featurette-heading">Go ahead and put your CSS on steroids... <span class="muted">its legal!</h3>
 												<h4 class="muted">CSS Preprocessors</h4>
+												<h3 class="featurette-heading">Go ahead and put your CSS on steroids... <span class="muted">its legal!</span></h3>
 											</hgroup>
-											<p>
+											<p class="pull-right featurette-content">
 												CSS preprocessors take code written in a more feature rich preprocessed language (Such as:
 												<a href="http://sass-lang.com/" target="_blank">Sass</a>,
 												<a href="http://lesscss.org/" target="_blank">LESS</a>, or
 												<a href="http://learnboost.github.com/stylus/" target="_blank">Stylus</a>) and then
-												processes it into basic CSS. <span class="muted">This course will cover basic CSS only.
+												processes it into basic CSS. This course will cover basic CSS only.
 												Afterwards, you are encourage to familiarize yourself in one of the preprocessor
-												languages.</span>
+												languages.
 											</p>
 
-											<p class="recommendation">
+											<p class="pull-right featurette-content muted">
 												<span class="label label-info"><i class="icon-thumbs-up icon-white"></i> Recommended:</span>
 												<a href="http://sass-lang.com/" target="_blank">Sass</a> is emerging as one of the most popular
-												preprocessors due in-part by the rapidly growing popularity of the
+												preprocessors due in-part by the growing popularity of the
 												<a href="http://compass-style.org/" target="_blank">Compass CSS Framework</a>.
 											</p>
 										</section>
@@ -162,82 +162,87 @@
 
 
 										<!--}}}-->
-										<section id="js-frameworks" class="r tab-pane fade"><!--{{{-->
-											<h3>JavaScript Frameworks</h3>
-											<p>
+										<section id="js-libraries" class="lead tab-pane fade"><!--{{{-->
+											<img class="pull-right featurette-image" src="../../img/js-lib.jpg" alt="Javascript Libraries">
+											<hgroup>
+												<h4 class="muted">JavaScript Libraries</h4>
+												<h3 class="featurette-heading">Write less... <span class="muted">do more.</span></h3>
+											</hgroup>
+
+											<p class="featurette-content">
+												A JavaScript library is essentially a well maintained collection of pre-written functions of
+												common tasks. Some of the most popular JS frameworks are
+												<a href="http://jquery.com/" target="_blank">jQuery</a>, <a href="http://mootools.net" target="_blank">MooTools</a>, and
+												<a href="http://prototypejs.org/" target="_blank">Prototype</a>.
+											</p>
+
+											<p class="featurette-content muted">
+												<span class="label label-info"><i class="icon-thumbs-up icon-white"></i> Recommended:</span>
+												<a href="http://jquery.com/" target="_blank">jQuery</a> has one of the largest active communities
+												and reported to be used by over 65% of the top 10,000 most visited sites.
 											</p>
 										</section>
 
 
 
 										<!--}}}-->
-										<section id="responsive-design" class="tab-pane fade"><!--{{{-->
-											<h3>Responsive Design</h3>
-											<p>
+										<section id="responsive-design" class="lead tab-pane fade"><!--{{{-->
+											<img class="pull-left featurette-image" src="../../img/responsive.jpg" alt="Responsive Design">
+											<hgroup>
+												<h4 class="muted">Responsive Design</h4>
+												<h3 class="featurette-heading">One site<span class="muted"> for every screen.</span></h3>
+											</hgroup>
+
+											<p class="pull-right featurette-content">
+												Responsive designs are front-end designs that respond and adapt to different devices. More specifically
+												designs that consist of multiple fixed width layouts is considered to be "Adaptive Designs".
+												While designs that consist of multiple fluid grid layouts are considered to be "Responsive Designs".
+											</p>
+
+											<p class="pull-right featurette-content">
+												Currently the mixed approach is the popular solution, fixed width for large and medium screens and fluid
+												for small ones.
 											</p>
 										</section>
 
 
 
 										<!--}}}-->
-										<section id="vcs" class="tab-pane fade"><!--{{{-->
-											<h3>Version Control System</h3>
-											<h4>What is VCS?</h4>
-											<p>
-												Version Control System (VCS) also known as revision or source control is an aspect of source
-												control management (SCM) is software that allows a team to manage changes of documents,
-												programs, images and other information stored in computer files. Changes are usually identified
-												by an incrementing number or letter code also known as revision number or revision.
+										<section id="vcs" class="lead tab-pane fade"><!--{{{-->
+											<img class="pull-right featurette-image" src="../../img/responsive.jpg" alt="Responsive Design">
+											<hgroup>
+												<h4 class="muted">Version Control System</h4>
+												<h3 class="featurette-heading">Go back in time<span class="muted"> to save your behind.</span></h3>
+											</hgroup>
 
-												The simplest usage of versioning is - you can easily go back to the previous working version of
-												your files, should you mess something up with the latest changes.
-
-												Changes could range from fixing a typo in a text file up to a huge refactoring in a software
-												project, spanning hundreds of files. Each change usually has the name of the person who
-												introduced it, time of the change and an optional description message.
+											<p class="featurette-content">
+												Version Control Systems (VCS) such as <a href="http://git-scm.com/">Git</a>,
+												<a href="http://mercurial.selenic.com/">Mercurial</a>, or
+												<a href="http://subversion.apache.org/">SVN</a> are tools that allow you to manage the changes
+												of your files. The primary utility of versioning is to allow you to go back to the previous
+												working version of your files, should you mess something up with a recent change. Think,
+												persistent history panel (ctrl-z or undo) for your web project files.
 											</p>
 
-											<h4>Here are a few of the many ways a VCS helps development teams:</h4>
-											<dl class="dl-horizontal">
-												<dt>Collaboration:</dt>
-												<dd>
-													VCS tools prevent one user from accidentally overwriting the changes of another, allowing many developers to work on the same code without stepping one each other's toes.
-												</dd>
+											<p class="featurette-content">
+												Another major use of versioning is to allow you to collaborate with a company or community
+												project by allowing you to merge in your changes, without overwriting those of your colleagues.
+												Milestones are usually tagged with an incrementing release/version number.
+											</p>
 
-												<dt>History:</dt>
-												<dd>
-													VCS tools track the complete development history of the software, including the exact changes which have occurred between releases and who made those changes.
-												</dd>
+											<!-- <p class="pull&#45;left featurette&#45;content"> -->
+											<!-- Some of the popular version control systems use in industry are:</p> -->
+											<!-- <ul> -->
+											<!-- <li><a href="http://git&#45;scm.com/">Git</a></li> -->
+											<!-- <li><a href="http://mercurial.selenic.com/">Mercurial</a></li> -->
+											<!-- <li><a href="http://subversion.apache.org/">SVN</a></li> -->
+											<!-- </ul> -->
+											<!-- <p class="well well&#45;large">Git is a free and open source distributed VCS that is rapidly emerging as the industry defacto standard in part by the growing popularity of <a href="https://github.com/">GitHub</a>.</p> -->
 
-												<dt>Release Notes:</dt>
-												<dd>
-													Given the tracking of each change, the VCS can be used to generate notes for their software releases which accurately capture all of the changes included in the new release.
-												</dd>
-
-												<dt>Documentation:</dt>
-												<dd>
-													VCS tools can be used to manage not just software source code, but also test suites and documentation for their software.
-												</dd>
-
-												<dt>Change Notifications:</dt>
-												<dd>
-													To keep interested members of the team informed when changes occur to the source code.
-												</dd>
-											</dl>
-
-											<p>Some of the popular version control systems use in industry are:</p>
-											<ul>
-												<li><a href="http://git-scm.com/">Git</a></li>
-												<li><a href="http://mercurial.selenic.com/">Mercurial</a></li>
-												<li><a href="http://subversion.apache.org/">SVN</a></li>
-												<li><a href="http://www.nongnu.org/cvs/">CVS</a></li>
-											</ul>
-											<p class="well well-large">Git is a free and open source distributed VCS that is rapidly emerging as the industry defacto standard in part by the growing popularity of <a href="https://github.com/">GitHub</a>.</p>
-
-											Learn Git in your browser for free with
-											<a class="" href="http://try.github.io/levels/1/challenges/1">
-												<img src="../../img/try-git.png" alt="" width="64">
-											</a>
+											<!-- Learn Git in your browser for free with -->
+											<!-- <a class="" href="http://try.github.io/levels/1/challenges/1"> -->
+											<!-- 	<img src="../../img/try&#45;git.png" alt="" width="64"> -->
+											<!-- </a> -->
 										</section>
 
 
@@ -291,25 +296,35 @@
 						<!--}}}-->
 						<?php # DOMAIN NAMES ?><!--{{{-->
 						<section id="domain-names" class="accordion-group">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#domain-names-c">
+							<a class="btn btn-block accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#domain-names-c">
 								<h2>Choosing Domain Names</h2>
 							</a>
 
 							<div id="domain-names-c" class="accordion-body collapse">
 								<div class="accordion-inner">
 
-									<p class="r">
+									<p
+										class="pull-left btn btn-small btn-warning instruction"
+										data-toggle="popover"
+										data-content="
+										Review the job postings below and observe the highlighted portions to get a feel for
+										what skill sets and technology stacks the industry is looking for.
+										"> <i class="icon-user icon-white"></i> <i class="icon-share-alt icon-white"></i>
+									</p>
+
+									<img class="pull-left img-circle" src="../../img/domain-name.jpg" alt="A person deciding on a domain name">
+									<p class="lead">
 										Keep the following attributes in mind when choosing your domain name:
 									</p>
 
-									<ol class="r indent">
-										<li>Short - Make it as long as it needs to be, but no longer.</li>
-										<li>Simple - Try to avoid hyphens and numbers.</li>
-										<li>Easy - Avoid "cool" alternative spellings(eg. grafix), unless its a brand.</li>
-										<li>Professional - Avoid anything inappropiate.</li>
+									<ol class="indent lead pull-right">
+										<li><strong>Short</strong> - Make it as long as it needs to be, but no longer.</li>
+										<li><strong>Simple</strong> - Try to avoid hyphens and numbers.</li>
+										<li><strong>Easy</strong> - Avoid "cool" alternative spellings(ex. grafix), unless its a brand.</li>
+										<li><strong>Professional</strong> - Avoid anything inappropriate.</li>
 									</ol>
 
-									<p class="r">
+									<p class="lead">
 										Consider the fact that many professionals simply use their name for the domain
 										of their online profiles/portfolios.
 									</p>
@@ -322,14 +337,15 @@
 						<!--}}}-->
 						<?php # HISTORY OF THE INTERNET ?><!--{{{-->
 						<section id="history-internet" class="accordion-group">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#history-internet-c">
+							<a class="btn btn-block accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#history-internet-c">
 								<h2>History of the Internet</h2>
 							</a>
 
 							<div id="history-internet-c" class="accordion-body collapse">
 								<div class="accordion-inner">
-									<a href="http://prezi.com/iiwgavz9b_er/dd170-visual-communications/">Link to Prezi Presentation</a>
-									<a href="http://prezi.com/pqaxvatssnyj/css/">Link to Prezi Presentation</a>
+									<!-- <iframe src="http://prezi.com/embed/iiwgavz9b_er/?bgcolor=ffffff&#38;amp;lock_to_path=0&#38;amp;autoplay=0&#38;amp;autohide_ctrls=0&#38;amp;features=undefined&#38;amp;disabled_features=undefined" width="550" height="400" frameBorder="0"></iframe> -->
+									<iframe src="http://prezi.com/embed/iiwgavz9b_er/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;features=undefined&amp;disabled_features=undefined" width="100%" height="400" frameBorder="0"></iframe>
+									<!-- <a href="http://prezi.com/pqaxvatssnyj/css/">Link to Prezi Presentation</a> -->
 								</div><!-- accordion-inner -->
 							</div>
 						</section>
@@ -338,13 +354,15 @@
 						<!--}}}-->
 						<?php # HOW THE INTERNET WORKS ?><!--{{{-->
 						<section id="how-internet-works" class="accordion-group">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#how-internet-works-c">
+							<a class="btn btn-block accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#how-internet-works-c">
 								<h2>How the Internet Works</h2>
 							</a>
 
 							<div id="how-internet-works-c" class="accordion-body collapse">
 								<div class="accordion-inner">
-									content here
+									<iframe width="560" height="315" src="http://www.youtube.com/embed/i5oe63pOhLI?rel=0" frameborder="0" allowfullscreen></iframe>
+									<iframe width="560" height="315" src="http://www.youtube.com/embed/72snZctFFtA?rel=0" frameborder="0" allowfullscreen></iframe>
+									<!-- <iframe width="560" height="315" src="http://www.youtube.com/embed/2ZUxoi7YNgs?rel=0" frameborder="0" allowfullscreen></iframe> -->
 								</div><!-- accordion-inner -->
 							</div>
 						</section>
@@ -353,7 +371,7 @@
 						<!--}}}-->
 						<?php # CROSS BROWSER COMPATIBILITY ?><!--{{{-->
 						<section id="x-browser-compatibility" class="accordion-group">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#x-browser-compatibility-c">
+							<a class="btn btn-block accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#x-browser-compatibility-c">
 								<h2>Cross Broswer Compatibility</h2>
 							</a>
 
@@ -369,7 +387,7 @@
 						<!--}}}-->
 						<?php # FILE AND DIRECTORY CONVENTIONS ?><!--{{{-->
 						<section id="file-dir-conventions" class="accordion-group">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#file-dir-conventions-c">
+							<a class="btn btn-block accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#file-dir-conventions-c">
 								<h2>File and Directory Conventions</h2>
 							</a>
 
@@ -387,13 +405,15 @@
 						<!--}}}-->
 						<?php # INTRODUCTION TO HTML ?><!--{{{-->
 						<section id="html-intro" class="accordion-group">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#html-intro-c">
+							<a class="btn btn-block accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#html-intro-c">
 								<h2>Introduction to HTML</h2>
 							</a>
 
 							<div id="html-intro-c" class="accordion-body collapse">
 								<div class="accordion-inner">
 									<a href="http://docs.webplatform.org/wiki/beginners">Great Resource</a>
+
+									<iframe width="560" height="315" src="http://www.youtube.com/embed/mzPxo7Y6JyA" frameborder="0" allowfullscreen></iframe>
 
 									<h3>Best Practices</h3>
 									<h4>Data Entry</h4>
@@ -456,7 +476,7 @@
 						<!--}}}-->
 						<?php # ASSIGNMENTS ?><!--{{{-->
 						<section id="assignments" class="accordion-group">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#assignments-c">
+							<a class="btn btn-block accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#assignments-c">
 								<h2>Assignments</h2>
 							</a>
 
