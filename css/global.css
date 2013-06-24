@@ -7,17 +7,25 @@ html {
 body {
 	margin: 20px;
 	padding: 50px 0 0 0;
-	color: #666;
-}
-
-
-
-/* Typography
------------------------------------------------------------------------------- */
-.r {
-	font-size: 21px;
+	color: #777;
+	font-size: 20px;
 	line-height: 30px;
 }
+
+p, ul, ol {
+	margin-bottom: 30px;
+}
+
+ul, ol {
+	list-style: square inside;
+}
+
+
+
+/* /* Typography */
+/* ------------------------------------------------------------------------------ */ */
+li {} /* required to make bootstrap override work */
+li { line-height: 34px; }
 
 
 
@@ -29,7 +37,7 @@ body {
 	margin: 0 auto;
 }
 
-.navbar li {
+.nav, .navbar {
 	line-height: 20px;
 	font-size: 14px;
 }
@@ -70,51 +78,30 @@ body {
 
 
 
-/* Career Opportunities Thumbnails
------------------------------------------------------------------------------- */
-#career-opportunities .thumbnail {
-	/* height: 420px; */
-	overflow: hidden;
-	text-align: center;
-}
-
-#career-opportunities .thumbnail .btn {
-	/* float: right; */
-	margin: 20px;
-}
-
-#career-opportunities .thumbnail img {
-	width: 100%;
-}
-
-
-
 /* Accordion Styles
 ------------------------------------------------------------------------------ */
-@media (max-width: 767px) {
-	#accordion .span4 {
-		width: 100%;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-	#accordion .span4 {
-		width: 30.1%;
-	}
-}
-
-@media (min-width: 1200px) {
-	#accordion .span4 {
-		width: 30.7%;
-	}
-}
-
 .accordion-group {
- margin: 0 0 20px 0;
+	margin: 0 0 20px 0;
+}
+
+.accordion-group h2 {
+	margin: 0;
+}
+
+.accordion-toggle:hover {
+	text-decoration: none;
+}
+
+#accordion .btn-block {
+	color: #08c;
+	text-align: left;
+	text-indent: 20px;
 }
 
 .accordion-inner {
  border:  none;
+ padding: 30px 20px;
+ overflow: hidden;
 }
 
 
@@ -128,18 +115,34 @@ div.syntaxhighlighter .container:before,div.syntaxhighlighter .container:after {
 
 /* Career Opportunities Section
 ------------------------------------------------------------------------------ */
-#career-opportunities .tab-content {
+#career-focus .tab-content {
 	min-height: 320px;
 	padding: 22px;
+	position: relative;
 }
 
-#career-opportunities #skill-set img.pull-right {
-	margin-left: 30px;
+#career-focus #skill-set hgroup h4 {
+	font-weight: normal;
+	color: #ddd;
 }
 
-#career-opportunities #skill-set img.pull-left {
-	margin-right: 30px;
+#career-focus .thumbnail {
+	/* height: 420px; */
+	overflow: hidden;
+	text-align: center;
 }
+
+#career-focus .thumbnail .btn {
+	/* float: right; */
+	margin: 20px;
+}
+
+#career-focus .thumbnail img {
+	width: 100%;
+}
+
+
+
 
 
 
@@ -157,6 +160,17 @@ div.syntaxhighlighter .container:before,div.syntaxhighlighter .container:after {
 .dl-horizontal dd {
 	font-size: 16px;
 	margin-left: 200px;
+}
+
+
+
+/* Featurette Styling
+------------------------------------------------------------------------------ */
+.featurette-heading {
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
 }
 
 
@@ -185,21 +199,77 @@ div.syntaxhighlighter .container:before,div.syntaxhighlighter .container:after {
 	width: 420px;
 }
 
-.featurette-heading {
-	font-size: 50px;
-	font-weight: 300;
-	line-height: 1;
-	letter-spacing: -1px;
-}
-
-.indent {
+img.pull-right {
 	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+img.pull-left {
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+img.img-circle {
+	border: 1px solid #eee;
+}
+
+.important strong {
+	color: #b94a48;
+	font-weight: normal;
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
 }
 
 
-#skill-set hgroup h4 {
-	position: relative;
-	top: -140px;
-	left: 0;
-	font-weight: normal;
+
+/* Resonsive Styles
+------------------------------------------------------------------------------ */
+@media (max-width: 767px) {
+	#accordion .span4 {
+		width: 70%;
+		margin: 0 auto 20px auto;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	#accordion .span4 {
+		width: 30.1%;
+	}
+}
+
+@media (min-width: 1200px) {
+	#accordion .span4 {
+		width: 30.7%;
+	}
+
+	.lead p {
+		width: 650px;
+	}
+}
+
+
+@media (max-width: 979px) {
+	.featurette-image.pull-left, .featurette-image.pull-right {
+		display: block;
+		float: none;
+		max-width: 99%;
+		margin: 0 auto 30px;
+	}
 }
