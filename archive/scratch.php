@@ -31,3 +31,19 @@
 
 
 
+<?php # CROSS BROWSER COMPATIBILITY ?><!--{{{-->
+<section id="x-browser-compatibility" class="accordion-group">
+	<a class="btn btn-block accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#x-browser-compatibility-c">
+		<h2>Cross Broswer Compatibility</h2>
+	</a>
+
+	<div id="x-browser-compatibility-c" class="accordion-body collapse">
+		<div class="accordion-inner">
+			<h3>Internet Explorer</h3>
+			<p><span class="label label-important">Warning!</span> Don't use Internet Explorer for development and training.</p>
+		</div><!-- accordion-inner -->
+	</div>
+</section>
+
+
+<!--}}}-->
