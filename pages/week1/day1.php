@@ -443,7 +443,7 @@
 											one, complete the following:
 											<ol>
 												<li>
-													Make a folder named <strong>WWW</strong> in the root of your portable drive<sup>[1]</sup> (NOT in a course
+													Make a folder named in all CAPS <strong>WWW</strong> in the root of your portable drive<sup>[1]</sup> (NOT in a course
 													specific sub-folder).
 												</li>
 												<li>
@@ -460,7 +460,7 @@
 													such as Adobe Dreamweaver. View screencast below for a full demonstration.
 												</li>
 											</ol>
-											<small>[1] If you don't have a portable drive then make it in your student (U:) network drive.</small>
+											<small>[1] If you don't have a portable drive then make it in the root of your student (U:) network drive.</small>
 										</p>
 									</div>
 
@@ -839,30 +839,7 @@
 							<div id="assignments-c" class="accordion-body collapse">
 								<div class="accordion-inner">
 
-									<h3>Your Resume</h3>
-									<p>
-										Bring in your resume tomorrow. If you don't have one prepared
-										then draft a rough one <em>before</em> next class. Utilize a word processor such as the free docs app in
-										<a class="btn" href="http://drive.google.com">
-											<img src="../../img/drive-32.png" alt="Google Drive"> Google Drive
-										</a>. This way its in the <em>cloud</em> and always accessible where ever you have access to an online PC.
-										Ensure you include all the applicable sections below:
-									</p>
-
-									<p class="tip well well-small">
-										<span class="label label-success"><i class="icon-thumbs-up icon-white"></i> Tip:</span>
-										Focus on content, not formating... for now.
-									</p>
-
-									<ul>
-										<li>Education</li>
-										<li>Relevant Work Experience:</li>
-										<li>Applications</li>
-										<li>Coding Languages</li>
-										<li>Summary:</li>
-									</ul>
-
-									<h3>Daily Terms</h3>
+ 									<h3>Daily Terms</h3>
 
 									<h3>Independent Review Terms</h3>
 									<?php include('../../includes/review.php'); ?>
