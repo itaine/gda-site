@@ -1,0 +1,68 @@
+header {
+width: 1920px;
+height: 200px;
+background: #c6e19a;
+}
+
+header nav li {
+display: inline;
+
+}
+
+.logo {
+margin: 20px 300px;
+}
+
+.wrap {
+text-decoration: none;
+color: #1c4505;
+margin: 0 auto;
+padding-bottom: 20px;
+text-align: center;
+}
+
+section article {
+background: #cb6a0c;
+width: 960px;
+margin: 0 auto;
+min-height: 800px;
+padding-top: 40px;
+
+
+
+}
+
+header nav {
+margin-top: -150px;
+height: 29px;
+padding-top: 60px;
+
+}
+
+header nav li a {
+font-size: 20px;
+text-decoration: none;
+margin: 20px;
+color: #931d02;
+margin-left: 300px;
+}
+
+section h1 {
+color: #d92305;
+text-align: center;
+
+}
+
+body {
+background: url(../img/butterflybg.jpg) fixed no-repeat;
+
+}
+
+footer {
+background: #c6e19a;
+width: 1930px;
+height: 200px;
+color: #931d02;
+text-align: center;
+padding:8px;
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<title>Frontend Development Basics - Final Exam </title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<header>
+		<h1>Frontend Development Basics - Final Exam</h1>
+		<nav>
+			<ul>
+				<li><a href="summary">summary</a></li>
+				<li><a href="Great-impression ">Great impression </a></li>
+				<li><a href=" most-difficult "> most difficult</a></li>
+				<li><a href="my opinion">my opinal</a></li>
+				<li><a href=" completing-this-course">completing-this-course</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="summary">
+		<div class="centered-contend">
+		<p>In this summary I’ll be explaining what I’ve had learned and how hard it was. In coding I’ve learned that you need to have passions with codding, like say you’re missing a (,) or forget to close the html, body, head, header, title or footer .the HTML is kind of easy it’s the CSS that get you. For example for the header if you want to put a border, and a background color then you’ll have to put margin for it can be in the right space but sometimes you got to mess around with it and padding for the inside of the margin if you have any text or image. Now image is another thing it’s like <img  src=” img/background.jpg” alt””>.</p>
+		</div>
+	</section>
+		
+	<section id="Greatest-impression">
+		<div class="centered-contend">
+			<p>HTML was not that easy but it was ant hard ether. Its like a container and another container in side that container. for example the a is inside the li. the li is inside the ul. the ul is inside the nav and the nav is inside the header.</p>
+		</div>
+	</section>
+		
+	<secton id=" most-Difficult "> 
+		<div class="centered-contend">	
+			<p>CSS was the hardest for me because 3ways that apply css which our *inline css *internal css *external css. I also got confuse with the (#)-means it only applies to one element.  (.)-applies to multiple elements.</p>
+		</div>
+	</section>
+	<section id=" my-Opinion">
+		<div class="centered-contend">
+			<p>No noise, make coding more interesting make us want it. Go to people that actually have jobs doing this and the can tell us what we need to know and how were going to survive.  </p>
+		</div>
+	</section>
+	
+	<section id="completing this course">
+		<div class="centered-contend">	
+			<p>This course prepared but I still have a long way to go if I want to be the best. Every one wishes their dreams to come true but come true you got to give it all you got. That’s what people forget along the way.</p>
+		</div>
+	</select>
+<footer>
+	<p>&copy; 2013 Jessennia Rangel. All right reserved.</p>
+</footer>
+</body>
+</html>

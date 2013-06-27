@@ -1,0 +1,24 @@
+body {
+	border: 10px dotted #fff;
+	padding: 50px;
+}
+
+#about {
+	background: #33CCFF;
+}
+
+#portfolio {
+	background: #FAE396;
+}
+
+#resume {
+	background: #FFCC00;
+}
+
+#hire-me {
+	background: #F88607;
+}
+
+h1 {
+	color: #fff;
+}

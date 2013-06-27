@@ -1,0 +1,51 @@
+/* HTML Elements   */
+
+
+nav { display: inline;
+		text-align: center;
+		text-decoration: none;
+		margin-left: 50px;
+		font-size: 20px;
+}
+
+nav ul li { display: inline;
+		text-align: center;
+		text-decoration: none;
+		margin-left: 50px;
+		font-size: 20px;
+}
+
+
+body { background: url(../img/creativesite.jpg); 
+	background-size: 1700px 1230px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 800px;
+	margin-top: 240px;
+}
+
+section.text {
+	position: relative;
+	top: 220px;
+	left: 450px;
+}
+
+section.images {
+	position:relative;
+	top: 220px;
+	left: 435px;
+}
+
+section {
+	background: #101316;
+	margin-top: 20px;
+	color: white;
+	width: 800px;
+}
+
+header {
+	margin-top: 50px;
+	margin-right: 50px;
+}

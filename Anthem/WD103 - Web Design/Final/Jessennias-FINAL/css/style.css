@@ -1,0 +1,52 @@
+header h1{
+	border: 1px solid red;
+	background: #6fdbff;
+	width: 1000px;
+	height: 100px;
+	text-align: center;
+
+	
+}
+
+nav ul li{
+	display: inline;
+	border: 1px solid red;
+
+}
+#summary{
+	background:#33ccff ;
+	min-height:400px;
+	}
+#Greatest-impression{
+	background: #fae3a6;
+	min-height:400px ;
+	
+}
+
+
+section p{ 
+	text-align: center;
+	color: #000;
+}
+
+#most-Difficult{
+background: #f88607;
+min-height:400px ;
+}
+
+#my-Opinion{
+background: #ac87bf;
+min-height:400px;
+}
+
+#completing-this-course{
+background:#8ee1e0;
+min-height:400px; 
+}
+
+
+
+footer{
+	background: #333;
+	min-height: 400px;
+}

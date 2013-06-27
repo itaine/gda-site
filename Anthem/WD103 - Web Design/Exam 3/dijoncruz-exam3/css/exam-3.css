@@ -1,0 +1,43 @@
+body {
+	background: url(../img/mockup_01.jpg)fixed no-repeat;
+}
+
+header {
+ width: 960px;
+ margin: 0 auto;
+ padding: 50px;
+}
+
+.html5{
+	margin: 100px;
+}
+
+
+header nav li {
+	display: inline;
+	color: white;
+	padding-left: 40px;
+}
+
+header nav li a {
+	font-size: 50px;
+	color: white;
+	margin: 0 30px;
+	text-decoration: none;
+}
+
+#page {
+background: rgba(27, 27, 244,0.10);
+	height: 960px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+footer {
+	text-align: center;
+	background: black;
+	color: white;
+	height: 80px;
+	margin: 9px;
+	padding: 25px; 
+}

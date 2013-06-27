@@ -1,0 +1,16 @@
+header {
+	text-align: center;
+	padding: 40px;
+	color: #ccc;
+	background: lightgreen;
+}
+
+footer {
+	text-align: center;
+	padding: 50px;
+	background: black;
+}
+
+section {
+	background: #e7e7e7;
+}

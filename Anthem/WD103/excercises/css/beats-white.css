@@ -1,0 +1,38 @@
+body {
+	background: url(../img/headphones.jpg) no-repeat 800px 60px;
+}
+
+header {
+	height: 100px;
+	background: rgba(168,169,173,0.70);
+}
+
+header img {
+	margin: 15px 0 0 20px;
+}
+
+header nav {
+	width: 400px;
+	float: right;
+	margin-top: 20px;
+}
+
+header nav li {
+	display: inline;
+	margin-right: 30px;
+}
+
+header nav li a {
+	font-size: 26px;
+	color: #E41736;
+	font-weight: bold;
+}
+
+/* Classes */
+.inner-content {
+	width: 960px;
+	margin: 0 auto;
+	xborder: 1px solid green;
+}
+
+

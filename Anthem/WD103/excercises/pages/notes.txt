@@ -1,0 +1,29 @@
+
+3 WAYS to APPLY CSS
+1. Inline CSS: 		that specific element
+2. Internal CSS: 	the whole page
+3. External CSS: 	(potentially the whole site (recommended))
+
+OVERRIDE
+1. External CSS:	base
+2. Internal CSS: 	overrides external CSS
+3. Inline CSS: 		overrides internal CSS
+
+# = id (identifier) - applies to only one element
+. = class (classification) - applies to multiple elements
+
+- Properties that we covered.
+padding
+margin
+border
+width
+height
+background (more to come)
+text-decoration
+color
+
+Generic tags (they have no semantic meaning)
+============================================
+
+div 	| generic block element
+span  | generic span 

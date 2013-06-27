@@ -1,0 +1,63 @@
+header { 
+	background: rgba(101,217,255,0.80);
+	height: 100px;
+	width: 100%;
+	position: fixed;
+}
+
+header h1 {
+	float: left;
+	margin-top: 0;	
+}
+
+header nav ul {
+	float: right;
+}
+
+header nav ul li {
+	display: inline;
+}
+
+header nav ul li a {
+	margin-right: 20px;
+	text-decoration: none;
+	font-size: 24px;
+	color: #00A6DD;
+}
+
+#content {
+	padding-top: 100px;
+}
+
+#about {
+	background: #33CCFF;
+	min-height: 400px;
+	background: #33CCFF url(../img/about-bg.png) no-repeat;
+}
+
+#portfolio {
+	background: #FAE396;
+	min-height: 400px;
+}
+
+#resume {
+	background: #FFCC00;
+	min-height: 400px;	
+}
+
+#hire-me {
+	background: #F88607;
+	min-height: 400px;	
+}
+
+footer {
+	background: #333;
+	min-height: 400px;
+}
+
+.centered-content {
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 0;
+	xborder: 1px solid;
+}

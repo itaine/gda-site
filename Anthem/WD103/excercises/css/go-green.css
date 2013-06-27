@@ -1,0 +1,59 @@
+
+body {
+	background: url(../img/go-green-bg.jpg) fixed no-repeat;
+	color: #fff;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+header {
+	background: rgba(0,0,0,0.75);
+	height: 60px;
+	width: 960px;
+	margin: 80px auto 40px;
+}
+
+header nav ul {
+	line-height: 60px;
+	position: relative;
+	top: -135px;
+}
+
+header nav li {
+	display: inline;
+}
+
+header nav li a {
+	font-size: 30px;
+	margin: 0 30px;
+	text-decoration: none;
+	color: #58f852;
+}
+
+header nav li a img {
+	position: relative;
+	top: 60px;
+}
+
+section {
+	background: rgba(0,0,0,0.75);
+	width: 960px;
+	min-height: 400px;
+	margin: 80px auto 0;
+}
+
+article  {
+	padding: 30px;
+}
+
+article img {
+	float: left;
+	margin-right: 20px;
+}
+
+footer {
+	clear: both;
+	width: 960px;
+	margin: 0 auto;
+	text-align: right;
+}

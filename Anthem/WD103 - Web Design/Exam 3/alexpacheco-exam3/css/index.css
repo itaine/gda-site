@@ -1,0 +1,76 @@
+body{
+	background: url(../img/naruto-background.jpg) fixed no-repeat;
+}
+	
+	
+
+header{
+	background: #000 (0,0,0,0.75);	
+	width: 960px;
+	margin: 100px auto 0;
+}
+
+.logo{
+	border: 1px solid red;
+	margin: 50px 80px;
+}
+
+header nav{
+	background: #000;
+	margin: 0 auto; 
+}
+
+header nav li{
+	display: inline;
+	color: white;
+	padding-left: 36px;
+}
+
+header nav li a{
+	font-size: 24px;
+	margin: 0 30px;
+	text-decoration: none;
+}
+
+section article{
+	background: #000;
+	width: 960px;
+	color: white;
+	margin: 0 auto; 
+
+}
+
+
+.warp{
+	padding: 30px;
+}
+
+#inner-content{
+	margin: 0 20px;
+	float: right;	
+}
+
+#outer-content{
+	margin: 0 15px;
+
+}
+
+
+footer{
+	clear: both;
+	padding: 15px;
+
+}
+
+
+
+#icons{
+	text-align: center;
+}
+
+footer p{
+	width: 960px;
+	font-size: 24px;
+	margin: 0 auto;
+	text-align: center;
+}

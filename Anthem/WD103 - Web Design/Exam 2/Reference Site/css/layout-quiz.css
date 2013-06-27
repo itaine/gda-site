@@ -1,0 +1,25 @@
+
+section#first-section,
+section#second-section {
+	background: blue;
+}
+
+section#first-section {
+	height: 500px;
+}
+
+.centered-content {
+	width: 960px;
+	margin: 0 auto;
+}
+
+section#second-section {
+}
+
+#second-section h2 {
+	color: white;
+}
+
+p {
+	border: 10px solid yellow;
+}

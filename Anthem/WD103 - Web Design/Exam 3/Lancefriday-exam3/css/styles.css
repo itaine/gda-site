@@ -1,0 +1,76 @@
+/* COLORS */
+
+body {
+	background: url(../img/wwe-wrestlemania-27.jpg) fixed no-repeat; 
+	color: #fff;
+
+}
+header{
+	background: black;
+	height: 100px;
+	width: 960;
+	margin: 200px;
+}
+
+header img{
+	height: 100px;
+	padding-right: 600px;
+}
+
+header nav{
+	background: black;
+	margin: 0 auto;
+}
+
+header nav li{
+	display: inline;
+	font-family: "myriad pro";
+	padding-left: -100px;	
+}
+
+header nav li a{
+	margin: 50px 30px;
+	color: white; 
+	text-decoration: none;
+	padding-right: -50px;
+	margin-top: -70px;
+	
+}
+
+section h2{
+	display: inline;
+	font-family: myriad pro;
+	padding-right: 300px;
+	margin: 150px;
+	font-size: 25px;
+}
+
+section	img{
+	height: 350px;
+	width: 610px;
+	padding-right: 300px;
+}
+
+section{
+	width: 960px;
+	background: black;
+	margin: 0 auto;
+	margin-top: 90px;
+	padding: 30px; 
+
+}	
+
+footer{
+	font-family: myriad pro;
+
+}
+
+footer img{
+	height: 30px;
+}
+
+#wrap{
+	float: left;
+	padding-right: 10px;
+	margin: 50px;	
+}

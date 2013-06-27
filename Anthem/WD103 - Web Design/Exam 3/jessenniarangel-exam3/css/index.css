@@ -1,0 +1,49 @@
+body  {
+	background: url(../img/this-bitch.jpg)no-repeat;
+}
+
+header nav a{
+	xborder: 1px solid red;
+	text-decoration: none;
+	padding: 5px 7px;
+	color: #fff;
+	margin-right:800px;
+	width: 1100px;
+	background: #000;
+	padding-right: 500px;
+
+}
+nav li {
+	display: inline;
+	margin-right:20px;
+	text-align: center;
+	padding-right: 15px;
+	font-size: 15pt;
+}
+header {
+	
+}
+ #page {
+	xborder:1px solid yellow;
+  	width:960px;
+	margin: 0 auto;
+}
+section article {
+	background:rgba(3, 83, 129, 0.80);
+	width: 700px;
+	height: 809px;
+	margin: 0 auto;
+	padding-left: 15px;
+}
+section p{
+	color: #feffff;
+	padding-top:100px;	
+}
+
+footer{
+	xborder: 1px solid green;
+	width: 960px;
+	color:#feffff;
+	text-align: center;
+	
+}

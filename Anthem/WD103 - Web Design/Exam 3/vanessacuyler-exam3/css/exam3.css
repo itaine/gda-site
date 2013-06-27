@@ -1,0 +1,73 @@
+
+header {
+	height: 60px;
+	margin: 0 auto;
+	width: 960px;
+	
+	
+}
+
+header nav {
+	width: 960px;
+
+}
+
+header nav li {
+	display: inline;
+	padding: 40px;
+	
+}
+
+header nav a {
+	text-decoration: none;
+	color: solid red;
+
+}
+body {
+	background: url(../img/need4speed.png);
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: 100%;
+}
+
+img {
+
+}
+
+section {
+	width: 	960px;
+	background: #29364b;
+	margin:0 auto;
+	margin-top: 90px;
+}
+section h1 {
+	background: #000;
+	color: #fff;
+	margin: 20px 0;
+}
+
+#main-content {
+	margin: 0 auto;
+	width: 960px;
+	background: #253144;
+}
+
+#wrap {
+	float: left;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+section p {
+	padding-left: 10px;
+	
+}
+footer {
+	background: #000;
+	color: #fff;
+
+}
+footer p {
+	margin: 0 auto;
+	width: 960px;
+}
