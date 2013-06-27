@@ -199,6 +199,14 @@ div.syntaxhighlighter .container:before,div.syntaxhighlighter .container:after {
 	width: 420px;
 }
 
+#instruction-alert .instruction {
+	margin: 0;
+}
+
+#instruction-alert .close {
+	top: 5px;
+}
+
 img.pull-right {
 	margin-left: 30px;
 	margin-bottom: 30px;
