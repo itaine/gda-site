@@ -11,6 +11,7 @@
 				<ul>
 					<li><a href="http://www.w3.org/TR/html5/">W3C HTML5 Spec</a></li>
 					<li><a href="http://gsnedders.html5.org/outliner/">Semantic Structure Outliner</a></li>
+					<li><a href="http://www.w3.org/html/logo/">HTML Logo Site</a></li>
 				</ul>
 
 				<?php include('../includes/footer.php'); ?>
