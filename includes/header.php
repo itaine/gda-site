@@ -16,5 +16,18 @@
 	</head>
 	<body>
 		<div id="page" class="container">
+			<div id="instruction-alert" class="alert alert-info">
+				Hover over these
+				<p
+					class="btn btn-small btn-warning instruction"
+					data-toggle="popover"
+					data-content="
+					Step by step instructions will be displayed here.
+				"> <i class="icon-user icon-white"></i> <i class="icon-share-alt icon-white"></i>
+				</p>
+				icons for instructions, if you are playing catch up.
+				<button type="button" class="close" data-dismiss="alert">×</button>
+			</div>
+
 			<div id="page-inner" class="row">
 
